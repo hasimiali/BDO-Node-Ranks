@@ -1,0 +1,10 @@
+[
+  {
+    "id": "artisan-goblin",
+    "name": "Artisan Goblin",
+    "workSpeed": 150,
+    "movementSpeed": 7.5,
+    "luck": 0,
+    "endurance": 0
+  }
+]

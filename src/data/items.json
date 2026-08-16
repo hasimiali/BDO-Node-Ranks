@@ -1,0 +1,1689 @@
+[
+  {
+    "id": 1024,
+    "name": "Some Farmer's Sack",
+    "category": "Item Type 10",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 1025,
+    "name": "Some Miner's Sack",
+    "category": "Item Type 10",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 1026,
+    "name": "Some Archaeologist's Sack",
+    "category": "Item Type 10",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 1027,
+    "name": "Some Fisher's Sack",
+    "category": "Item Type 10",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4001,
+    "name": "Iron Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4002,
+    "name": "Lead Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4003,
+    "name": "Copper Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4004,
+    "name": "Tin Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4005,
+    "name": "Zinc Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4007,
+    "name": "Coal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4008,
+    "name": "Vanadium Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4009,
+    "name": "Titanium Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4010,
+    "name": "Sulfur",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4011,
+    "name": "Noc Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4013,
+    "name": "Nickel Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4015,
+    "name": "Quartz",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4016,
+    "name": "Rough Marble",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4017,
+    "name": "Magnetite Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4057,
+    "name": "Melted Copper Shard",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4202,
+    "name": "Gold Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4203,
+    "name": "Platinum Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4204,
+    "name": "Rough Opal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4206,
+    "name": "Mythril",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4207,
+    "name": "Rough Obsidian Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4401,
+    "name": "Rough Ruby",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4405,
+    "name": "Rough Diamond",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4406,
+    "name": "Rough Translucent Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4407,
+    "name": "Rough Mud Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4408,
+    "name": "Rough Red Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4409,
+    "name": "Rough Green Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4410,
+    "name": "Rough Black Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4411,
+    "name": "Rough Blue Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4412,
+    "name": "Rough Violet Crystal",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4413,
+    "name": "Rough Lapis Lazuli",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4414,
+    "name": "Rough Jade",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4415,
+    "name": "Olivine Ore",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4601,
+    "name": "Ash Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4602,
+    "name": "Maple Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4603,
+    "name": "Pine Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4604,
+    "name": "Birch Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4606,
+    "name": "Fir Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4607,
+    "name": "Cedar Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4608,
+    "name": "White Cedar Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4609,
+    "name": "Acacia Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4610,
+    "name": "Palm Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4611,
+    "name": "Elder Tree Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4612,
+    "name": "Cactus Rind",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4614,
+    "name": "Moss Tree Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4615,
+    "name": "Loopy Tree Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4616,
+    "name": "Thuja Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4619,
+    "name": "Thornwood Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4621,
+    "name": "Snowfield Cedar Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4624,
+    "name": "Caphras Tree Timber",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4657,
+    "name": "Pine Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4660,
+    "name": "Birch Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4663,
+    "name": "Fir Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4670,
+    "name": "Palm Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4673,
+    "name": "Elder Tree Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4683,
+    "name": "Cactus Thorn",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4694,
+    "name": "Moss Tree Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4697,
+    "name": "Loopy Tree Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4701,
+    "name": "Thuja Plank",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4801,
+    "name": "Powder of Darkness",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4802,
+    "name": "Powder of Flame",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4803,
+    "name": "Powder of Rifts",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4804,
+    "name": "Powder of Earth",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 4805,
+    "name": "Powder of Time",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5001,
+    "name": "Ash Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5002,
+    "name": "Maple Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5003,
+    "name": "Pine Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5004,
+    "name": "Birch Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5005,
+    "name": "Bloody Tree Knot",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5006,
+    "name": "Spirit's Leaf",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5007,
+    "name": "Monk's Branch",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5008,
+    "name": "Old Tree Bark",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5009,
+    "name": "Fir Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5010,
+    "name": "Cedar Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5011,
+    "name": "Red Tree Lump",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5012,
+    "name": "White Cedar Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5013,
+    "name": "Acacia Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5014,
+    "name": "Elder Tree Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5015,
+    "name": "Palm Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5016,
+    "name": "Cactus Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5017,
+    "name": "Moss Tree Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5018,
+    "name": "Loopy Tree Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5020,
+    "name": "Thuja Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5023,
+    "name": "Thornwood Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5024,
+    "name": "Snowfield Cedar Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5025,
+    "name": "Caphras Tree Sap",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5401,
+    "name": "Sunrise Herb",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5402,
+    "name": "Silver Azalea",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5404,
+    "name": "Dry Mane Grass",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5405,
+    "name": "Silk Honey Grass",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5407,
+    "name": "Fortune Teller Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5408,
+    "name": "Arrow Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5409,
+    "name": "Dwarf Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5410,
+    "name": "Cloud Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5411,
+    "name": "Sky Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5412,
+    "name": "Tiger Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5413,
+    "name": "Emperor Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5414,
+    "name": "Ghost Mushroom",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5421,
+    "name": "Pile of Sunrise Herbs",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5422,
+    "name": "Bunch of Silver Azaleas",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5425,
+    "name": "Bunch of Silk Honey Grass",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5426,
+    "name": "Big Fortune Teller Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5427,
+    "name": "Big Arrow Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5428,
+    "name": "Big Dwarf Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5429,
+    "name": "Big Cloud Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5430,
+    "name": "Big Sky Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5431,
+    "name": "Big Tiger Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5432,
+    "name": "Big Emperor Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5433,
+    "name": "Big Ghost Mushroom",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5451,
+    "name": "High-quality Arrow Mushroom",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5471,
+    "name": "Special Arrow Mushroom",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5516,
+    "name": "Blue Umbrella Mushroom",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5517,
+    "name": "Volcanic Umbrella Mushroom",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5518,
+    "name": "Pink Trumpet Mushroom",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5519,
+    "name": "White Umbrella Mushroom",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5520,
+    "name": "Green Pendulous Mushroom",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5521,
+    "name": "White Flower Mushroom",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5522,
+    "name": "Vedelona",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5532,
+    "name": "Bracken",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5544,
+    "name": "Chanterelle",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5546,
+    "name": "Red-spotted Amanita",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5548,
+    "name": "Mesima",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5550,
+    "name": "Dictyophora",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5801,
+    "name": "Cotton Wool",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5802,
+    "name": "Flax",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5803,
+    "name": "Silkworm Cocoon",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5804,
+    "name": "Fleece",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5851,
+    "name": "Cotton Yarn",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5852,
+    "name": "Flax Thread",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5853,
+    "name": "Silk Thread",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5854,
+    "name": "Knitting Yarn",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 5960,
+    "name": "Trace of Nature",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 6501,
+    "name": "Coral Piece",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 6656,
+    "name": "Purified Water",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 6657,
+    "name": "Bag of Muddy Water",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7001,
+    "name": "Wheat",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7002,
+    "name": "Barley",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7003,
+    "name": "Potato",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7004,
+    "name": "Sweet Potato",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7005,
+    "name": "Corn",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7009,
+    "name": "High-quality Sweet Potato",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7014,
+    "name": "Special Sweet Potato",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7016,
+    "name": "Date Palm",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7017,
+    "name": "Pistachio",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7018,
+    "name": "Fig",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7019,
+    "name": "Star Anise",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7020,
+    "name": "Nutmeg",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7021,
+    "name": "Freekeh",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7022,
+    "name": "Teff",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7026,
+    "name": "Coconut",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7304,
+    "name": "Strawberry",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7306,
+    "name": "Pumpkin",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7307,
+    "name": "Grape",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7309,
+    "name": "Olive",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7312,
+    "name": "Paprika",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7321,
+    "name": "High-quality Strawberry",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7347,
+    "name": "Aloe",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7348,
+    "name": "Cinnamon",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7360,
+    "name": "Citron",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7702,
+    "name": "Cooking Honey",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 7921,
+    "name": "Chicken Meat",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8012,
+    "name": "Blueprint: Chiro's Cannon",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8013,
+    "name": "Blueprint: Chiro's Sail",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8014,
+    "name": "Blueprint: Chiro's Figurehead",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8015,
+    "name": "Blueprint: Chiro's Black Plating",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8022,
+    "name": "Starlight Powder",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8027,
+    "name": "Blueprint: Byukgye's Enhanced Cannon",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8028,
+    "name": "Blueprint: Byukgye's Enhanced Sail",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8029,
+    "name": "Blueprint: Byukgye's Enhanced Figurehead",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8030,
+    "name": "Blueprint: Byukgye's Enhanced Plating",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8502,
+    "name": "Dried Tuna",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8507,
+    "name": "Dried Porgy",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8508,
+    "name": "Dried Swellfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8509,
+    "name": "Dried Saurel",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8510,
+    "name": "Dried Rockfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8512,
+    "name": "Dried Octopus",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8525,
+    "name": "Dried Sea Bass",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8526,
+    "name": "Dried Angler",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8527,
+    "name": "Dried Swordfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8529,
+    "name": "Dried Flying Fish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8530,
+    "name": "Dried Skipjack",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8531,
+    "name": "Dried Ray",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8534,
+    "name": "Dried Filefish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8535,
+    "name": "Dried Scorpion Fish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8536,
+    "name": "Dried Mullet",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8556,
+    "name": "Dried Cero",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8560,
+    "name": "Dried Flatfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8561,
+    "name": "Dried Grunt",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8564,
+    "name": "Dried Round Herring",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8566,
+    "name": "Dried Whiting",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8567,
+    "name": "Dried Dolphinfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8568,
+    "name": "Dried Striped Catfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8570,
+    "name": "Dried Golden-thread",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8571,
+    "name": "Dried Nibbler",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8572,
+    "name": "Dried Siganid",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8573,
+    "name": "Dried Bluefish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8574,
+    "name": "Dried Surfperch",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8577,
+    "name": "Dried Maomao",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8578,
+    "name": "Dried Pintado",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8579,
+    "name": "Dried Gurnard",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8581,
+    "name": "Dried John Dory",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8584,
+    "name": "Dried Grouper",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8585,
+    "name": "Dried Bigeye",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8598,
+    "name": "Dried Tapertail Anchovy",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8602,
+    "name": "Dried Clownfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8603,
+    "name": "Dried Blue Tang",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8604,
+    "name": "Dried Checkerboard Wrasse",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8662,
+    "name": "Dried Yellowfin Sole",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8663,
+    "name": "Dried Stippled Gunnel",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8665,
+    "name": "Dried Redbreasted Wrasse",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 8933,
+    "name": "Fiery Black Ore",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 9064,
+    "name": "Egg",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 9069,
+    "name": "Translucent Ice",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 9071,
+    "name": "Translucent Ice Shard",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 42418,
+    "name": "Bluish Sulfur",
+    "category": "Item Type 2",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 44406,
+    "name": "Shattered Star Fragment",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 65267,
+    "name": "Embers of Hongik",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 752023,
+    "name": "Mass of Pure Magic",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820035,
+    "name": "Crystal of Harmony",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820036,
+    "name": "Forest Crystal",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820037,
+    "name": "Crystal of Darkness",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820038,
+    "name": "Crystal of Bitterness",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820039,
+    "name": "Crystal of Decimation",
+    "category": "Item Type 0",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820101,
+    "name": "Scarlet Rosebay",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820102,
+    "name": "Pink Rosebay",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820107,
+    "name": "Tigerflower",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820108,
+    "name": "Wild Berry",
+    "category": "Item Type 19",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820110,
+    "name": "Reed",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820113,
+    "name": "Persimmon",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820117,
+    "name": "Rice",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820120,
+    "name": "Napa Cabbage",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820123,
+    "name": "Radish",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820136,
+    "name": "Viola",
+    "category": "Item Type 18",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 820138,
+    "name": "Mysterious Powder",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 821306,
+    "name": "Dried Lavascale Stargazer",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 821307,
+    "name": "Dried Devil Stinger",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 821311,
+    "name": "Dried Ribbon Eel",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  },
+  {
+    "id": 821313,
+    "name": "Dried Goldenstriped Soapfish",
+    "category": "Item Type 8",
+    "source": "shrddr-workerman",
+    "confidence": "estimated"
+  }
+]

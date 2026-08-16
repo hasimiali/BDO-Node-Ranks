@@ -1,0 +1,44 @@
+{
+  "name": "bdo-node-optimizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "vite",
+    "dev:server": "tsx watch src/server/index.ts",
+    "build": "tsc -p tsconfig.server.json && vite build",
+    "start": "node dist-server/src/server/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "import:workbook": "tsx scripts/importWorkbook.ts",
+    "template:community": "tsx scripts/createCommunityTemplate.ts",
+    "import:community": "tsx scripts/importCommunityWorkbook.ts",
+    "import:workerman": "tsx scripts/importWorkerman.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "helmet": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest",
+    "xlsx": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "concurrently": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

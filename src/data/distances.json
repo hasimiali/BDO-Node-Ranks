@@ -1,0 +1,3332 @@
+[
+  {
+    "productionNodeId": 131,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 180,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 132,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 289,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 135,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 346,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 136,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 289,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 139,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 693,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 142,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 688,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 144,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 1172,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 147,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 549,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 148,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 548,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 151,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 536,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 155,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 752,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 159,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 606,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 160,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 609,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 164,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 404,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 167,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 528,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 168,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 523,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 171,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 815,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 172,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 815,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 175,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 653,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 176,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 657,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 183,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 973,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 184,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 968,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 187,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 853,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 188,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 851,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 201,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 384,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 202,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 638,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 203,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 219,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 204,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 260,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 206,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 588,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 207,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 1288,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 208,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 1194,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 209,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1573,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 431,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 611,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 432,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 610,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 435,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 374,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 436,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 440,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 438,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 425,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 439,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 570,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 440,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 655,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 443,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 978,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 451,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 521,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 452,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 522,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 455,
+    "nearestTownId": 52,
+    "nearestTownName": "Glish",
+    "distance": 1102,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 459,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 1337,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 463,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 1328,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 464,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 1317,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 471,
+    "nearestTownId": 52,
+    "nearestTownName": "Glish",
+    "distance": 415,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 472,
+    "nearestTownId": 52,
+    "nearestTownName": "Glish",
+    "distance": 418,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 475,
+    "nearestTownId": 52,
+    "nearestTownName": "Glish",
+    "distance": 508,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 476,
+    "nearestTownId": 52,
+    "nearestTownName": "Glish",
+    "distance": 508,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 480,
+    "nearestTownId": 52,
+    "nearestTownName": "Glish",
+    "distance": 719,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 483,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 606,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 487,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 780,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 488,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 772,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 831,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 557,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 834,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1099,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 835,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1104,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 840,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1451,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 841,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1450,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 842,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1454,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 843,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1243,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 849,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 2168,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 852,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 744,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 853,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 904,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 854,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 821,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 855,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1130,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 901,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 1309,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 902,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 1208,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 903,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1658,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 904,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 1681,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 905,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 354,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 906,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 435,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 907,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 1025,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 908,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 742,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 910,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 1933,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 911,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 2062,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 912,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 1689,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 913,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1860,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 914,
+    "nearestTownId": 77,
+    "nearestTownName": "Calpheon City",
+    "distance": 1789,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 950,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 703,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 951,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 306,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 952,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 938,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 957,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 977,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 958,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 817,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 959,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 1426,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1029,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 3029,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1030,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2545,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1031,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2351,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1032,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2523,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1033,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 1398,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1034,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 1775,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1035,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 1692,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1036,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 1922,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1037,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2206,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1038,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 1826,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1040,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 2344,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1041,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2333,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1042,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 1703,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1043,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 1333,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1045,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 1827,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1046,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2472,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1047,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2549,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1048,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2461,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1050,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2801,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1071,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 901,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1072,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1462,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1073,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1750,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1074,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 2356,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1075,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 2172,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1076,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1479,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1077,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 2913,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1078,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1493,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1079,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 3030,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1080,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 2666,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1081,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1660,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1082,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 1901,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1083,
+    "nearestTownId": 120,
+    "nearestTownName": "Port Epheria",
+    "distance": 2167,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1084,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2468,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1085,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2636,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1086,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2599,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1087,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 2908,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1088,
+    "nearestTownId": 88,
+    "nearestTownName": "Olvia",
+    "distance": 1849,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1089,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 1623,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1090,
+    "nearestTownId": 5,
+    "nearestTownName": "Velia",
+    "distance": 2251,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1201,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 702,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1202,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 750,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1203,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1011,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1204,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1042,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1205,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1269,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1206,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 285,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1207,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 292,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1208,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1114,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1209,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1114,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1210,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1862,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1211,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1226,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1212,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 2418,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1213,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 1855,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1214,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1105,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1215,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1820,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1216,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 2414,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1217,
+    "nearestTownId": 32,
+    "nearestTownName": "Heidel",
+    "distance": 1886,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1218,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1659,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1219,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1765,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1220,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1383,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1221,
+    "nearestTownId": 221,
+    "nearestTownName": "Tarif",
+    "distance": 1215,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1501,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1537,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1502,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1730,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1504,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1961,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1505,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 2203,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1506,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 2306,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1507,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 1648,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1508,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 2315,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1509,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 444,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1510,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 399,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1512,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 2160,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1513,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 2166,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1514,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 2081,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1515,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 2802,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1516,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 2792,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1517,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 2843,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1518,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 2840,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1519,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 3337,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1520,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 3856,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1521,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 3788,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1522,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 3800,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1523,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 3802,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1524,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 4411,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1525,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 4493,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1526,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 4341,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1527,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 541,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1528,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 520,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1529,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 536,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1530,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 589,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1531,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 587,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1532,
+    "nearestTownId": 619,
+    "nearestTownName": "Ancado Inner Harbor",
+    "distance": 381,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1533,
+    "nearestTownId": 619,
+    "nearestTownName": "Ancado Inner Harbor",
+    "distance": 364,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1534,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 583,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1535,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 636,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1536,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 530,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1537,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 522,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1538,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 526,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1539,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 699,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1540,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 630,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1553,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 3329,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1554,
+    "nearestTownId": 693,
+    "nearestTownName": "Arehaza",
+    "distance": 786,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1555,
+    "nearestTownId": 693,
+    "nearestTownName": "Arehaza",
+    "distance": 682,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1556,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 3422,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1557,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 3394,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1558,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 4406,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1559,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 4938,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1560,
+    "nearestTownId": 693,
+    "nearestTownName": "Arehaza",
+    "distance": 2127,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1561,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 4077,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1562,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 4110,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1565,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 594,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1566,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 3063,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1633,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 1943,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1635,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 600,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1636,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1956,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1637,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 2170,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1638,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 2996,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1639,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1701,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1640,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1613,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1641,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1671,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1642,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1298,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1645,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1024,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1671,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 476,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1672,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 536,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1673,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1203,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1674,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1178,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1675,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 2789,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1676,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 2919,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1677,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1733,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1678,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1764,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1679,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 1822,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1680,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 1844,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1681,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2190,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1682,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2306,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1683,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 2120,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1684,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 2073,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1685,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 2551,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1686,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 2584,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1687,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1964,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1688,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2279,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1707,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 828,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1708,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 776,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1709,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2921,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1710,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 1410,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1711,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 1306,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1712,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2265,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1713,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 1506,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1714,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 2486,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1715,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 832,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1716,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2555,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1717,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 3612,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1720,
+    "nearestTownId": 126,
+    "nearestTownName": "Trent",
+    "distance": 3666,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1734,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 2895,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1735,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 3648,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1736,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 4784,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1737,
+    "nearestTownId": 182,
+    "nearestTownName": "Iliya Island",
+    "distance": 4747,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1767,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 2404,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1768,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 577,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1769,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2066,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1770,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2086,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1771,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1460,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1772,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1611,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1773,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2497,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1774,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2359,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1775,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1571,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1776,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 2059,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1777,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1408,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1778,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1167,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1779,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 1098,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1780,
+    "nearestTownId": 1124,
+    "nearestTownName": "Eilton",
+    "distance": 703,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1803,
+    "nearestTownId": 1219,
+    "nearestTownName": "Nampo's Moodle Village",
+    "distance": 1810,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1807,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 2828,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1808,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 2784,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1809,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 2136,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1811,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 1467,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1812,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 1530,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1813,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 2784,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1814,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 2799,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1815,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 1789,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1816,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 1822,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1817,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 707,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1818,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 795,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1819,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 2575,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1820,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 2446,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1821,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 2687,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1822,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 2473,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1823,
+    "nearestTownId": 1219,
+    "nearestTownName": "Nampo's Moodle Village",
+    "distance": 2588,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1824,
+    "nearestTownId": 1219,
+    "nearestTownName": "Nampo's Moodle Village",
+    "distance": 1846,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1825,
+    "nearestTownId": 1219,
+    "nearestTownName": "Nampo's Moodle Village",
+    "distance": 1816,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1826,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 272,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1827,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 136,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1828,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 168,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1829,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 400,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1830,
+    "nearestTownId": 1210,
+    "nearestTownName": "Dalbeol Village",
+    "distance": 2578,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1833,
+    "nearestTownId": 1246,
+    "nearestTownName": "Nopsae's Byeot County",
+    "distance": 1190,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1879,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 146,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1880,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 219,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1881,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 222,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1882,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 211,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1883,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 1721,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1884,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 1711,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1885,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 1391,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1886,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 348,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1887,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 2246,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1888,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 2213,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1889,
+    "nearestTownId": 1424,
+    "nearestTownName": "Godu Village",
+    "distance": 1366,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1890,
+    "nearestTownId": 1444,
+    "nearestTownName": "Bukpo",
+    "distance": 1796,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1891,
+    "nearestTownId": 1444,
+    "nearestTownName": "Bukpo",
+    "distance": 1250,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1892,
+    "nearestTownId": 1444,
+    "nearestTownName": "Bukpo",
+    "distance": 1150,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1893,
+    "nearestTownId": 1444,
+    "nearestTownName": "Bukpo",
+    "distance": 1267,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1894,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 1006,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1895,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 1266,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1896,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 1205,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1897,
+    "nearestTownId": 1420,
+    "nearestTownName": "Yukjo Street",
+    "distance": 1666,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1899,
+    "nearestTownId": 218,
+    "nearestTownName": "Asparkan",
+    "distance": 544,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1900,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1514,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1901,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1481,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1902,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1768,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1903,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1852,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1904,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1047,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1905,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1169,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1906,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1470,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1907,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1349,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1908,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1245,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1909,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 1214,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1910,
+    "nearestTownId": 1375,
+    "nearestTownName": "Muzgar",
+    "distance": 2686,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1911,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 712,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1912,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 1220,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1913,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 541,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 1914,
+    "nearestTownId": 107,
+    "nearestTownName": "Keplan",
+    "distance": 404,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2037,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2445,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2038,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 3173,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2039,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2022,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2040,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2169,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2041,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 1560,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2042,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2621,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2043,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2606,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2044,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2550,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2045,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 2678,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2046,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 3162,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2047,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 3897,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2048,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 4815,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2049,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 3561,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2050,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 3444,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2051,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 823,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2054,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 1311,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2058,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1134,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2059,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1198,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2060,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1549,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2061,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 1619,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2062,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1639,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2063,
+    "nearestTownId": 735,
+    "nearestTownName": "Grána",
+    "distance": 1510,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2064,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2181,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2065,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2355,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2066,
+    "nearestTownId": 706,
+    "nearestTownName": "Old Wisdom Tree",
+    "distance": 2288,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2067,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 1523,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2068,
+    "nearestTownId": 955,
+    "nearestTownName": "O'draxxia",
+    "distance": 1822,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2069,
+    "nearestTownId": 873,
+    "nearestTownName": "Duvencrune",
+    "distance": 2346,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2070,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 2330,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2071,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 2471,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2072,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 2741,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2073,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 2303,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2074,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 2882,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2075,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 3341,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2076,
+    "nearestTownId": 229,
+    "nearestTownName": "Valencia City",
+    "distance": 2608,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2077,
+    "nearestTownId": 693,
+    "nearestTownName": "Arehaza",
+    "distance": 2782,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2078,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 1987,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2079,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 1923,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2080,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 1908,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2081,
+    "nearestTownId": 202,
+    "nearestTownName": "Altinova",
+    "distance": 2823,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2082,
+    "nearestTownId": 605,
+    "nearestTownName": "Sand Grain Bazaar",
+    "distance": 2228,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2083,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 1841,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2084,
+    "nearestTownId": 601,
+    "nearestTownName": "Shakatu",
+    "distance": 1826,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2115,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 536,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2116,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 1441,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2117,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 1315,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2118,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 2087,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2119,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 4616,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2120,
+    "nearestTownId": 1553,
+    "nearestTownName": "Hakinza Sanctuary",
+    "distance": 4600,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2121,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 3672,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2122,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 3675,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2123,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 3150,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2124,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 3235,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2125,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 4943,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2126,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 4895,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2127,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 5187,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  },
+  {
+    "productionNodeId": 2128,
+    "nearestTownId": 1733,
+    "nearestTownName": "Angavu Outpost",
+    "distance": 5268,
+    "source": "shrddr-workerman",
+    "sourceUrl": "https://shrddr.github.io/workerman/data/distances_pzk2tk.json",
+    "confidence": "estimated"
+  }
+]
