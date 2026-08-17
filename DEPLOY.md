@@ -1,5 +1,7 @@
 # VPS Deploy Guide
 
+GitHub is used as the source repository only. This project is not deployed with GitHub Pages because the app needs the Express API server for `/api/*` routes.
+
 Target domain:
 
 ```txt
