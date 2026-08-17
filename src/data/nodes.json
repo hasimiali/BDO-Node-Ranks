@@ -22,6 +22,11 @@
     "workload": 400,
     "distance": 180,
     "nearestTown": "Velia",
+    "position": {
+      "x": 12011.9,
+      "y": -4261.05,
+      "z": 61621.5
+    },
     "products": [
       {
         "itemId": 7003,
@@ -71,6 +76,11 @@
     "workload": 400,
     "distance": 289,
     "nearestTown": "Velia",
+    "position": {
+      "x": 17141.3,
+      "y": -4339.48,
+      "z": 58960.2
+    },
     "products": [
       {
         "itemId": 7921,
@@ -120,6 +130,11 @@
     "workload": 400,
     "distance": 346,
     "nearestTown": "Velia",
+    "position": {
+      "x": 32753.8,
+      "y": -4750.95,
+      "z": 80642
+    },
     "products": [
       {
         "itemId": 7003,
@@ -169,6 +184,11 @@
     "workload": 400,
     "distance": 289,
     "nearestTown": "Velia",
+    "position": {
+      "x": 41878.4,
+      "y": -4331.37,
+      "z": 76154.6
+    },
     "products": [
       {
         "itemId": 7921,
@@ -218,6 +238,11 @@
     "workload": 400,
     "distance": 693,
     "nearestTown": "Velia",
+    "position": {
+      "x": 60651.9,
+      "y": -626.437,
+      "z": 51620.2
+    },
     "products": [
       {
         "itemId": 4003,
@@ -277,6 +302,11 @@
     "workload": 400,
     "distance": 688,
     "nearestTown": "Velia",
+    "position": {
+      "x": 60177.2,
+      "y": -833.666,
+      "z": 47347.5
+    },
     "products": [
       {
         "itemId": 4601,
@@ -366,6 +396,11 @@
     "workload": 1200,
     "distance": 1172,
     "nearestTown": "Velia",
+    "position": {
+      "x": -48414,
+      "y": -655.838,
+      "z": 4674.81
+    },
     "products": [
       {
         "itemId": 4202,
@@ -425,6 +460,11 @@
     "workload": 400,
     "distance": 549,
     "nearestTown": "Velia",
+    "position": {
+      "x": -33534.9,
+      "y": -7292.42,
+      "z": 66046.7
+    },
     "products": [
       {
         "itemId": 4003,
@@ -484,6 +524,11 @@
     "workload": 400,
     "distance": 548,
     "nearestTown": "Velia",
+    "position": {
+      "x": -42690.9,
+      "y": -5356.01,
+      "z": 65199.4
+    },
     "products": [
       {
         "itemId": 4003,
@@ -543,6 +588,11 @@
     "workload": 400,
     "distance": 536,
     "nearestTown": "Velia",
+    "position": {
+      "x": -10028.6,
+      "y": -4530.63,
+      "z": 72708
+    },
     "products": [
       {
         "itemId": 7003,
@@ -592,6 +642,11 @@
     "workload": 300,
     "distance": 752,
     "nearestTown": "Velia",
+    "position": {
+      "x": 29034.4,
+      "y": -146.92,
+      "z": 119359
+    },
     "products": [
       {
         "itemId": 5401,
@@ -651,6 +706,11 @@
     "workload": 300,
     "distance": 606,
     "nearestTown": "Velia",
+    "position": {
+      "x": 61462.9,
+      "y": -3206.75,
+      "z": 97039.1
+    },
     "products": [
       {
         "itemId": 5407,
@@ -710,6 +770,11 @@
     "workload": 300,
     "distance": 609,
     "nearestTown": "Velia",
+    "position": {
+      "x": 56297.8,
+      "y": -3819.36,
+      "z": 91325.2
+    },
     "products": [
       {
         "itemId": 4601,
@@ -809,6 +874,11 @@
     "workload": 300,
     "distance": 404,
     "nearestTown": "Velia",
+    "position": {
+      "x": 45852.4,
+      "y": -3895.18,
+      "z": 55334.6
+    },
     "products": [
       {
         "itemId": 5408,
@@ -868,6 +938,11 @@
     "workload": 400,
     "distance": 528,
     "nearestTown": "Velia",
+    "position": {
+      "x": 34834.8,
+      "y": -3267.83,
+      "z": 42797.9
+    },
     "products": [
       {
         "itemId": 4601,
@@ -957,6 +1032,11 @@
     "workload": 300,
     "distance": 523,
     "nearestTown": "Velia",
+    "position": {
+      "x": 23303.9,
+      "y": -3523.39,
+      "z": 47459.2
+    },
     "products": [
       {
         "itemId": 5401,
@@ -1016,6 +1096,11 @@
     "workload": 400,
     "distance": 815,
     "nearestTown": "Velia",
+    "position": {
+      "x": -30240.6,
+      "y": -3380.24,
+      "z": 30986.5
+    },
     "products": [
       {
         "itemId": 7005,
@@ -1065,6 +1150,11 @@
     "workload": 400,
     "distance": 815,
     "nearestTown": "Velia",
+    "position": {
+      "x": -25162.8,
+      "y": -2934.92,
+      "z": 27103.5
+    },
     "products": [
       {
         "itemId": 7005,
@@ -1114,6 +1204,11 @@
     "workload": 300,
     "distance": 653,
     "nearestTown": "Velia",
+    "position": {
+      "x": -33028.9,
+      "y": -4962.8,
+      "z": 87367.7
+    },
     "products": [
       {
         "itemId": 4003,
@@ -1173,6 +1268,11 @@
     "workload": 300,
     "distance": 657,
     "nearestTown": "Velia",
+    "position": {
+      "x": -32672.9,
+      "y": -5338.12,
+      "z": 90429.3
+    },
     "products": [
       {
         "itemId": 4001,
@@ -1232,6 +1332,11 @@
     "workload": 300,
     "distance": 973,
     "nearestTown": "Velia",
+    "position": {
+      "x": -55792.7,
+      "y": -3378.37,
+      "z": 23237
+    },
     "products": [
       {
         "itemId": 4602,
@@ -1321,6 +1426,11 @@
     "workload": 300,
     "distance": 968,
     "nearestTown": "Velia",
+    "position": {
+      "x": -46331.5,
+      "y": -3919.43,
+      "z": 28539.4
+    },
     "products": [
       {
         "itemId": 4003,
@@ -1380,6 +1490,11 @@
     "workload": 300,
     "distance": 853,
     "nearestTown": "Velia",
+    "position": {
+      "x": -62682.3,
+      "y": -5192.28,
+      "z": 92316.4
+    },
     "products": [
       {
         "itemId": 5407,
@@ -1439,6 +1554,11 @@
     "workload": 300,
     "distance": 851,
     "nearestTown": "Velia",
+    "position": {
+      "x": -63849,
+      "y": -3816.26,
+      "z": 99026.7
+    },
     "products": [
       {
         "itemId": 4001,
@@ -1498,6 +1618,11 @@
     "workload": 400,
     "distance": 384,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -113851,
+      "y": -1686.52,
+      "z": 91097.7
+    },
     "products": [
       {
         "itemId": 4601,
@@ -1597,6 +1722,11 @@
     "workload": 400,
     "distance": 638,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -186044,
+      "y": -4847.7,
+      "z": 154198
+    },
     "products": [
       {
         "itemId": 4003,
@@ -1656,6 +1786,11 @@
     "workload": 400,
     "distance": 219,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -124636,
+      "y": -1365.6,
+      "z": 116106
+    },
     "products": [
       {
         "itemId": 7307,
@@ -1705,6 +1840,11 @@
     "workload": 400,
     "distance": 260,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -144755,
+      "y": -639.861,
+      "z": 134832
+    },
     "products": [
       {
         "itemId": 7309,
@@ -1754,6 +1894,11 @@
     "workload": 400,
     "distance": 588,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -107873,
+      "y": -2576.87,
+      "z": 95063.3
+    },
     "products": [
       {
         "itemId": 4601,
@@ -1853,6 +1998,11 @@
     "workload": 400,
     "distance": 1288,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -209683,
+      "y": 2204.27,
+      "z": 89042.4
+    },
     "products": [
       {
         "itemId": 4001,
@@ -1912,6 +2062,11 @@
     "workload": 300,
     "distance": 1194,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -203731,
+      "y": 536.72,
+      "z": 90492.8
+    },
     "products": [
       {
         "itemId": 4001,
@@ -1971,6 +2126,11 @@
     "workload": 300,
     "distance": 1573,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -263248,
+      "y": 3744.75,
+      "z": 108841
+    },
     "products": [
       {
         "itemId": 4604,
@@ -2070,6 +2230,11 @@
     "workload": 400,
     "distance": 611,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 8291.83,
+      "y": 1008.63,
+      "z": -10686.4
+    },
     "products": [
       {
         "itemId": 7306,
@@ -2119,6 +2284,11 @@
     "workload": 400,
     "distance": 610,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 8387.79,
+      "y": 1688.75,
+      "z": -19540.2
+    },
     "products": [
       {
         "itemId": 7702,
@@ -2158,6 +2328,11 @@
     "workload": 400,
     "distance": 374,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 11543.3,
+      "y": -2098.98,
+      "z": -56882.4
+    },
     "products": [
       {
         "itemId": 7001,
@@ -2207,6 +2382,11 @@
     "workload": 400,
     "distance": 440,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 16946.8,
+      "y": -1666,
+      "z": -56778.3
+    },
     "products": [
       {
         "itemId": 7306,
@@ -2256,6 +2436,11 @@
     "workload": 400,
     "distance": 425,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 14172.4,
+      "y": -1504.5,
+      "z": -59738
+    },
     "products": [
       {
         "itemId": 5802,
@@ -2315,6 +2500,11 @@
     "workload": 400,
     "distance": 570,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 71427,
+      "y": -1590.66,
+      "z": -64802.7
+    },
     "products": [
       {
         "itemId": 7001,
@@ -2364,6 +2554,11 @@
     "workload": 400,
     "distance": 655,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 72323.9,
+      "y": -1641.14,
+      "z": -75440.4
+    },
     "products": [
       {
         "itemId": 5802,
@@ -2423,6 +2618,11 @@
     "workload": 300,
     "distance": 978,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 92795.6,
+      "y": -1729.33,
+      "z": -96426
+    },
     "products": [
       {
         "itemId": 4602,
@@ -2522,6 +2722,11 @@
     "workload": 400,
     "distance": 521,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 32933.8,
+      "y": -3980.9,
+      "z": 204.605
+    },
     "products": [
       {
         "itemId": 4001,
@@ -2581,6 +2786,11 @@
     "workload": 300,
     "distance": 522,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 31991.4,
+      "y": -2114.67,
+      "z": 16113.7
+    },
     "products": [
       {
         "itemId": 4003,
@@ -2640,6 +2850,11 @@
     "workload": 300,
     "distance": 1102,
     "nearestTown": "Glish",
+    "position": {
+      "x": 31551,
+      "y": 4055.68,
+      "z": -166975
+    },
     "products": [
       {
         "itemId": 4603,
@@ -2729,6 +2944,11 @@
     "workload": 400,
     "distance": 1337,
     "nearestTown": "Heidel",
+    "position": {
+      "x": -37591.8,
+      "y": 8937.81,
+      "z": -9253.38
+    },
     "products": [
       {
         "itemId": 5804,
@@ -2778,6 +2998,11 @@
     "workload": 300,
     "distance": 1328,
     "nearestTown": "Heidel",
+    "position": {
+      "x": -49522.6,
+      "y": -2587.43,
+      "z": -46619
+    },
     "products": [
       {
         "itemId": 5402,
@@ -2837,6 +3062,11 @@
     "workload": 400,
     "distance": 1317,
     "nearestTown": "Heidel",
+    "position": {
+      "x": -54160.1,
+      "y": -2919.65,
+      "z": -48939.6
+    },
     "products": [
       {
         "itemId": 4602,
@@ -2926,6 +3156,11 @@
     "workload": 300,
     "distance": 415,
     "nearestTown": "Glish",
+    "position": {
+      "x": -28994.6,
+      "y": -2455.45,
+      "z": -106977
+    },
     "products": [
       {
         "itemId": 5410,
@@ -2985,6 +3220,11 @@
     "workload": 400,
     "distance": 418,
     "nearestTown": "Glish",
+    "position": {
+      "x": -39880.3,
+      "y": -2422.84,
+      "z": -111447
+    },
     "products": [
       {
         "itemId": 4002,
@@ -3044,6 +3284,11 @@
     "workload": 300,
     "distance": 508,
     "nearestTown": "Glish",
+    "position": {
+      "x": 17813.9,
+      "y": -852.039,
+      "z": -137210
+    },
     "products": [
       {
         "itemId": 5410,
@@ -3103,6 +3348,11 @@
     "workload": 300,
     "distance": 508,
     "nearestTown": "Glish",
+    "position": {
+      "x": 7934.79,
+      "y": -1952.09,
+      "z": -127186
+    },
     "products": [
       {
         "itemId": 4001,
@@ -3162,6 +3412,11 @@
     "workload": 1200,
     "distance": 719,
     "nearestTown": "Glish",
+    "position": {
+      "x": 37597.4,
+      "y": 599.788,
+      "z": -110643
+    },
     "products": [
       {
         "itemId": 4203,
@@ -3221,6 +3476,11 @@
     "workload": 300,
     "distance": 606,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 53067.5,
+      "y": -3111.16,
+      "z": -73307.5
+    },
     "products": [
       {
         "itemId": 5409,
@@ -3280,6 +3540,11 @@
     "workload": 300,
     "distance": 780,
     "nearestTown": "Heidel",
+    "position": {
+      "x": -24642.2,
+      "y": -2522.95,
+      "z": -35935.3
+    },
     "products": [
       {
         "itemId": 5402,
@@ -3339,6 +3604,11 @@
     "workload": 1200,
     "distance": 772,
     "nearestTown": "Heidel",
+    "position": {
+      "x": -21632.9,
+      "y": -2779.8,
+      "z": -33714.6
+    },
     "products": [
       {
         "itemId": 4202,
@@ -3398,6 +3668,11 @@
     "workload": 300,
     "distance": 557,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -345753,
+      "y": -2039.06,
+      "z": 698.269
+    },
     "products": [
       {
         "itemId": 5411,
@@ -3457,6 +3732,11 @@
     "workload": 300,
     "distance": 1099,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -304886,
+      "y": 1799.02,
+      "z": 31652.9
+    },
     "products": [
       {
         "itemId": 4604,
@@ -3546,6 +3826,11 @@
     "workload": 400,
     "distance": 1104,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -312356,
+      "y": -564.584,
+      "z": 24646.7
+    },
     "products": [
       {
         "itemId": 4002,
@@ -3605,6 +3890,11 @@
     "workload": 300,
     "distance": 1451,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -227652,
+      "y": 5129.39,
+      "z": 61851.9
+    },
     "products": [
       {
         "itemId": 4604,
@@ -3704,6 +3994,11 @@
     "workload": 300,
     "distance": 1450,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -231341,
+      "y": 1687.55,
+      "z": 48560.8
+    },
     "products": [
       {
         "itemId": 5412,
@@ -3763,6 +4058,11 @@
     "workload": 1200,
     "distance": 1454,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -227658,
+      "y": -1257.32,
+      "z": 25141.4
+    },
     "products": [
       {
         "itemId": 4203,
@@ -3822,6 +4122,11 @@
     "workload": 1000,
     "distance": 1243,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -174925,
+      "y": -815.248,
+      "z": -1980.11
+    },
     "products": [
       {
         "itemId": 4004,
@@ -3881,6 +4186,11 @@
     "workload": 300,
     "distance": 2168,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -114414,
+      "y": 8978.04,
+      "z": 37012.7
+    },
     "products": [
       {
         "itemId": 5405,
@@ -3940,6 +4250,11 @@
     "workload": 400,
     "distance": 744,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -215572,
+      "y": -1413.07,
+      "z": -14598.2
+    },
     "products": [
       {
         "itemId": 7001,
@@ -3989,6 +4304,11 @@
     "workload": 400,
     "distance": 904,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -221807,
+      "y": -1603.09,
+      "z": -1559.02
+    },
     "products": [
       {
         "itemId": 7002,
@@ -4038,6 +4358,11 @@
     "workload": 400,
     "distance": 821,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -205604,
+      "y": -1459.53,
+      "z": -10065.6
+    },
     "products": [
       {
         "itemId": 7312,
@@ -4087,6 +4412,11 @@
     "workload": 300,
     "distance": 1130,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -167730,
+      "y": -623.089,
+      "z": -22447.5
+    },
     "products": [
       {
         "itemId": 4604,
@@ -4176,6 +4506,11 @@
     "workload": 300,
     "distance": 1309,
     "nearestTown": "Trent",
+    "position": {
+      "x": -379093,
+      "y": 1841.88,
+      "z": -122305
+    },
     "products": [
       {
         "itemId": 4606,
@@ -4275,6 +4610,11 @@
     "workload": 1200,
     "distance": 1208,
     "nearestTown": "Trent",
+    "position": {
+      "x": -381409,
+      "y": 233.889,
+      "z": -134272
+    },
     "products": [
       {
         "itemId": 4202,
@@ -4334,6 +4674,11 @@
     "workload": 300,
     "distance": 1658,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -304761,
+      "y": 8557.01,
+      "z": -137514
+    },
     "products": [
       {
         "itemId": 4606,
@@ -4433,6 +4778,11 @@
     "workload": 300,
     "distance": 1681,
     "nearestTown": "Trent",
+    "position": {
+      "x": -254829,
+      "y": 88.2471,
+      "z": -212409
+    },
     "products": [
       {
         "itemId": 5413,
@@ -4492,6 +4842,11 @@
     "workload": 300,
     "distance": 354,
     "nearestTown": "Trent",
+    "position": {
+      "x": -384314,
+      "y": 8503.46,
+      "z": -202845
+    },
     "products": [
       {
         "itemId": 4607,
@@ -4581,6 +4936,11 @@
     "workload": 300,
     "distance": 435,
     "nearestTown": "Trent",
+    "position": {
+      "x": -354666,
+      "y": 12257.7,
+      "z": -260871
+    },
     "products": [
       {
         "itemId": 5405,
@@ -4640,6 +5000,11 @@
     "workload": 300,
     "distance": 1025,
     "nearestTown": "Trent",
+    "position": {
+      "x": -300246,
+      "y": 9448.93,
+      "z": -267826
+    },
     "products": [
       {
         "itemId": 4607,
@@ -4739,6 +5104,11 @@
     "workload": 300,
     "distance": 742,
     "nearestTown": "Trent",
+    "position": {
+      "x": -404652,
+      "y": 7690.98,
+      "z": -189263
+    },
     "products": [
       {
         "itemId": 4606,
@@ -4828,6 +5198,11 @@
     "workload": 300,
     "distance": 1933,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -196368,
+      "y": 5543.27,
+      "z": -250130
+    },
     "products": [
       {
         "itemId": 4603,
@@ -4927,6 +5302,11 @@
     "workload": 300,
     "distance": 2062,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -186059,
+      "y": 7746.04,
+      "z": -252397
+    },
     "products": [
       {
         "itemId": 5414,
@@ -4986,6 +5366,11 @@
     "workload": 1200,
     "distance": 1689,
     "nearestTown": "Trent",
+    "position": {
+      "x": -252225,
+      "y": -244.682,
+      "z": -210124
+    },
     "products": [
       {
         "itemId": 4204,
@@ -5045,6 +5430,11 @@
     "workload": 400,
     "distance": 1860,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -340375,
+      "y": 1502.17,
+      "z": -151320
+    },
     "products": [
       {
         "itemId": 4004,
@@ -5104,6 +5494,11 @@
     "workload": 400,
     "distance": 1789,
     "nearestTown": "Calpheon City",
+    "position": {
+      "x": -301314,
+      "y": 2750.21,
+      "z": -184943
+    },
     "products": [
       {
         "itemId": 4004,
@@ -5163,6 +5558,11 @@
     "workload": 400,
     "distance": 703,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -131986,
+      "y": 2644.48,
+      "z": -227974
+    },
     "products": [
       {
         "itemId": 4002,
@@ -5222,6 +5622,11 @@
     "workload": 400,
     "distance": 306,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -156921,
+      "y": -3435.13,
+      "z": -135632
+    },
     "products": [
       {
         "itemId": 4007,
@@ -5281,6 +5686,11 @@
     "workload": 300,
     "distance": 938,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -137857,
+      "y": 6396.47,
+      "z": -74954.2
+    },
     "products": [
       {
         "itemId": 4607,
@@ -5370,6 +5780,11 @@
     "workload": 300,
     "distance": 977,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -184651,
+      "y": -2383.26,
+      "z": -156353
+    },
     "products": [
       {
         "itemId": 5413,
@@ -5429,6 +5844,11 @@
     "workload": 400,
     "distance": 817,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -177301,
+      "y": -2332.57,
+      "z": -139051
+    },
     "products": [
       {
         "itemId": 4007,
@@ -5488,6 +5908,11 @@
     "workload": 1000,
     "distance": 1426,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -169967,
+      "y": 3353.99,
+      "z": -236548
+    },
     "products": [
       {
         "itemId": 4001,
@@ -5547,6 +5972,11 @@
     "workload": 2400,
     "distance": 3029,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 262503,
+      "y": -8200,
+      "z": 339004
+    },
     "products": [
       {
         "itemId": 8527,
@@ -5636,6 +6066,11 @@
     "workload": 2400,
     "distance": 2545,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 260260,
+      "y": -8150,
+      "z": 269058
+    },
     "products": [
       {
         "itemId": 8530,
@@ -5725,6 +6160,11 @@
     "workload": 2400,
     "distance": 2351,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 255868,
+      "y": -8150,
+      "z": 212160
+    },
     "products": [
       {
         "itemId": 8560,
@@ -5814,6 +6254,11 @@
     "workload": 2400,
     "distance": 2523,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 275166,
+      "y": -8150,
+      "z": 195249
+    },
     "products": [
       {
         "itemId": 8510,
@@ -5903,6 +6348,11 @@
     "workload": 2400,
     "distance": 1398,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 172960,
+      "y": -8150,
+      "z": 198865
+    },
     "products": [
       {
         "itemId": 8508,
@@ -5992,6 +6442,11 @@
     "workload": 2400,
     "distance": 1775,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 206737,
+      "y": -8150,
+      "z": 231599
+    },
     "products": [
       {
         "itemId": 8510,
@@ -6081,6 +6536,11 @@
     "workload": 2400,
     "distance": 1692,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 156603,
+      "y": -8150,
+      "z": 172792
+    },
     "products": [
       {
         "itemId": 8560,
@@ -6160,6 +6620,11 @@
     "workload": 2400,
     "distance": 1922,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 118812,
+      "y": -8150,
+      "z": 162316
+    },
     "products": [
       {
         "itemId": 8510,
@@ -6249,6 +6714,11 @@
     "workload": 2400,
     "distance": 2206,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 70031.9,
+      "y": -8150,
+      "z": 168649
+    },
     "products": [
       {
         "itemId": 8560,
@@ -6338,6 +6808,11 @@
     "workload": 2400,
     "distance": 1826,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 66144.1,
+      "y": -8150,
+      "z": 201408
+    },
     "products": [
       {
         "itemId": 8508,
@@ -6427,6 +6902,11 @@
     "workload": 2400,
     "distance": 2344,
     "nearestTown": "Velia",
+    "position": {
+      "x": -5889.18,
+      "y": -8150,
+      "z": 193624
+    },
     "products": [
       {
         "itemId": 8530,
@@ -6516,6 +6996,11 @@
     "workload": 2400,
     "distance": 2333,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": -24974.6,
+      "y": -8150,
+      "z": 267599
+    },
     "products": [
       {
         "itemId": 8568,
@@ -6605,6 +7090,11 @@
     "workload": 2400,
     "distance": 1703,
     "nearestTown": "Velia",
+    "position": {
+      "x": -75388.8,
+      "y": -8150,
+      "z": 165869
+    },
     "products": [
       {
         "itemId": 8530,
@@ -6694,6 +7184,11 @@
     "workload": 2400,
     "distance": 1333,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -149066,
+      "y": -8150,
+      "z": 227994
+    },
     "products": [
       {
         "itemId": 8530,
@@ -6783,6 +7278,11 @@
     "workload": 2400,
     "distance": 1827,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -135739,
+      "y": -8150,
+      "z": 255459
+    },
     "products": [
       {
         "itemId": 8567,
@@ -6872,6 +7372,11 @@
     "workload": 2400,
     "distance": 2472,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -66876.1,
+      "y": -8150,
+      "z": 309941
+    },
     "products": [
       {
         "itemId": 8509,
@@ -6961,6 +7466,11 @@
     "workload": 2400,
     "distance": 2549,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": -38636,
+      "y": -8150,
+      "z": 313501
+    },
     "products": [
       {
         "itemId": 8534,
@@ -7050,6 +7560,11 @@
     "workload": 2400,
     "distance": 2461,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -168773,
+      "y": -8150,
+      "z": 334330
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7139,6 +7654,11 @@
     "workload": 2400,
     "distance": 2801,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -127048,
+      "y": -8150,
+      "z": 357944
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7228,6 +7748,11 @@
     "workload": 2400,
     "distance": 901,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -396870,
+      "y": -8150,
+      "z": 78284.9
+    },
     "products": [
       {
         "itemId": 8507,
@@ -7317,6 +7842,11 @@
     "workload": 2400,
     "distance": 1462,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -449338,
+      "y": -8150,
+      "z": 73026.1
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7406,6 +7936,11 @@
     "workload": 2400,
     "distance": 1750,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -475699,
+      "y": -8150,
+      "z": 84585
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7495,6 +8030,11 @@
     "workload": 2400,
     "distance": 2356,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -526577,
+      "y": -8150,
+      "z": 52494.7
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7584,6 +8124,11 @@
     "workload": 2400,
     "distance": 2172,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -509523,
+      "y": -8150,
+      "z": 59222.9
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7673,6 +8218,11 @@
     "workload": 2400,
     "distance": 1479,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -399841,
+      "y": -8150,
+      "z": 105982
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7762,6 +8312,11 @@
     "workload": 2400,
     "distance": 2913,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -468213,
+      "y": -8150,
+      "z": 212065
+    },
     "products": [
       {
         "itemId": 8509,
@@ -7851,6 +8406,11 @@
     "workload": 2400,
     "distance": 1493,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -391879,
+      "y": -8150,
+      "z": 131364
+    },
     "products": [
       {
         "itemId": 8535,
@@ -7940,6 +8500,11 @@
     "workload": 2400,
     "distance": 3030,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -396569,
+      "y": -8150,
+      "z": 244060
+    },
     "products": [
       {
         "itemId": 8508,
@@ -8029,6 +8594,11 @@
     "workload": 2400,
     "distance": 2666,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -358074,
+      "y": -8150,
+      "z": 227851
+    },
     "products": [
       {
         "itemId": 8508,
@@ -8118,6 +8688,11 @@
     "workload": 2400,
     "distance": 1660,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -343762,
+      "y": -8150,
+      "z": 150812
+    },
     "products": [
       {
         "itemId": 8531,
@@ -8207,6 +8782,11 @@
     "workload": 2400,
     "distance": 1901,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -309097,
+      "y": -8150,
+      "z": 155690
+    },
     "products": [
       {
         "itemId": 8509,
@@ -8296,6 +8876,11 @@
     "workload": 2400,
     "distance": 2167,
     "nearestTown": "Port Epheria",
+    "position": {
+      "x": -329608,
+      "y": -8150,
+      "z": 193108
+    },
     "products": [
       {
         "itemId": 8512,
@@ -8385,6 +8970,11 @@
     "workload": 2400,
     "distance": 2468,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -251010,
+      "y": -8150,
+      "z": 186827
+    },
     "products": [
       {
         "itemId": 8502,
@@ -8474,6 +9064,11 @@
     "workload": 2400,
     "distance": 2636,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -270529,
+      "y": -8150,
+      "z": 214114
+    },
     "products": [
       {
         "itemId": 8510,
@@ -8563,6 +9158,11 @@
     "workload": 2400,
     "distance": 2599,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -247826,
+      "y": -8150,
+      "z": 245640
+    },
     "products": [
       {
         "itemId": 8502,
@@ -8652,6 +9252,11 @@
     "workload": 2400,
     "distance": 2908,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -263936,
+      "y": -8150,
+      "z": 271953
+    },
     "products": [
       {
         "itemId": 8530,
@@ -8741,6 +9346,11 @@
     "workload": 2400,
     "distance": 1849,
     "nearestTown": "Olvia",
+    "position": {
+      "x": -208095,
+      "y": -8150,
+      "z": 218413
+    },
     "products": [
       {
         "itemId": 8502,
@@ -8830,6 +9440,11 @@
     "workload": 2400,
     "distance": 1623,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 44494.3,
+      "y": -8150,
+      "z": 265664
+    },
     "products": [
       {
         "itemId": 8571,
@@ -8919,6 +9534,11 @@
     "workload": 2400,
     "distance": 2251,
     "nearestTown": "Velia",
+    "position": {
+      "x": -15597.3,
+      "y": -8150,
+      "z": 228148
+    },
     "products": [
       {
         "itemId": 8530,
@@ -9008,6 +9628,11 @@
     "workload": 400,
     "distance": 702,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 201127,
+      "y": -3509.6,
+      "z": -15042.4
+    },
     "products": [
       {
         "itemId": 5801,
@@ -9067,6 +9692,11 @@
     "workload": 400,
     "distance": 750,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 208786,
+      "y": -3885.18,
+      "z": -18481.8
+    },
     "products": [
       {
         "itemId": 7347,
@@ -9116,6 +9746,11 @@
     "workload": 1000,
     "distance": 1011,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 256279,
+      "y": -6168.69,
+      "z": -15917.1
+    },
     "products": [
       {
         "itemId": 4005,
@@ -9185,6 +9820,11 @@
     "workload": 400,
     "distance": 1042,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 257267,
+      "y": -5839.89,
+      "z": -12844.2
+    },
     "products": [
       {
         "itemId": 4007,
@@ -9254,6 +9894,11 @@
     "workload": 400,
     "distance": 1269,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 196905,
+      "y": -660.439,
+      "z": 19475.3
+    },
     "products": [
       {
         "itemId": 7004,
@@ -9323,6 +9968,11 @@
     "workload": 400,
     "distance": 285,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 245497,
+      "y": -1696.74,
+      "z": -74768.6
+    },
     "products": [
       {
         "itemId": 5801,
@@ -9382,6 +10032,11 @@
     "workload": 400,
     "distance": 292,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 247807,
+      "y": -959.146,
+      "z": -80493.6
+    },
     "products": [
       {
         "itemId": 7348,
@@ -9431,6 +10086,11 @@
     "workload": 1000,
     "distance": 1114,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 317759,
+      "y": -8300,
+      "z": -134458
+    },
     "products": [
       {
         "itemId": 4005,
@@ -9500,6 +10160,11 @@
     "workload": 400,
     "distance": 1114,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 314013,
+      "y": -7913.61,
+      "z": -122692
+    },
     "products": [
       {
         "itemId": 4001,
@@ -9569,6 +10234,11 @@
     "workload": 300,
     "distance": 1862,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 178135,
+      "y": 2215.76,
+      "z": 75655.2
+    },
     "products": [
       {
         "itemId": 5411,
@@ -9628,6 +10298,11 @@
     "workload": 300,
     "distance": 1226,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 146352,
+      "y": 1401.45,
+      "z": -31511.7
+    },
     "products": [
       {
         "itemId": 5412,
@@ -9687,6 +10362,11 @@
     "workload": 400,
     "distance": 2418,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 156283,
+      "y": -1615.34,
+      "z": 122906
+    },
     "products": [
       {
         "itemId": 4608,
@@ -9786,6 +10466,11 @@
     "workload": 400,
     "distance": 1855,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 132696,
+      "y": 4292.68,
+      "z": 25634.9
+    },
     "products": [
       {
         "itemId": 4005,
@@ -9855,6 +10540,11 @@
     "workload": 300,
     "distance": 1105,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 386401,
+      "y": 1706.03,
+      "z": -168040
+    },
     "products": [
       {
         "itemId": 5405,
@@ -9914,6 +10604,11 @@
     "workload": 1000,
     "distance": 1820,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 178428,
+      "y": 6581.39,
+      "z": 81873.4
+    },
     "products": [
       {
         "itemId": 4608,
@@ -10013,6 +10708,11 @@
     "workload": 400,
     "distance": 2414,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 161646,
+      "y": -3000.69,
+      "z": 122209
+    },
     "products": [
       {
         "itemId": 4602,
@@ -10112,6 +10812,11 @@
     "workload": 300,
     "distance": 1886,
     "nearestTown": "Heidel",
+    "position": {
+      "x": 128011,
+      "y": 4261.25,
+      "z": 27182.3
+    },
     "products": [
       {
         "itemId": 5405,
@@ -10171,6 +10876,11 @@
     "workload": 400,
     "distance": 1659,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 250969,
+      "y": -7498.08,
+      "z": 43828.6
+    },
     "products": [
       {
         "itemId": 4003,
@@ -10240,6 +10950,11 @@
     "workload": 400,
     "distance": 1765,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 207499,
+      "y": -223.079,
+      "z": 81677.4
+    },
     "products": [
       {
         "itemId": 4609,
@@ -10339,6 +11054,11 @@
     "workload": 1200,
     "distance": 1383,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 168913,
+      "y": 2126.72,
+      "z": 6948.57
+    },
     "products": [
       {
         "itemId": 4204,
@@ -10398,6 +11118,11 @@
     "workload": 400,
     "distance": 1215,
     "nearestTown": "Tarif",
+    "position": {
+      "x": 149608,
+      "y": 1246.62,
+      "z": -31723.7
+    },
     "products": [
       {
         "itemId": 5802,
@@ -10457,6 +11182,11 @@
     "workload": 300,
     "distance": 1537,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 389653,
+      "y": -4826.63,
+      "z": 44323
+    },
     "products": [
       {
         "itemId": 7017,
@@ -10506,6 +11236,11 @@
     "workload": 400,
     "distance": 1730,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 397344,
+      "y": -4364.69,
+      "z": 52302.2
+    },
     "products": [
       {
         "itemId": 4611,
@@ -10615,6 +11350,11 @@
     "workload": 400,
     "distance": 1961,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 422349,
+      "y": -45.9502,
+      "z": 52738.6
+    },
     "products": [
       {
         "itemId": 4611,
@@ -10724,6 +11464,11 @@
     "workload": 300,
     "distance": 2203,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 403556,
+      "y": -7214.09,
+      "z": 99847.9
+    },
     "products": [
       {
         "itemId": 6656,
@@ -10783,6 +11528,11 @@
     "workload": 300,
     "distance": 2306,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 382467,
+      "y": -1909.96,
+      "z": 126686
+    },
     "products": [
       {
         "itemId": 6656,
@@ -10842,6 +11592,11 @@
     "workload": 400,
     "distance": 1648,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 415419,
+      "y": -5383.5,
+      "z": -28987.1
+    },
     "products": [
       {
         "itemId": 4003,
@@ -10911,6 +11666,11 @@
     "workload": 400,
     "distance": 2315,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 476039,
+      "y": -5000.92,
+      "z": -82160
+    },
     "products": [
       {
         "itemId": 4001,
@@ -10980,6 +11740,11 @@
     "workload": 300,
     "distance": 444,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 551186,
+      "y": 12457.4,
+      "z": 39304.9
+    },
     "products": [
       {
         "itemId": 7022,
@@ -11029,6 +11794,11 @@
     "workload": 400,
     "distance": 399,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 555248,
+      "y": 12971.6,
+      "z": 39888.4
+    },
     "products": [
       {
         "itemId": 4003,
@@ -11098,6 +11868,11 @@
     "workload": 400,
     "distance": 2160,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 682633,
+      "y": 13094.3,
+      "z": 109401
+    },
     "products": [
       {
         "itemId": 4612,
@@ -11207,6 +11982,11 @@
     "workload": 400,
     "distance": 2166,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 674969,
+      "y": 12223.5,
+      "z": 109279
+    },
     "products": [
       {
         "itemId": 4001,
@@ -11276,6 +12056,11 @@
     "workload": 300,
     "distance": 2081,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 716727,
+      "y": 10635.6,
+      "z": 370351
+    },
     "products": [
       {
         "itemId": 7021,
@@ -11325,6 +12110,11 @@
     "workload": 300,
     "distance": 2802,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 757543,
+      "y": 7274,
+      "z": 404513
+    },
     "products": [
       {
         "itemId": 7020,
@@ -11374,6 +12164,11 @@
     "workload": 400,
     "distance": 2792,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 756515,
+      "y": 7328.52,
+      "z": 407202
+    },
     "products": [
       {
         "itemId": 4611,
@@ -11483,6 +12278,11 @@
     "workload": 400,
     "distance": 2843,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 771939,
+      "y": 15203.7,
+      "z": 358003
+    },
     "products": [
       {
         "itemId": 4008,
@@ -11552,6 +12352,11 @@
     "workload": 300,
     "distance": 2840,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 769418,
+      "y": 15515.6,
+      "z": 361030
+    },
     "products": [
       {
         "itemId": 7019,
@@ -11601,6 +12406,11 @@
     "workload": 300,
     "distance": 3337,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 831126,
+      "y": 5931.7,
+      "z": -114888
+    },
     "products": [
       {
         "itemId": 7018,
@@ -11650,6 +12460,11 @@
     "workload": 300,
     "distance": 3856,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 723373,
+      "y": 23030.5,
+      "z": -199362
+    },
     "products": [
       {
         "itemId": 7016,
@@ -11699,6 +12514,11 @@
     "workload": 400,
     "distance": 3788,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 735919,
+      "y": 23605.3,
+      "z": -203908
+    },
     "products": [
       {
         "itemId": 4009,
@@ -11768,6 +12588,11 @@
     "workload": 400,
     "distance": 3800,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 784109,
+      "y": 26490.9,
+      "z": -167420
+    },
     "products": [
       {
         "itemId": 4001,
@@ -11837,6 +12662,11 @@
     "workload": 400,
     "distance": 3802,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 767045,
+      "y": 30686.8,
+      "z": -172745
+    },
     "products": [
       {
         "itemId": 4001,
@@ -11906,6 +12736,11 @@
     "workload": 300,
     "distance": 4411,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 987091,
+      "y": 15177.1,
+      "z": -161613
+    },
     "products": [
       {
         "itemId": 7017,
@@ -11955,6 +12790,11 @@
     "workload": 300,
     "distance": 4493,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 980205,
+      "y": 15574.2,
+      "z": -172166
+    },
     "products": [
       {
         "itemId": 7022,
@@ -12004,6 +12844,11 @@
     "workload": 400,
     "distance": 4341,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 982755,
+      "y": 14905.8,
+      "z": -157160
+    },
     "products": [
       {
         "itemId": 4610,
@@ -12113,6 +12958,11 @@
     "workload": 400,
     "distance": 541,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 573573,
+      "y": 22857.6,
+      "z": 28577.5
+    },
     "products": [
       {
         "itemId": 7020,
@@ -12162,6 +13012,11 @@
     "workload": 400,
     "distance": 520,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 573824,
+      "y": 22850.9,
+      "z": 26605.3
+    },
     "products": [
       {
         "itemId": 7022,
@@ -12211,6 +13066,11 @@
     "workload": 400,
     "distance": 536,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 573275,
+      "y": 5997.92,
+      "z": 286691
+    },
     "products": [
       {
         "itemId": 7018,
@@ -12260,6 +13120,11 @@
     "workload": 400,
     "distance": 589,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 565279,
+      "y": 6609.01,
+      "z": 280271
+    },
     "products": [
       {
         "itemId": 7018,
@@ -12309,6 +13174,11 @@
     "workload": 400,
     "distance": 587,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 565997,
+      "y": 6482.47,
+      "z": 278040
+    },
     "products": [
       {
         "itemId": 7019,
@@ -12358,6 +13228,11 @@
     "workload": 400,
     "distance": 381,
     "nearestTown": "Ancado Inner Harbor",
+    "position": {
+      "x": 1000270,
+      "y": -2745.78,
+      "z": 334191
+    },
     "products": [
       {
         "itemId": 7022,
@@ -12407,6 +13282,11 @@
     "workload": 400,
     "distance": 364,
     "nearestTown": "Ancado Inner Harbor",
+    "position": {
+      "x": 1000490,
+      "y": -2413.21,
+      "z": 330263
+    },
     "products": [
       {
         "itemId": 7022,
@@ -12456,6 +13336,11 @@
     "workload": 400,
     "distance": 583,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 992162,
+      "y": 8706.12,
+      "z": 224206
+    },
     "products": [
       {
         "itemId": 7017,
@@ -12505,6 +13390,11 @@
     "workload": 400,
     "distance": 636,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 994845,
+      "y": 8730.79,
+      "z": 217973
+    },
     "products": [
       {
         "itemId": 7016,
@@ -12554,6 +13444,11 @@
     "workload": 400,
     "distance": 530,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 988112,
+      "y": 10258.4,
+      "z": 198557
+    },
     "products": [
       {
         "itemId": 7017,
@@ -12603,6 +13498,11 @@
     "workload": 400,
     "distance": 522,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 993503,
+      "y": 10383.6,
+      "z": 201023
+    },
     "products": [
       {
         "itemId": 7016,
@@ -12652,6 +13552,11 @@
     "workload": 400,
     "distance": 526,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 987893,
+      "y": 10259.5,
+      "z": 190395
+    },
     "products": [
       {
         "itemId": 7021,
@@ -12701,6 +13606,11 @@
     "workload": 400,
     "distance": 699,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 993123,
+      "y": 10299,
+      "z": 181912
+    },
     "products": [
       {
         "itemId": 7022,
@@ -12750,6 +13660,11 @@
     "workload": 400,
     "distance": 630,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 985749,
+      "y": 10299,
+      "z": 180897
+    },
     "products": [
       {
         "itemId": 7022,
@@ -12799,6 +13714,11 @@
     "workload": 1200,
     "distance": 3329,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 887924,
+      "y": 16030.2,
+      "z": -62658.3
+    },
     "products": [
       {
         "itemId": 4204,
@@ -12858,6 +13778,11 @@
     "workload": 400,
     "distance": 786,
     "nearestTown": "Arehaza",
+    "position": {
+      "x": 1224640,
+      "y": 2538.8,
+      "z": 211907
+    },
     "products": [
       {
         "itemId": 4610,
@@ -12967,6 +13892,11 @@
     "workload": 400,
     "distance": 682,
     "nearestTown": "Arehaza",
+    "position": {
+      "x": 1237880,
+      "y": 941.043,
+      "z": 201035
+    },
     "products": [
       {
         "itemId": 4610,
@@ -13076,6 +14006,11 @@
     "workload": 400,
     "distance": 3422,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1160110,
+      "y": -167.383,
+      "z": 525431
+    },
     "products": [
       {
         "itemId": 4008,
@@ -13145,6 +14080,11 @@
     "workload": 300,
     "distance": 3394,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1171870,
+      "y": 181.817,
+      "z": 508086
+    },
     "products": [
       {
         "itemId": 5401,
@@ -13204,6 +14144,11 @@
     "workload": 400,
     "distance": 4406,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 1091340,
+      "y": 34015,
+      "z": 490771
+    },
     "products": [
       {
         "itemId": 4009,
@@ -13273,6 +14218,11 @@
     "workload": 300,
     "distance": 4938,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 928351,
+      "y": 8589.42,
+      "z": 471827
+    },
     "products": [
       {
         "itemId": 5408,
@@ -13342,6 +14292,11 @@
     "workload": 400,
     "distance": 2127,
     "nearestTown": "Arehaza",
+    "position": {
+      "x": 1263380,
+      "y": 9295.1,
+      "z": 285193
+    },
     "products": [
       {
         "itemId": 4612,
@@ -13451,6 +14406,11 @@
     "workload": 400,
     "distance": 4077,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1162210,
+      "y": 14102.2,
+      "z": 449238
+    },
     "products": [
       {
         "itemId": 4008,
@@ -13520,6 +14480,11 @@
     "workload": 400,
     "distance": 4110,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1166340,
+      "y": 13695.8,
+      "z": 447533
+    },
     "products": [
       {
         "itemId": 4009,
@@ -13589,6 +14554,11 @@
     "workload": 400,
     "distance": 594,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 997044,
+      "y": 8750.87,
+      "z": 222054
+    },
     "products": [
       {
         "itemId": 5803,
@@ -13638,6 +14608,11 @@
     "workload": 1200,
     "distance": 3063,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 1087770,
+      "y": 22647,
+      "z": 410879
+    },
     "products": [
       {
         "itemId": 4010,
@@ -13717,6 +14692,11 @@
     "workload": 560,
     "distance": 1943,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -314149,
+      "y": 26425.4,
+      "z": -310542
+    },
     "products": [
       {
         "itemId": 7304,
@@ -13776,6 +14756,11 @@
     "workload": 560,
     "distance": 600,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -387927,
+      "y": 3072.9,
+      "z": -470568
+    },
     "products": [
       {
         "itemId": 4614,
@@ -13885,6 +14870,11 @@
     "workload": 560,
     "distance": 1956,
     "nearestTown": "Grána",
+    "position": {
+      "x": -444403,
+      "y": 12876.6,
+      "z": -347662
+    },
     "products": [
       {
         "itemId": 4011,
@@ -13944,6 +14934,11 @@
     "workload": 1200,
     "distance": 2170,
     "nearestTown": "Grána",
+    "position": {
+      "x": -586230,
+      "y": 10749.9,
+      "z": -312195
+    },
     "products": [
       {
         "itemId": 5522,
@@ -14003,6 +14998,11 @@
     "workload": 560,
     "distance": 2996,
     "nearestTown": "Trent",
+    "position": {
+      "x": -541823,
+      "y": 10973.7,
+      "z": -214535
+    },
     "products": [
       {
         "itemId": 4615,
@@ -14112,6 +15112,11 @@
     "workload": 560,
     "distance": 1701,
     "nearestTown": "Grána",
+    "position": {
+      "x": -561653,
+      "y": -3436.78,
+      "z": -419430
+    },
     "products": [
       {
         "itemId": 5516,
@@ -14171,6 +15176,11 @@
     "workload": 560,
     "distance": 1613,
     "nearestTown": "Grána",
+    "position": {
+      "x": -588298,
+      "y": -4315.7,
+      "z": -376774
+    },
     "products": [
       {
         "itemId": 5517,
@@ -14230,6 +15240,11 @@
     "workload": 560,
     "distance": 1671,
     "nearestTown": "Grána",
+    "position": {
+      "x": -577230,
+      "y": -3143.99,
+      "z": -433172
+    },
     "products": [
       {
         "itemId": 5519,
@@ -14289,6 +15304,11 @@
     "workload": 560,
     "distance": 1298,
     "nearestTown": "Grána",
+    "position": {
+      "x": -475785,
+      "y": -4868.21,
+      "z": -410102
+    },
     "products": [
       {
         "itemId": 4011,
@@ -14348,6 +15368,11 @@
     "workload": 560,
     "distance": 1024,
     "nearestTown": "Grána",
+    "position": {
+      "x": -490156,
+      "y": 2243.21,
+      "z": -500471
+    },
     "products": [
       {
         "itemId": 4011,
@@ -14407,6 +15432,11 @@
     "workload": 560,
     "distance": 476,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -79019.3,
+      "y": 14981.2,
+      "z": -421166
+    },
     "products": [
       {
         "itemId": 7002,
@@ -14456,6 +15486,11 @@
     "workload": 560,
     "distance": 536,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -73583.8,
+      "y": 15178.8,
+      "z": -429092
+    },
     "products": [
       {
         "itemId": 7005,
@@ -14505,6 +15540,11 @@
     "workload": 560,
     "distance": 1203,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": 2200.37,
+      "y": 33357.3,
+      "z": -399958
+    },
     "products": [
       {
         "itemId": 7005,
@@ -14554,6 +15594,11 @@
     "workload": 560,
     "distance": 1178,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -2480.01,
+      "y": 32688.9,
+      "z": -395923
+    },
     "products": [
       {
         "itemId": 7002,
@@ -14603,6 +15648,11 @@
     "workload": 560,
     "distance": 2789,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 17217.4,
+      "y": 14796.7,
+      "z": -285580
+    },
     "products": [
       {
         "itemId": 4616,
@@ -14712,6 +15762,11 @@
     "workload": 560,
     "distance": 2919,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 13926.9,
+      "y": 10654.6,
+      "z": -281193
+    },
     "products": [
       {
         "itemId": 4616,
@@ -14821,6 +15876,11 @@
     "workload": 560,
     "distance": 1733,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 110155,
+      "y": 2732.98,
+      "z": -276132
+    },
     "products": [
       {
         "itemId": 5532,
@@ -14870,6 +15930,11 @@
     "workload": 560,
     "distance": 1764,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 104424,
+      "y": 2744.48,
+      "z": -278819
+    },
     "products": [
       {
         "itemId": 5404,
@@ -14919,6 +15984,11 @@
     "workload": 560,
     "distance": 1822,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -231438,
+      "y": 18617.9,
+      "z": -379596
+    },
     "products": [
       {
         "itemId": 4011,
@@ -14978,6 +16048,11 @@
     "workload": 560,
     "distance": 1844,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -229705,
+      "y": 15702.9,
+      "z": -392450
+    },
     "products": [
       {
         "itemId": 4001,
@@ -15037,6 +16112,11 @@
     "workload": 560,
     "distance": 2190,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -207034,
+      "y": 6094.32,
+      "z": -423421
+    },
     "products": [
       {
         "itemId": 4011,
@@ -15096,6 +16176,11 @@
     "workload": 560,
     "distance": 2306,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -212604,
+      "y": 5675.89,
+      "z": -418018
+    },
     "products": [
       {
         "itemId": 4005,
@@ -15155,6 +16240,11 @@
     "workload": 560,
     "distance": 2120,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -33772,
+      "y": 7239.61,
+      "z": -222245
+    },
     "products": [
       {
         "itemId": 4616,
@@ -15264,6 +16354,11 @@
     "workload": 560,
     "distance": 2073,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -36854.3,
+      "y": 6852.51,
+      "z": -224821
+    },
     "products": [
       {
         "itemId": 4606,
@@ -15373,6 +16468,11 @@
     "workload": 560,
     "distance": 2551,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 108080,
+      "y": 11313.5,
+      "z": -211543
+    },
     "products": [
       {
         "itemId": 4603,
@@ -15482,6 +16582,11 @@
     "workload": 560,
     "distance": 2584,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 108967,
+      "y": 10494.8,
+      "z": -205575
+    },
     "products": [
       {
         "itemId": 4604,
@@ -15591,6 +16696,11 @@
     "workload": 1200,
     "distance": 1964,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -149829,
+      "y": 19878.6,
+      "z": -360678
+    },
     "products": [
       {
         "itemId": 4206,
@@ -15650,6 +16760,11 @@
     "workload": 1200,
     "distance": 2279,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -154723,
+      "y": 19879.3,
+      "z": -301268
+    },
     "products": [
       {
         "itemId": 4206,
@@ -15709,6 +16824,11 @@
     "workload": 400,
     "distance": 828,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -184720,
+      "y": 17218.2,
+      "z": -572376
+    },
     "products": [
       {
         "itemId": 7307,
@@ -15758,6 +16878,11 @@
     "workload": 400,
     "distance": 776,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -184344,
+      "y": 18049.7,
+      "z": -560807
+    },
     "products": [
       {
         "itemId": 7003,
@@ -15807,6 +16932,11 @@
     "workload": 10200,
     "distance": 2921,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -231030,
+      "y": 30754.9,
+      "z": -521000
+    },
     "products": [
       {
         "itemId": 5960,
@@ -15866,6 +16996,11 @@
     "workload": 560,
     "distance": 1410,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -167812,
+      "y": 9410.29,
+      "z": -515349
+    },
     "products": [
       {
         "itemId": 4013,
@@ -15925,6 +17060,11 @@
     "workload": 560,
     "distance": 1306,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -161906,
+      "y": 14350,
+      "z": -529284
+    },
     "products": [
       {
         "itemId": 4013,
@@ -15984,6 +17124,11 @@
     "workload": 560,
     "distance": 2265,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -292744,
+      "y": 19370.4,
+      "z": -520328
+    },
     "products": [
       {
         "itemId": 4619,
@@ -16083,6 +17228,11 @@
     "workload": 400,
     "distance": 1506,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -268688,
+      "y": 5514.71,
+      "z": -597347
+    },
     "products": [
       {
         "itemId": 7921,
@@ -16132,6 +17282,11 @@
     "workload": 2400,
     "distance": 2486,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -320454,
+      "y": -7891.9,
+      "z": -610001
+    },
     "products": [
       {
         "itemId": 8536,
@@ -16221,6 +17376,11 @@
     "workload": 560,
     "distance": 832,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -199243,
+      "y": 9179.53,
+      "z": -602743
+    },
     "products": [
       {
         "itemId": 4619,
@@ -16320,6 +17480,11 @@
     "workload": 1200,
     "distance": 2555,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -210558,
+      "y": 18313.5,
+      "z": -455994
+    },
     "products": [
       {
         "itemId": 5960,
@@ -16379,6 +17544,11 @@
     "workload": 560,
     "distance": 3612,
     "nearestTown": "Trent",
+    "position": {
+      "x": -500734,
+      "y": 911.584,
+      "z": -71348.4
+    },
     "products": [
       {
         "itemId": 4003,
@@ -16448,6 +17618,11 @@
     "workload": 10200,
     "distance": 3666,
     "nearestTown": "Trent",
+    "position": {
+      "x": -497589,
+      "y": 413.732,
+      "z": -64549.2
+    },
     "products": [
       {
         "itemId": 5960,
@@ -16507,6 +17682,11 @@
     "workload": 8000,
     "distance": 2895,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 38344.9,
+      "y": -4488.56,
+      "z": 379244
+    },
     "products": [
       {
         "itemId": 4001,
@@ -16576,6 +17756,11 @@
     "workload": 8000,
     "distance": 3648,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 65814.8,
+      "y": -2743.09,
+      "z": 408081
+    },
     "products": [
       {
         "itemId": 4001,
@@ -16645,6 +17830,11 @@
     "workload": 8000,
     "distance": 4784,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 222464,
+      "y": 3105.45,
+      "z": 552340
+    },
     "products": [
       {
         "itemId": 4001,
@@ -16714,6 +17904,11 @@
     "workload": 8000,
     "distance": 4747,
     "nearestTown": "Iliya Island",
+    "position": {
+      "x": 266513,
+      "y": -4124.78,
+      "z": 539703
+    },
     "products": [
       {
         "itemId": 4001,
@@ -16783,6 +17978,11 @@
     "workload": 1440,
     "distance": 2404,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 184885,
+      "y": 33800.8,
+      "z": -506317
+    },
     "products": [
       {
         "itemId": 9069,
@@ -16842,6 +18042,11 @@
     "workload": 400,
     "distance": 577,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 212423,
+      "y": 24625.7,
+      "z": -393968
+    },
     "products": [
       {
         "itemId": 7360,
@@ -16891,6 +18096,11 @@
     "workload": 560,
     "distance": 2066,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": 47789.2,
+      "y": 23578.6,
+      "z": -498102
+    },
     "products": [
       {
         "itemId": 4207,
@@ -16940,6 +18150,11 @@
     "workload": 1200,
     "distance": 2086,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": 44446.3,
+      "y": 23705.6,
+      "z": -496239
+    },
     "products": [
       {
         "itemId": 4015,
@@ -16999,6 +18214,11 @@
     "workload": 560,
     "distance": 1460,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 148872,
+      "y": 15931.3,
+      "z": -487235
+    },
     "products": [
       {
         "itemId": 4621,
@@ -17098,6 +18318,11 @@
     "workload": 560,
     "distance": 1611,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 155524,
+      "y": 17686.8,
+      "z": -494690
+    },
     "products": [
       {
         "itemId": 4414,
@@ -17147,6 +18372,11 @@
     "workload": 400,
     "distance": 2497,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -57294.4,
+      "y": 35808,
+      "z": -526564
+    },
     "products": [
       {
         "itemId": 5544,
@@ -17206,6 +18436,11 @@
     "workload": 400,
     "distance": 2359,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -42912.7,
+      "y": 34241.6,
+      "z": -527360
+    },
     "products": [
       {
         "itemId": 5546,
@@ -17265,6 +18500,11 @@
     "workload": 2700,
     "distance": 1571,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 89848,
+      "y": 20599.7,
+      "z": -439017
+    },
     "products": [
       {
         "itemId": 8933,
@@ -17314,6 +18554,11 @@
     "workload": 400,
     "distance": 2059,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 105746,
+      "y": 19876.8,
+      "z": -509604
+    },
     "products": [
       {
         "itemId": 5532,
@@ -17363,6 +18608,11 @@
     "workload": 560,
     "distance": 1408,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 132240,
+      "y": 15124.4,
+      "z": -466935
+    },
     "products": [
       {
         "itemId": 4604,
@@ -17452,6 +18702,11 @@
     "workload": 1200,
     "distance": 1167,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 108687,
+      "y": 16122.7,
+      "z": -445969
+    },
     "products": [
       {
         "itemId": 4015,
@@ -17511,6 +18766,11 @@
     "workload": 400,
     "distance": 1098,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 109134,
+      "y": 16624.1,
+      "z": -437934
+    },
     "products": [
       {
         "itemId": 7702,
@@ -17550,6 +18810,11 @@
     "workload": 560,
     "distance": 703,
     "nearestTown": "Eilton",
+    "position": {
+      "x": 169259,
+      "y": 13933.7,
+      "z": -347071
+    },
     "products": [
       {
         "itemId": 4621,
@@ -17646,6 +18911,11 @@
     "workload": 560,
     "distance": 1810,
     "nearestTown": "Nampo's Moodle Village",
+    "position": {
+      "x": -1244770,
+      "y": -2198.53,
+      "z": 1181790
+    },
     "products": [
       {
         "itemId": 5532,
@@ -17688,6 +18958,11 @@
     "workload": 10200,
     "distance": 2828,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1217180,
+      "y": 6866.49,
+      "z": 1260100
+    },
     "products": [
       {
         "itemId": 4406,
@@ -17770,6 +19045,11 @@
     "workload": 10200,
     "distance": 2784,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1217380,
+      "y": 4955.69,
+      "z": 1248360
+    },
     "products": [
       {
         "itemId": 4406,
@@ -17846,6 +19126,11 @@
     "workload": 10200,
     "distance": 2136,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1143350,
+      "y": -952.743,
+      "z": 1152630
+    },
     "products": [
       {
         "itemId": 5960,
@@ -17922,6 +19207,11 @@
     "workload": 300,
     "distance": 1467,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1164240,
+      "y": 19020.7,
+      "z": 1193780
+    },
     "products": [
       {
         "itemId": 820110,
@@ -17968,6 +19258,11 @@
     "workload": 300,
     "distance": 1530,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1160130,
+      "y": 18687.2,
+      "z": 1190220
+    },
     "products": [
       {
         "itemId": 820110,
@@ -18014,6 +19309,11 @@
     "workload": 300,
     "distance": 2784,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1070500,
+      "y": -5407.79,
+      "z": 1124060
+    },
     "products": [
       {
         "itemId": 4603,
@@ -18110,6 +19410,11 @@
     "workload": 560,
     "distance": 2799,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1065190,
+      "y": -6489.76,
+      "z": 1122260
+    },
     "products": [
       {
         "itemId": 5532,
@@ -18156,6 +19461,11 @@
     "workload": 300,
     "distance": 1789,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1085110,
+      "y": 12346.3,
+      "z": 1201270
+    },
     "products": [
       {
         "itemId": 4603,
@@ -18252,6 +19562,11 @@
     "workload": 560,
     "distance": 1822,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1082560,
+      "y": 10874.8,
+      "z": 1195180
+    },
     "products": [
       {
         "itemId": 5532,
@@ -18298,6 +19613,11 @@
     "workload": 300,
     "distance": 707,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1084960,
+      "y": 22336.1,
+      "z": 1239460
+    },
     "products": [
       {
         "itemId": 820108,
@@ -18344,6 +19664,11 @@
     "workload": 300,
     "distance": 795,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1075410,
+      "y": 22757.3,
+      "z": 1237370
+    },
     "products": [
       {
         "itemId": 820136,
@@ -18390,6 +19715,11 @@
     "workload": 300,
     "distance": 2575,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1109500,
+      "y": -5564.56,
+      "z": 1427000
+    },
     "products": [
       {
         "itemId": 820107,
@@ -18436,6 +19766,11 @@
     "workload": 300,
     "distance": 2446,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1102560,
+      "y": -7020.57,
+      "z": 1418170
+    },
     "products": [
       {
         "itemId": 4607,
@@ -18522,6 +19857,11 @@
     "workload": 400,
     "distance": 2687,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1202700,
+      "y": 26928.4,
+      "z": 1385620
+    },
     "products": [
       {
         "itemId": 4602,
@@ -18618,6 +19958,11 @@
     "workload": 300,
     "distance": 2473,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1194070,
+      "y": 24962.8,
+      "z": 1383800
+    },
     "products": [
       {
         "itemId": 820107,
@@ -18664,6 +20009,11 @@
     "workload": 10200,
     "distance": 2588,
     "nearestTown": "Nampo's Moodle Village",
+    "position": {
+      "x": -1374380,
+      "y": -5955.84,
+      "z": 1015100
+    },
     "products": [
       {
         "itemId": 5960,
@@ -18720,6 +20070,11 @@
     "workload": 300,
     "distance": 1846,
     "nearestTown": "Nampo's Moodle Village",
+    "position": {
+      "x": -1317030,
+      "y": 14605,
+      "z": 1247080
+    },
     "products": [
       {
         "itemId": 820108,
@@ -18766,6 +20121,11 @@
     "workload": 560,
     "distance": 1816,
     "nearestTown": "Nampo's Moodle Village",
+    "position": {
+      "x": -1325270,
+      "y": 14793.2,
+      "z": 1239910
+    },
     "products": [
       {
         "itemId": 820113,
@@ -18812,6 +20172,11 @@
     "workload": 400,
     "distance": 272,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1020120,
+      "y": -5500.15,
+      "z": 1285580
+    },
     "products": [
       {
         "itemId": 820117,
@@ -18858,6 +20223,11 @@
     "workload": 400,
     "distance": 136,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1022980,
+      "y": -3877.94,
+      "z": 1300130
+    },
     "products": [
       {
         "itemId": 820120,
@@ -18904,6 +20274,11 @@
     "workload": 400,
     "distance": 168,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1020000,
+      "y": -4095.3,
+      "z": 1301300
+    },
     "products": [
       {
         "itemId": 820123,
@@ -18950,6 +20325,11 @@
     "workload": 300,
     "distance": 400,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1006000,
+      "y": -5663.17,
+      "z": 1294740
+    },
     "products": [
       {
         "itemId": 820101,
@@ -19006,6 +20386,11 @@
     "workload": 10200,
     "distance": 2578,
     "nearestTown": "Dalbeol Village",
+    "position": {
+      "x": -1195450,
+      "y": 24447.3,
+      "z": 1391560
+    },
     "products": [
       {
         "itemId": 5960,
@@ -19072,6 +20457,11 @@
     "workload": 8000,
     "distance": 1190,
     "nearestTown": "Nopsae's Byeot County",
+    "position": {
+      "x": -1002290,
+      "y": -7680.98,
+      "z": 1340590
+    },
     "products": [
       {
         "itemId": 8022,
@@ -19168,6 +20558,11 @@
     "workload": 400,
     "distance": 146,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1428600,
+      "y": 5836.04,
+      "z": 1231620
+    },
     "products": [
       {
         "itemId": 820117,
@@ -19214,6 +20609,11 @@
     "workload": 400,
     "distance": 219,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1427190,
+      "y": 5822.69,
+      "z": 1239000
+    },
     "products": [
       {
         "itemId": 820117,
@@ -19260,6 +20660,11 @@
     "workload": 400,
     "distance": 222,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1434650,
+      "y": 6922.72,
+      "z": 1234480
+    },
     "products": [
       {
         "itemId": 820120,
@@ -19306,6 +20711,11 @@
     "workload": 400,
     "distance": 211,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1429670,
+      "y": 5966.94,
+      "z": 1244480
+    },
     "products": [
       {
         "itemId": 820123,
@@ -19352,6 +20762,11 @@
     "workload": 300,
     "distance": 1721,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1502180,
+      "y": 9203.28,
+      "z": 1281700
+    },
     "products": [
       {
         "itemId": 4606,
@@ -19438,6 +20853,11 @@
     "workload": 5100,
     "distance": 1711,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1382540,
+      "y": 9383.9,
+      "z": 1400410
+    },
     "products": [
       {
         "itemId": 4406,
@@ -19494,6 +20914,11 @@
     "workload": 400,
     "distance": 1391,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1354360,
+      "y": 13542.7,
+      "z": 1303620
+    },
     "products": [
       {
         "itemId": 4003,
@@ -19560,6 +20985,11 @@
     "workload": 300,
     "distance": 348,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1419220,
+      "y": 9020.3,
+      "z": 1265170
+    },
     "products": [
       {
         "itemId": 4604,
@@ -19656,6 +21086,11 @@
     "workload": 400,
     "distance": 2246,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1467410,
+      "y": -6038.27,
+      "z": 1231830
+    },
     "products": [
       {
         "itemId": 4003,
@@ -19722,6 +21157,11 @@
     "workload": 300,
     "distance": 2213,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1470270,
+      "y": -5028.48,
+      "z": 1228870
+    },
     "products": [
       {
         "itemId": 820136,
@@ -19768,6 +21208,11 @@
     "workload": 300,
     "distance": 1366,
     "nearestTown": "Godu Village",
+    "position": {
+      "x": -1432640,
+      "y": 3801.75,
+      "z": 1143490
+    },
     "products": [
       {
         "itemId": 4603,
@@ -19864,6 +21309,11 @@
     "workload": 5100,
     "distance": 1796,
     "nearestTown": "Bukpo",
+    "position": {
+      "x": -1352780,
+      "y": 710.763,
+      "z": 1439840
+    },
     "products": [
       {
         "itemId": 4406,
@@ -19920,6 +21370,11 @@
     "workload": 300,
     "distance": 1250,
     "nearestTown": "Bukpo",
+    "position": {
+      "x": -1433740,
+      "y": -2679.34,
+      "z": 1456300
+    },
     "products": [
       {
         "itemId": 4602,
@@ -20016,6 +21471,11 @@
     "workload": 300,
     "distance": 1150,
     "nearestTown": "Bukpo",
+    "position": {
+      "x": -1429190,
+      "y": -2530.41,
+      "z": 1463290
+    },
     "products": [
       {
         "itemId": 4602,
@@ -20112,6 +21572,11 @@
     "workload": 400,
     "distance": 1267,
     "nearestTown": "Bukpo",
+    "position": {
+      "x": -1382480,
+      "y": -6263.08,
+      "z": 1461800
+    },
     "products": [
       {
         "itemId": 4001,
@@ -20178,6 +21643,11 @@
     "workload": 300,
     "distance": 1006,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1507050,
+      "y": -5359.71,
+      "z": 1371290
+    },
     "products": [
       {
         "itemId": 4606,
@@ -20274,6 +21744,11 @@
     "workload": 1000,
     "distance": 1266,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1501130,
+      "y": -4640.95,
+      "z": 1351870
+    },
     "products": [
       {
         "itemId": 4005,
@@ -20340,6 +21815,11 @@
     "workload": 1000,
     "distance": 1205,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1504620,
+      "y": -5397.49,
+      "z": 1351700
+    },
     "products": [
       {
         "itemId": 4005,
@@ -20406,6 +21886,11 @@
     "workload": 1000,
     "distance": 1666,
     "nearestTown": "Yukjo Street",
+    "position": {
+      "x": -1522290,
+      "y": -6528.71,
+      "z": 1233090
+    },
     "products": [
       {
         "itemId": 4005,
@@ -20475,6 +21960,11 @@
     "workload": 1000,
     "distance": 544,
     "nearestTown": "Asparkan",
+    "position": {
+      "x": 285980,
+      "y": -1290.3,
+      "z": -229786
+    },
     "products": [
       {
         "itemId": 4609,
@@ -20574,6 +22064,11 @@
     "workload": 1000,
     "distance": 1514,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 332655,
+      "y": -4442.94,
+      "z": -225130
+    },
     "products": [
       {
         "itemId": 4003,
@@ -20633,6 +22128,11 @@
     "workload": 1000,
     "distance": 1481,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 333523,
+      "y": -4427.68,
+      "z": -218855
+    },
     "products": [
       {
         "itemId": 4001,
@@ -20692,6 +22192,11 @@
     "workload": 5100,
     "distance": 1768,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 449656,
+      "y": 1519.28,
+      "z": -252372
+    },
     "products": [
       {
         "itemId": 4406,
@@ -20751,6 +22256,11 @@
     "workload": 5100,
     "distance": 1852,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 454873,
+      "y": 1148.61,
+      "z": -257823
+    },
     "products": [
       {
         "itemId": 4411,
@@ -20810,6 +22320,11 @@
     "workload": 560,
     "distance": 1047,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 287273,
+      "y": -4326.98,
+      "z": -289728
+    },
     "products": [
       {
         "itemId": 4604,
@@ -20909,6 +22424,11 @@
     "workload": 1000,
     "distance": 1169,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 389577,
+      "y": 11484.1,
+      "z": -279332
+    },
     "products": [
       {
         "itemId": 4001,
@@ -20978,6 +22498,11 @@
     "workload": 1000,
     "distance": 1470,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 304277,
+      "y": 17023.1,
+      "z": -398617
+    },
     "products": [
       {
         "itemId": 4608,
@@ -21077,6 +22602,11 @@
     "workload": 560,
     "distance": 1349,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 301633,
+      "y": 16796.5,
+      "z": -389976
+    },
     "products": [
       {
         "itemId": 4607,
@@ -21176,6 +22706,11 @@
     "workload": 1000,
     "distance": 1245,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 414979,
+      "y": 9739.91,
+      "z": -376933
+    },
     "products": [
       {
         "itemId": 4603,
@@ -21275,6 +22810,11 @@
     "workload": 560,
     "distance": 1214,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 415099,
+      "y": 10534.8,
+      "z": -361984
+    },
     "products": [
       {
         "itemId": 4604,
@@ -21374,6 +22914,11 @@
     "workload": 1000,
     "distance": 2686,
     "nearestTown": "Muzgar",
+    "position": {
+      "x": 482717,
+      "y": 8009.34,
+      "z": -399199
+    },
     "products": [
       {
         "itemId": 4609,
@@ -21473,6 +23018,11 @@
     "workload": 300,
     "distance": 712,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -182233,
+      "y": 6152.09,
+      "z": -134906
+    },
     "products": [
       {
         "itemId": 4606,
@@ -21562,6 +23112,11 @@
     "workload": 300,
     "distance": 1220,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -122407,
+      "y": 3282.92,
+      "z": -182342
+    },
     "products": [
       {
         "itemId": 4607,
@@ -21661,6 +23216,11 @@
     "workload": 400,
     "distance": 541,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -164855,
+      "y": -979.242,
+      "z": -187828
+    },
     "products": [
       {
         "itemId": 4005,
@@ -21720,6 +23280,11 @@
     "workload": 1000,
     "distance": 404,
     "nearestTown": "Keplan",
+    "position": {
+      "x": -152802,
+      "y": 1829.43,
+      "z": -121350
+    },
     "products": [
       {
         "itemId": 4003,
@@ -21779,6 +23344,11 @@
     "workload": 1000,
     "distance": 2445,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 695105,
+      "y": -1793.78,
+      "z": 572919
+    },
     "products": [
       {
         "itemId": 4624,
@@ -21878,6 +23448,11 @@
     "workload": 1000,
     "distance": 3173,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 658972,
+      "y": -1660.07,
+      "z": 663322
+    },
     "products": [
       {
         "itemId": 4008,
@@ -21947,6 +23522,11 @@
     "workload": 5100,
     "distance": 2022,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 506732,
+      "y": 77.9517,
+      "z": 585833
+    },
     "products": [
       {
         "itemId": 4409,
@@ -22006,6 +23586,11 @@
     "workload": 1000,
     "distance": 2169,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 582460,
+      "y": 1480.49,
+      "z": 626924
+    },
     "products": [
       {
         "itemId": 4009,
@@ -22075,6 +23660,11 @@
     "workload": 1000,
     "distance": 1560,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 622187,
+      "y": 4217,
+      "z": 527443
+    },
     "products": [
       {
         "itemId": 4611,
@@ -22164,6 +23754,11 @@
     "workload": 1000,
     "distance": 2621,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 728901,
+      "y": 8984.03,
+      "z": 511499
+    },
     "products": [
       {
         "itemId": 4611,
@@ -22253,6 +23848,11 @@
     "workload": 1000,
     "distance": 2606,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 722841,
+      "y": 10103.6,
+      "z": 518575
+    },
     "products": [
       {
         "itemId": 4611,
@@ -22352,6 +23952,11 @@
     "workload": 1000,
     "distance": 2550,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 696401,
+      "y": 632.963,
+      "z": 584463
+    },
     "products": [
       {
         "itemId": 4624,
@@ -22451,6 +24056,11 @@
     "workload": 1000,
     "distance": 2678,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 608634,
+      "y": -1034.61,
+      "z": 641680
+    },
     "products": [
       {
         "itemId": 4009,
@@ -22520,6 +24130,11 @@
     "workload": 1000,
     "distance": 3162,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 604171,
+      "y": 261.307,
+      "z": 708097
+    },
     "products": [
       {
         "itemId": 4008,
@@ -22589,6 +24204,11 @@
     "workload": 5100,
     "distance": 3897,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 511244,
+      "y": 1593.05,
+      "z": 720529
+    },
     "products": [
       {
         "itemId": 4411,
@@ -22648,6 +24268,11 @@
     "workload": 1000,
     "distance": 4815,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 568312,
+      "y": 1291.12,
+      "z": 743496
+    },
     "products": [
       {
         "itemId": 4008,
@@ -22717,6 +24342,11 @@
     "workload": 1000,
     "distance": 3561,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 555733,
+      "y": 9897.96,
+      "z": 724275
+    },
     "products": [
       {
         "itemId": 4009,
@@ -22786,6 +24416,11 @@
     "workload": 1000,
     "distance": 3444,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 612133,
+      "y": 2614.96,
+      "z": 695688
+    },
     "products": [
       {
         "itemId": 4611,
@@ -22885,6 +24520,11 @@
     "workload": 2400,
     "distance": 823,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 481683,
+      "y": -9757.06,
+      "z": 473464
+    },
     "products": [
       {
         "itemId": 821306,
@@ -22974,6 +24614,11 @@
     "workload": 300,
     "distance": 1311,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 622270,
+      "y": 5605.01,
+      "z": 449557
+    },
     "products": [
       {
         "itemId": 6656,
@@ -23033,6 +24678,11 @@
     "workload": 5100,
     "distance": 1134,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -16848.4,
+      "y": 9621.39,
+      "z": -330897
+    },
     "products": [
       {
         "itemId": 4410,
@@ -23092,6 +24742,11 @@
     "workload": 5100,
     "distance": 1198,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -13570.7,
+      "y": 9785.8,
+      "z": -328676
+    },
     "products": [
       {
         "itemId": 4410,
@@ -23151,6 +24806,11 @@
     "workload": 300,
     "distance": 1549,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": 62768.1,
+      "y": 31510.5,
+      "z": -350894
+    },
     "products": [
       {
         "itemId": 4607,
@@ -23250,6 +24910,11 @@
     "workload": 300,
     "distance": 1619,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": 68598.1,
+      "y": 30351.3,
+      "z": -339366
+    },
     "products": [
       {
         "itemId": 4607,
@@ -23349,6 +25014,11 @@
     "workload": 1200,
     "distance": 1639,
     "nearestTown": "Grána",
+    "position": {
+      "x": -573202,
+      "y": -2607.15,
+      "z": -439390
+    },
     "products": [
       {
         "itemId": 5522,
@@ -23408,6 +25078,11 @@
     "workload": 1200,
     "distance": 1510,
     "nearestTown": "Grána",
+    "position": {
+      "x": -581281,
+      "y": -3289.87,
+      "z": -374984
+    },
     "products": [
       {
         "itemId": 5522,
@@ -23467,6 +25142,11 @@
     "workload": 5100,
     "distance": 2181,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -440199,
+      "y": 17650,
+      "z": -320900
+    },
     "products": [
       {
         "itemId": 4407,
@@ -23526,6 +25206,11 @@
     "workload": 560,
     "distance": 2355,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -346305,
+      "y": 32089.1,
+      "z": -305572
+    },
     "products": [
       {
         "itemId": 4011,
@@ -23585,6 +25270,11 @@
     "workload": 560,
     "distance": 2288,
     "nearestTown": "Old Wisdom Tree",
+    "position": {
+      "x": -339763,
+      "y": 32649.8,
+      "z": -304568
+    },
     "products": [
       {
         "itemId": 4011,
@@ -23644,6 +25334,11 @@
     "workload": 400,
     "distance": 1523,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -270507,
+      "y": 5890.69,
+      "z": -594339
+    },
     "products": [
       {
         "itemId": 7921,
@@ -23693,6 +25388,11 @@
     "workload": 560,
     "distance": 1822,
     "nearestTown": "O'draxxia",
+    "position": {
+      "x": -294441,
+      "y": 990.322,
+      "z": -606529
+    },
     "products": [
       {
         "itemId": 4619,
@@ -23792,6 +25492,11 @@
     "workload": 560,
     "distance": 2346,
     "nearestTown": "Duvencrune",
+    "position": {
+      "x": -204919,
+      "y": 17967.5,
+      "z": -476950
+    },
     "products": [
       {
         "itemId": 4013,
@@ -23851,6 +25556,11 @@
     "workload": 400,
     "distance": 2330,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 735166,
+      "y": 12447.6,
+      "z": 377453
+    },
     "products": [
       {
         "itemId": 4008,
@@ -23920,6 +25630,11 @@
     "workload": 1200,
     "distance": 2471,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 827091,
+      "y": 7720.3,
+      "z": 279608
+    },
     "products": [
       {
         "itemId": 4202,
@@ -23979,6 +25694,11 @@
     "workload": 1200,
     "distance": 2741,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 754975,
+      "y": 9796.58,
+      "z": 141316
+    },
     "products": [
       {
         "itemId": 4202,
@@ -24038,6 +25758,11 @@
     "workload": 1200,
     "distance": 2303,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 888207,
+      "y": 17889.3,
+      "z": 62268.8
+    },
     "products": [
       {
         "itemId": 4202,
@@ -24097,6 +25822,11 @@
     "workload": 1200,
     "distance": 2882,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 824306,
+      "y": 11057.9,
+      "z": -20783.7
+    },
     "products": [
       {
         "itemId": 4202,
@@ -24156,6 +25886,11 @@
     "workload": 560,
     "distance": 3341,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 1138640,
+      "y": 16942.7,
+      "z": -80537.1
+    },
     "products": [
       {
         "itemId": 4001,
@@ -24215,6 +25950,11 @@
     "workload": 400,
     "distance": 2608,
     "nearestTown": "Valencia City",
+    "position": {
+      "x": 1156070,
+      "y": 12992,
+      "z": 8496.97
+    },
     "products": [
       {
         "itemId": 4009,
@@ -24284,6 +26024,11 @@
     "workload": 400,
     "distance": 2782,
     "nearestTown": "Arehaza",
+    "position": {
+      "x": 1176070,
+      "y": 15340.6,
+      "z": 10597.6
+    },
     "products": [
       {
         "itemId": 4009,
@@ -24353,6 +26098,11 @@
     "workload": 400,
     "distance": 1987,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 425030,
+      "y": 797.852,
+      "z": 55908.5
+    },
     "products": [
       {
         "itemId": 4609,
@@ -24452,6 +26202,11 @@
     "workload": 5100,
     "distance": 1923,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 457008,
+      "y": 379.47,
+      "z": 72193.8
+    },
     "products": [
       {
         "itemId": 4412,
@@ -24511,6 +26266,11 @@
     "workload": 5100,
     "distance": 1908,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 461012,
+      "y": -253.103,
+      "z": 70412.9
+    },
     "products": [
       {
         "itemId": 4411,
@@ -24570,6 +26330,11 @@
     "workload": 400,
     "distance": 2823,
     "nearestTown": "Altinova",
+    "position": {
+      "x": 364576,
+      "y": 2964.45,
+      "z": 100089
+    },
     "products": [
       {
         "itemId": 4008,
@@ -24639,6 +26404,11 @@
     "workload": 400,
     "distance": 2228,
     "nearestTown": "Sand Grain Bazaar",
+    "position": {
+      "x": 476258,
+      "y": -4013.01,
+      "z": -70747.7
+    },
     "products": [
       {
         "itemId": 4009,
@@ -24708,6 +26478,11 @@
     "workload": 1000,
     "distance": 1841,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 474245,
+      "y": 953.693,
+      "z": 178854
+    },
     "products": [
       {
         "itemId": 4608,
@@ -24807,6 +26582,11 @@
     "workload": 1000,
     "distance": 1826,
     "nearestTown": "Shakatu",
+    "position": {
+      "x": 470722,
+      "y": 963.657,
+      "z": 177441
+    },
     "products": [
       {
         "itemId": 4608,
@@ -24906,6 +26686,11 @@
     "workload": 1000,
     "distance": 536,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1151800,
+      "y": 8733.42,
+      "z": 651528
+    },
     "products": [
       {
         "itemId": 4611,
@@ -25005,6 +26790,11 @@
     "workload": 1000,
     "distance": 1441,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1079930,
+      "y": -5998.9,
+      "z": 744367
+    },
     "products": [
       {
         "itemId": 4008,
@@ -25064,6 +26854,11 @@
     "workload": 1000,
     "distance": 1315,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1046210,
+      "y": 11303.6,
+      "z": 649843
+    },
     "products": [
       {
         "itemId": 4616,
@@ -25163,6 +26958,11 @@
     "workload": 5100,
     "distance": 2087,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 1005210,
+      "y": 15370.5,
+      "z": 621816
+    },
     "products": [
       {
         "itemId": 4407,
@@ -25222,6 +27022,11 @@
     "workload": 1000,
     "distance": 4616,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 788606,
+      "y": 2841.21,
+      "z": 600253
+    },
     "products": [
       {
         "itemId": 4624,
@@ -25321,6 +27126,11 @@
     "workload": 1000,
     "distance": 4600,
     "nearestTown": "Hakinza Sanctuary",
+    "position": {
+      "x": 789725,
+      "y": 2820.2,
+      "z": 604169
+    },
     "products": [
       {
         "itemId": 4624,
@@ -25420,6 +27230,11 @@
     "workload": 5100,
     "distance": 3672,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 889484,
+      "y": 16134.7,
+      "z": 716429
+    },
     "products": [
       {
         "itemId": 4415,
@@ -25479,6 +27294,11 @@
     "workload": 1000,
     "distance": 3675,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 885042,
+      "y": 15960.7,
+      "z": 714619
+    },
     "products": [
       {
         "itemId": 4016,
@@ -25538,6 +27358,11 @@
     "workload": 1000,
     "distance": 3150,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 924344,
+      "y": 485.423,
+      "z": 775322
+    },
     "products": [
       {
         "itemId": 4611,
@@ -25637,6 +27462,11 @@
     "workload": 5100,
     "distance": 3235,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 928864,
+      "y": -959.506,
+      "z": 782779
+    },
     "products": [
       {
         "itemId": 4410,
@@ -25696,6 +27526,11 @@
     "workload": 5100,
     "distance": 4943,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 788861,
+      "y": 6653.03,
+      "z": 733844
+    },
     "products": [
       {
         "itemId": 4408,
@@ -25755,6 +27590,11 @@
     "workload": 1000,
     "distance": 4895,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 792976,
+      "y": 7434.41,
+      "z": 740165
+    },
     "products": [
       {
         "itemId": 4017,
@@ -25814,6 +27654,11 @@
     "workload": 5100,
     "distance": 5187,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 801902,
+      "y": 16477.9,
+      "z": 804679
+    },
     "products": [
       {
         "itemId": 4411,
@@ -25873,6 +27718,11 @@
     "workload": 1000,
     "distance": 5268,
     "nearestTown": "Angavu Outpost",
+    "position": {
+      "x": 794743,
+      "y": 17207.3,
+      "z": 809393
+    },
     "products": [
       {
         "itemId": 4009,

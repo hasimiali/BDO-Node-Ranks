@@ -5,7 +5,7 @@ import { fetchMarketStatus, fetchNodeRanking, fetchRankings } from "../api";
 import { confidenceClass, formatNumber, formatSilver } from "../format";
 import { DataPage } from "./DataPage";
 
-type Page = "dashboard" | "nodes" | "data" | "detail";
+type Page = "dashboard" | "nodes" | "map" | "data" | "detail";
 type SortKey = "score" | "silver/day" | "cp" | "demand" | "liquidity" | "yield";
 const marketRegions = ["NA", "EU", "ASIA", "MENA", "JP", "KR", "TW", "SA", "RU"];
 
@@ -50,6 +50,7 @@ export function App() {
         {error && <Panel><span className="text-red-300">{error}</span></Panel>}
         {!loading && !error && page === "dashboard" && <Dashboard rankings={rankings} openDetail={openDetail} />}
         {!loading && !error && page === "nodes" && <NodesPage rankings={rankings} openDetail={openDetail} />}
+        {!loading && !error && page === "map" && <MapPage rankings={rankings} openDetail={openDetail} />}
         {!loading && !error && page === "data" && <DataPage />}
         {!loading && !error && page === "detail" && <DetailPage detail={detail} />}
       </div>
@@ -70,6 +71,7 @@ function Header({ page, setPage, status, marketRegion, setMarketRegion }: { page
           <label className="text-xs text-slate-400">Market server<select className="ml-2 rounded-full border border-white/10 bg-slate-950 px-3 py-2 text-sm font-semibold text-white" value={marketRegion} onChange={(event) => setMarketRegion(event.target.value)}>{marketRegions.map((region) => <option key={region}>{region}</option>)}</select></label>
           <button className={navClass(page === "dashboard")} onClick={() => setPage("dashboard")}>Dashboard</button>
           <button className={navClass(page === "nodes")} onClick={() => setPage("nodes")}>Nodes</button>
+          <button className={navClass(page === "map")} onClick={() => setPage("map")}>Map</button>
           <button className={navClass(page === "data")} onClick={() => setPage("data")}>Data</button>
         </div>
       </div>
@@ -126,6 +128,64 @@ function NodesPage({ rankings, openDetail }: { rankings: NodeRanking[]; openDeta
       <RankingTable rankings={filtered} openDetail={openDetail} />
     </Panel>
   );
+}
+
+function MapPage({ rankings, openDetail }: { rankings: NodeRanking[]; openDetail: (id: number) => void }) {
+  const [selectedId, setSelectedId] = useState<number | null>(rankings.find((ranking) => ranking.rank === 1)?.node.id ?? null);
+  const [type, setType] = useState("All");
+  const [showOnlyRanked, setShowOnlyRanked] = useState(true);
+  const types = ["All", ...Array.from(new Set(rankings.map((ranking) => ranking.node.type))).sort()];
+  const mapRankings = rankings.filter((ranking) => ranking.node.position && (type === "All" || ranking.node.type === type) && (!showOnlyRanked || ranking.score != null));
+  const selected = mapRankings.find((ranking) => ranking.node.id === selectedId) ?? mapRankings[0] ?? null;
+  const bounds = { minX: -67 * 2 * 12800, minZ: -71 * 2 * 12800, maxX: 58 * 2 * 12800, maxZ: 35 * 2 * 12800 };
+  const zoom = 1;
+  const tileWorldSize = (256 * 12800) / (2 ** zoom);
+  const tileMinX = Math.floor(bounds.minX / tileWorldSize);
+  const tileMaxX = Math.floor((bounds.maxX - 1) / tileWorldSize);
+  const tileMinY = Math.floor(bounds.minZ / tileWorldSize);
+  const tileMaxY = Math.floor((bounds.maxZ - 1) / tileWorldSize);
+  const tiles = [];
+  for (let x = tileMinX; x <= tileMaxX; x++) for (let y = tileMinY; y <= tileMaxY; y++) tiles.push({ x, y });
+  const leftFor = (x: number) => ((x - bounds.minX) / (bounds.maxX - bounds.minX)) * 100;
+  const topFor = (z: number) => (1 - (z - bounds.minZ) / (bounds.maxZ - bounds.minZ)) * 100;
+
+  return <div className="grid gap-5 lg:grid-cols-[1fr_360px]">
+    <Panel>
+      <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+        <div><h2 className="text-2xl font-black">Map View</h2><p className="mt-1 text-sm text-slate-400">Workerman map tiles with ranked production-node overlays.</p></div>
+        <div className="flex flex-wrap items-end gap-3"><Select label="Type" value={type} values={types} setValue={setType} /><label className="flex items-center gap-2 pb-2 text-sm text-slate-300"><input type="checkbox" checked={showOnlyRanked} onChange={(event) => setShowOnlyRanked(event.target.checked)} />Ranked only</label></div>
+      </div>
+      <div className="relative overflow-hidden rounded-xl border border-white/10 bg-black" style={{ aspectRatio: "1.18 / 1" }}>
+        <div className="absolute inset-0">
+          {tiles.map((tile) => {
+            const left = leftFor(tile.x * tileWorldSize);
+            const right = leftFor((tile.x + 1) * tileWorldSize);
+            const top = topFor((tile.y + 1) * tileWorldSize);
+            const bottom = topFor(tile.y * tileWorldSize);
+            return <img key={`${tile.x}_${tile.y}`} src={`https://shrddr.github.io/maptiles/${zoom}/${tile.x}_${tile.y}.webp`} alt="" className="absolute h-full w-full object-fill" style={{ left: `${left}%`, top: `${top}%`, width: `${right - left}%`, height: `${bottom - top}%` }} draggable={false} />;
+          })}
+        </div>
+        {mapRankings.map((ranking) => {
+          const position = ranking.node.position!;
+          const size = ranking.rank != null && ranking.rank <= 10 ? 14 : ranking.score != null ? 9 : 7;
+          const color = ranking.rank != null && ranking.rank <= 10 ? "bg-brass border-amber-100" : ranking.score != null ? "bg-jade border-emerald-100" : "bg-slate-500 border-slate-300";
+          return <button key={ranking.node.id} title={`${ranking.rank ?? "-"}. ${ranking.node.name}`} className={`absolute rounded-full border shadow-lg ${color}`} style={{ left: `${leftFor(position.x)}%`, top: `${topFor(position.z)}%`, width: size, height: size, transform: "translate(-50%, -50%)" }} onClick={() => setSelectedId(ranking.node.id)} />;
+        })}
+        <div className="absolute bottom-2 right-2 rounded bg-black/70 px-2 py-1 text-xs text-slate-300">Map tiles: Workerman / shrddr.github.io</div>
+      </div>
+    </Panel>
+    <Panel>{selected ? <MapNodeDetail ranking={selected} openDetail={openDetail} /> : <div className="text-sm text-slate-400">No nodes with coordinates found.</div>}</Panel>
+  </div>;
+}
+
+function MapNodeDetail({ ranking, openDetail }: { ranking: NodeRanking; openDetail: (id: number) => void }) {
+  return <div>
+    <div className="flex items-start justify-between gap-3"><div><div className="text-sm text-brass">Rank {ranking.rank ?? "-"}</div><h3 className="mt-1 text-xl font-black">{ranking.node.name}</h3><p className="mt-1 text-sm text-slate-400">{ranking.node.type} · {ranking.node.cpCost} CP · {ranking.node.nearestTown ?? ranking.node.region}</p></div><span className={`rounded-full border px-2 py-1 text-xs ${confidenceClass(ranking.confidence)}`}>{ranking.confidence}</span></div>
+    <div className="mt-4 grid grid-cols-2 gap-3"><Summary title="Silver/day" value={formatSilver(ranking.realizableSilverPerDay)} sub={`${formatSilver(ranking.silverPerCp)} / CP`} /><Summary title="Score" value={formatNumber(ranking.score, 1)} sub={`${formatNumber(ranking.demandScore, 0)} ${ranking.demandLabel}`} /></div>
+    <h4 className="mt-5 font-bold">Products</h4>
+    <div className="mt-2 grid gap-2">{ranking.products.map((product) => <div key={product.itemId ?? product.itemName} className="rounded-lg border border-white/10 bg-white/5 p-2"><div className="font-semibold">{product.itemName}</div><ProductSummaryLine product={product} /></div>)}</div>
+    <button className="btn-primary mt-5" onClick={() => openDetail(ranking.node.id)}>Open full detail</button>
+  </div>;
 }
 
 function sortValue(ranking: NodeRanking, key: SortKey): number {

@@ -29,6 +29,11 @@ export interface WorkerNode {
   regionModifier?: number | null;
   distance: number | null;
   nearestTown?: string;
+  position?: {
+    x: number;
+    y: number;
+    z: number;
+  };
   parentNodeId?: number;
   productionNodeId?: number;
   regionGroup?: number;

@@ -22,7 +22,7 @@ interface WorkermanDrops {
 
 interface WorkermanPlantzone {
   key: number;
-  node?: { key?: number; kind?: number; CP?: number };
+  node?: { key?: number; kind?: number; CP?: number; pos?: { x: number; y: number; z: number } };
   peg?: { subgroup?: { drops?: number[] } };
   regiongroup?: number;
   parent?: number;
@@ -115,6 +115,7 @@ const nodes: WorkerNode[] = Object.entries(drops).map(([nodeIdText, dropData]) =
     workload: dropData.workload == null ? null : dropData.workload * 2,
     distance: nearest?.distance ?? null,
     nearestTown: nearest ? townNames[String(nearest.townId)] ?? `Town ${nearest.townId}` : "",
+    position: plantzone?.node?.pos,
     products,
     source,
     confidence: "estimated",
