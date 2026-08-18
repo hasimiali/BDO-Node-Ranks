@@ -19,6 +19,7 @@ const marketRegions = [
   "RU",
 ];
 const donateNumber = "081358579850";
+const koFiUrl = "https://ko-fi.com/treaplabs";
 const donateWallets = ["ShopeePay", "GoPay", "DANA"];
 
 export function App() {
@@ -109,6 +110,31 @@ export function App() {
           <DetailPage detail={detail} />
         )}
       </div>
+
+      <footer className="border-t border-white/10 pt-6 text-center text-sm text-slate-500">
+        <p>
+          BDO Node Ranks is an independent community project and is not
+          affiliated with Pearl Abyss.
+        </p>
+
+        <p className="mt-2">
+          Built by{" "}
+          <a
+            href="https://treaplabs.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-slate-300 transition hover:text-brass"
+          >
+            TreapLabs
+          </a>
+          {" · "}
+          <span>Ali Hasyimi</span>
+        </p>
+
+        <p className="mt-2 text-xs text-slate-600">
+          Data sources and third-party services are credited where applicable.
+        </p>
+      </footer>
     </main>
   );
 }
@@ -240,7 +266,7 @@ function DonateModal({
       aria-labelledby="donate-title"
     >
       <div
-        className="relative w-full max-w-xl overflow-hidden rounded-2xl border border-white/10 bg-[#181a20] shadow-2xl"
+        className="relative w-full max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-[#181a20] shadow-2xl"
         onClick={(event) => event.stopPropagation()}
       >
         {/* Header */}
@@ -275,46 +301,30 @@ function DonateModal({
         <div className="px-6 py-7">
           <p className="mx-auto max-w-lg text-center text-sm leading-6 text-slate-300">
             Jika BDO Node Ranks membantu kamu menemukan node yang lebih
-            menguntungkan, kamu bisa mendukung pengembangannya melalui e-wallet.
+            menguntungkan, kamu bisa mendukung pengembangannya melalui Ko-fi atau e-wallet.
           </p>
 
-          <div className="mt-7 rounded-2xl border border-white/10 bg-white/[0.03] p-5">
-            <div className="text-center">
-              <div className="text-sm font-semibold text-slate-400">
-                Available wallets
+          <div className="mt-7 grid gap-4 md:grid-cols-4">
+            <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-center">
+              <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-red-500/15 text-red-300">
+                <DonateIcon />
               </div>
-
-              <div className="mt-3 flex justify-center gap-2">
-                {donateWallets.map((wallet) => (
-                  <span
-                    key={wallet}
-                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold text-slate-200"
-                  >
-                    {wallet}
-                  </span>
-                ))}
-              </div>
+              <h3 className="mt-4 text-lg font-black text-white">Ko-fi</h3>
+              <p className="mt-2 text-sm text-slate-400">Support via Ko-fi</p>
+              <a className="mt-10 inline-block rounded-xl bg-red-500 px-5 py-3 text-sm font-extrabold text-white transition hover:bg-red-400 active:scale-[0.98]" href={koFiUrl} target="_blank" rel="noreferrer">Open Ko-fi</a>
             </div>
 
-            <div className="mt-6 text-center">
-              <p className="text-xs uppercase tracking-wider text-slate-500">
-                Donation number
-              </p>
-
-              <div className="mt-2 rounded-xl border border-pink-500/20 bg-pink-500/5 px-4 py-4">
-                <div className="text-2xl font-black tracking-wider text-pink-300">
-                  {donateNumber}
+            {donateWallets.map((wallet) => (
+              <div key={wallet} className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-center">
+                <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-pink-500/15 text-pink-400">
+                  <DonateIcon />
                 </div>
+                <h3 className="mt-4 text-lg font-black text-white">{wallet}</h3>
+                <p className="mt-2 text-sm text-slate-400">Transfer ke nomor:</p>
+                <div className="mt-3 rounded-xl border border-pink-500/20 bg-pink-500/5 px-3 py-3 text-lg font-black tracking-wide text-pink-300">{donateNumber}</div>
+                <button type="button" className="mt-4 w-full rounded-xl bg-pink-500 px-5 py-3 text-sm font-extrabold text-white transition hover:bg-pink-400 active:scale-[0.98]" onClick={copyNumber}>{copied ? "✓ Copied" : "Copy"}</button>
               </div>
-
-              <button
-                type="button"
-                className="mt-4 w-full rounded-xl bg-pink-500 px-5 py-3 text-sm font-extrabold text-white transition hover:bg-pink-400 active:scale-[0.98]"
-                onClick={copyNumber}
-              >
-                {copied ? "✓ Number Copied" : "Copy Donation Number"}
-              </button>
-            </div>
+            ))}
           </div>
 
           <p className="mt-5 text-center text-xs leading-5 text-slate-500">
