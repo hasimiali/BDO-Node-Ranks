@@ -7,8 +7,19 @@ import { DataPage } from "./DataPage";
 
 type Page = "dashboard" | "nodes" | "map" | "data" | "detail";
 type SortKey = "score" | "silver/day" | "cp" | "demand" | "liquidity" | "yield";
-const marketRegions = ["NA", "EU", "ASIA", "MENA", "JP", "KR", "TW", "SA", "RU"];
+const marketRegions = [
+  "NA",
+  "EU",
+  "ASIA",
+  "MENA",
+  "JP",
+  "KR",
+  "TW",
+  "SA",
+  "RU",
+];
 const donateNumber = "081358579850";
+const donateWallets = ["ShopeePay", "GoPay", "DANA"];
 
 export function App() {
   const [rankings, setRankings] = useState<NodeRanking[]>([]);
@@ -18,7 +29,9 @@ export function App() {
   const [page, setPage] = useState<Page>("dashboard");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [detail, setDetail] = useState<NodeRanking | null>(null);
-  const [marketRegion, setMarketRegion] = useState(() => localStorage.getItem("bdo-market-region") ?? "ASIA");
+  const [marketRegion, setMarketRegion] = useState(
+    () => localStorage.getItem("bdo-market-region") ?? "ASIA",
+  );
   const [donateOpen, setDonateOpen] = useState(false);
   const [donateCopied, setDonateCopied] = useState(false);
 
@@ -31,13 +44,19 @@ export function App() {
         setRankings(rankingData);
         setStatus(statusData);
       })
-      .catch((err: unknown) => setError(err instanceof Error ? err.message : "Failed to load"))
+      .catch((err: unknown) =>
+        setError(err instanceof Error ? err.message : "Failed to load"),
+      )
       .finally(() => setLoading(false));
   }, [marketRegion]);
 
   useEffect(() => {
     if (page !== "detail" || selectedId == null) return;
-    fetchNodeRanking(selectedId, marketRegion).then(setDetail).catch((err: unknown) => setError(err instanceof Error ? err.message : "Failed to load node"));
+    fetchNodeRanking(selectedId, marketRegion)
+      .then(setDetail)
+      .catch((err: unknown) =>
+        setError(err instanceof Error ? err.message : "Failed to load node"),
+      );
   }, [page, selectedId, marketRegion]);
 
   function openDetail(id: number) {
@@ -54,160 +73,626 @@ export function App() {
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#1f2937_0,#090b10_38%,#05070a_100%)] text-slate-100">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8">
-        <Header page={page} setPage={setPage} status={status} marketRegion={marketRegion} setMarketRegion={setMarketRegion} openDonate={() => setDonateOpen(true)} />
-        {donateOpen && <DonateModal copied={donateCopied} copyNumber={copyDonateNumber} close={() => setDonateOpen(false)} />}
+        <Header
+          page={page}
+          setPage={setPage}
+          status={status}
+          marketRegion={marketRegion}
+          setMarketRegion={setMarketRegion}
+          openDonate={() => setDonateOpen(true)}
+        />
+
+        {donateOpen && (
+          <DonateModal
+            copied={donateCopied}
+            copyNumber={copyDonateNumber}
+            close={() => setDonateOpen(false)}
+          />
+        )}
         {loading && <Panel>Loading rankings...</Panel>}
-        {error && <Panel><span className="text-red-300">{error}</span></Panel>}
-        {!loading && !error && page === "dashboard" && <Dashboard rankings={rankings} openDetail={openDetail} />}
-        {!loading && !error && page === "nodes" && <NodesPage rankings={rankings} openDetail={openDetail} />}
-        {!loading && !error && page === "map" && <MapPage rankings={rankings} openDetail={openDetail} />}
+        {error && (
+          <Panel>
+            <span className="text-red-300">{error}</span>
+          </Panel>
+        )}
+        {!loading && !error && page === "dashboard" && (
+          <Dashboard rankings={rankings} openDetail={openDetail} />
+        )}
+        {!loading && !error && page === "nodes" && (
+          <NodesPage rankings={rankings} openDetail={openDetail} />
+        )}
+        {!loading && !error && page === "map" && (
+          <MapPage rankings={rankings} openDetail={openDetail} />
+        )}
         {!loading && !error && page === "data" && <DataPage />}
-        {!loading && !error && page === "detail" && <DetailPage detail={detail} />}
+        {!loading && !error && page === "detail" && (
+          <DetailPage detail={detail} />
+        )}
       </div>
     </main>
   );
 }
 
-function Header({ page, setPage, status, marketRegion, setMarketRegion, openDonate }: { page: Page; setPage: (page: Page) => void; status: MarketStatus | null; marketRegion: string; setMarketRegion: (region: string) => void; openDonate: () => void }) {
+function Header({
+  page,
+  setPage,
+  status,
+  marketRegion,
+  setMarketRegion,
+  openDonate,
+}: {
+  page: Page;
+  setPage: (page: Page) => void;
+  status: MarketStatus | null;
+  marketRegion: string;
+  setMarketRegion: (region: string) => void;
+  openDonate: () => void;
+}) {
   return (
-    <header className="rounded-2xl border border-white/10 bg-black/35 p-5 shadow-2xl backdrop-blur">
+    <header className="relative rounded-2xl border border-white/10 bg-black/35 p-5 shadow-2xl backdrop-blur">
+      <div className="flex justify-end">
+        <button
+          className="fixed right-6 top-6 z-40 flex items-center gap-3 rounded-xl border border-pink-500/50 bg-pink-500/15 px-6 py-3.5 text-base font-extrabold text-pink-300 shadow-xl backdrop-blur transition hover:border-pink-400/70 hover:bg-pink-500/25 hover:text-pink-200 active:scale-95"
+          onClick={openDonate}
+          aria-label="Open donate dialog"
+        >
+          <DonateIcon />
+          <span>Donate</span>
+        </button>
+      </div>
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <p className="text-xs uppercase tracking-[0.35em] text-brass">BDO Node Optimizer</p>
-          <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">Best CP Worker Nodes</h1>
-          <p className="mt-3 max-w-3xl text-sm text-slate-300">All node rankings use a standardized Artisan Goblin benchmark. Workerman static data is estimated; missing workload or Asia market data is marked incomplete.</p>
+          <p className="text-xs uppercase tracking-[0.35em] text-brass">
+            BDO Node Optimizer
+          </p>
+          <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">
+            Best CP Worker Nodes
+          </h1>
+          <p className="mt-3 max-w-3xl text-sm text-slate-300">
+            All node rankings use a standardized Artisan Goblin benchmark.
+            Workerman static data is estimated; missing workload or Asia market
+            data is marked incomplete.
+          </p>
         </div>
         <div className="flex flex-wrap items-end gap-2">
-          <label className="text-xs text-slate-400">Market server<select className="ml-2 rounded-full border border-white/10 bg-slate-950 px-3 py-2 text-sm font-semibold text-white" value={marketRegion} onChange={(event) => setMarketRegion(event.target.value)}>{marketRegions.map((region) => <option key={region}>{region}</option>)}</select></label>
-          <button className={navClass(page === "dashboard")} onClick={() => setPage("dashboard")}>Dashboard</button>
-          <button className={navClass(page === "nodes")} onClick={() => setPage("nodes")}>Nodes</button>
-          <button className={navClass(page === "map")} onClick={() => setPage("map")}>Map</button>
-          <button className={navClass(page === "data")} onClick={() => setPage("data")}>Data</button>
-          <button className="rounded-full bg-brass px-4 py-2 text-sm font-extrabold text-black transition hover:bg-amber-300" onClick={openDonate}>Donate</button>
+          <label className="text-xs text-slate-400">
+            Market server
+            <select
+              className="ml-2 rounded-full border border-white/10 bg-slate-950 px-3 py-2 text-sm font-semibold text-white"
+              value={marketRegion}
+              onChange={(event) => setMarketRegion(event.target.value)}
+            >
+              {marketRegions.map((region) => (
+                <option key={region}>{region}</option>
+              ))}
+            </select>
+          </label>
+
+          <div className="h-6 w-px bg-white/10" />
+
+          <button
+            className={navClass(page === "dashboard")}
+            onClick={() => setPage("dashboard")}
+          >
+            Dashboard
+          </button>
+
+          <button
+            className={navClass(page === "nodes")}
+            onClick={() => setPage("nodes")}
+          >
+            Nodes
+          </button>
+
+          <button
+            className={navClass(page === "map")}
+            onClick={() => setPage("map")}
+          >
+            Map
+          </button>
+
+          <button
+            className={navClass(page === "data")}
+            onClick={() => setPage("data")}
+          >
+            Data
+          </button>
         </div>
       </div>
-      {status && <div className="mt-4 rounded-xl border border-amber-400/25 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">Market provider: {status.provider} ({status.region}). Unofficial. API failures display unavailable or stale data.</div>}
+      {status && (
+        <div className="mt-4 rounded-xl border border-amber-400/25 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">
+          Market provider: {status.provider} ({status.region}). Unofficial. API
+          failures display unavailable or stale data.
+        </div>
+      )}
     </header>
   );
 }
 
-function DonateModal({ copied, copyNumber, close }: { copied: boolean; copyNumber: () => void; close: () => void }) {
-  return <div className="fixed inset-0 z-50 grid place-items-center bg-black/70 px-4" onClick={close}>
-    <div className="w-full max-w-sm rounded-2xl border border-white/10 bg-slate-950 p-5 shadow-2xl" onClick={(event) => event.stopPropagation()}>
-      <div className="flex items-start justify-between gap-4"><div><p className="text-xs uppercase tracking-[0.3em] text-brass">Support</p><h2 className="mt-2 text-2xl font-black text-white">Donate</h2></div><button className="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200 hover:bg-white/20" onClick={close}>Close</button></div>
-      <p className="mt-4 text-sm text-slate-300">Kirim donasi via ShopeePay, GoPay, atau DANA ke nomor berikut.</p>
-      <div className="mt-4 rounded-xl border border-brass/25 bg-brass/10 p-4 text-center"><div className="text-xs uppercase tracking-wider text-slate-400">ShopeePay / GoPay / DANA</div><div className="mt-2 text-3xl font-black tracking-wide text-brass">{donateNumber}</div></div>
-      <button className="btn-primary mt-4 w-full" onClick={copyNumber}>{copied ? "Copied" : "Copy number"}</button>
+function DonateModal({
+  copied,
+  copyNumber,
+  close,
+}: {
+  copied: boolean;
+  copyNumber: () => void;
+  close: () => void;
+}) {
+  useEffect(() => {
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, []);
+
+  return (
+    <div
+      className="fixed left-0 top-0 z-[99999] flex h-screen w-screen items-center justify-center bg-black/70 p-4 backdrop-blur-xl"
+      style={{
+        backdropFilter: "blur(16px)",
+        WebkitBackdropFilter: "blur(16px)",
+      }}
+      onClick={close}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="donate-title"
+    >
+      <div
+        className="relative w-full max-w-xl overflow-hidden rounded-2xl border border-white/10 bg-[#181a20] shadow-2xl"
+        onClick={(event) => event.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="flex items-center justify-between border-b border-white/10 px-6 py-5">
+          <div className="flex items-center gap-3">
+            <div className="grid h-10 w-10 place-items-center rounded-full bg-pink-500/15 text-pink-400">
+              <DonateIcon />
+            </div>
+
+            <div>
+              <h2 id="donate-title" className="text-xl font-black text-white">
+                Support BDO Node Ranks
+              </h2>
+
+              <p className="mt-0.5 text-xs text-slate-400">
+                Help keep the project running ❤️
+              </p>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            className="grid h-9 w-9 place-items-center rounded-lg text-2xl leading-none text-slate-400 transition hover:bg-white/10 hover:text-white"
+            onClick={close}
+            aria-label="Close donate dialog"
+          >
+            ×
+          </button>
+        </div>
+
+        {/* Content */}
+        <div className="px-6 py-7">
+          <p className="mx-auto max-w-lg text-center text-sm leading-6 text-slate-300">
+            Jika BDO Node Ranks membantu kamu menemukan node yang lebih
+            menguntungkan, kamu bisa mendukung pengembangannya melalui e-wallet.
+          </p>
+
+          <div className="mt-7 rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+            <div className="text-center">
+              <div className="text-sm font-semibold text-slate-400">
+                Available wallets
+              </div>
+
+              <div className="mt-3 flex justify-center gap-2">
+                {donateWallets.map((wallet) => (
+                  <span
+                    key={wallet}
+                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold text-slate-200"
+                  >
+                    {wallet}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-6 text-center">
+              <p className="text-xs uppercase tracking-wider text-slate-500">
+                Donation number
+              </p>
+
+              <div className="mt-2 rounded-xl border border-pink-500/20 bg-pink-500/5 px-4 py-4">
+                <div className="text-2xl font-black tracking-wider text-pink-300">
+                  {donateNumber}
+                </div>
+              </div>
+
+              <button
+                type="button"
+                className="mt-4 w-full rounded-xl bg-pink-500 px-5 py-3 text-sm font-extrabold text-white transition hover:bg-pink-400 active:scale-[0.98]"
+                onClick={copyNumber}
+              >
+                {copied ? "✓ Number Copied" : "Copy Donation Number"}
+              </button>
+            </div>
+          </div>
+
+          <p className="mt-5 text-center text-xs leading-5 text-slate-500">
+            Thank you for supporting BDO Node Ranks. Your contribution helps
+            with hosting, data maintenance, and future features.
+          </p>
+        </div>
+      </div>
     </div>
-  </div>;
+  );
+}
+function DonateIcon({ size = 32 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M7 11v8" />
+      <path d="M11 11v8" />
+      <path d="M3 19h12a4 4 0 0 0 4-4v-1" />
+      <path d="M3 15h12" />
+      <path d="M7 11H4a2 2 0 0 0-2 2v6" />
+      <path
+        d="M15 6c0-1.7 2-2.6 3.2-1.4L20 6.4l1.8-1.8C23 3.4 25 4.3 25 6c0 2.2-3.1 4.5-5 5.7C18.1 10.5 15 8.2 15 6Z"
+        transform="translate(-2)"
+      />
+    </svg>
+  );
 }
 
 function navClass(active: boolean) {
   return `rounded-full px-4 py-2 text-sm font-semibold transition ${active ? "bg-brass text-black" : "bg-white/10 text-slate-200 hover:bg-white/20"}`;
 }
 
-function Dashboard({ rankings, openDetail }: { rankings: NodeRanking[]; openDetail: (id: number) => void }) {
+function Dashboard({
+  rankings,
+  openDetail,
+}: {
+  rankings: NodeRanking[];
+  openDetail: (id: number) => void;
+}) {
   const complete = rankings.filter((ranking) => ranking.score != null);
   const best = complete[0];
-  const bestSilver = [...complete].sort((a, b) => (b.realizableSilverPerDay ?? 0) - (a.realizableSilverPerDay ?? 0))[0];
-  const bestCp = [...complete].sort((a, b) => (b.silverPerCp ?? 0) - (a.silverPerCp ?? 0))[0];
-  const bestDemand = [...rankings].sort((a, b) => b.demandScore - a.demandScore)[0];
+  const bestSilver = [...complete].sort(
+    (a, b) => (b.realizableSilverPerDay ?? 0) - (a.realizableSilverPerDay ?? 0),
+  )[0];
+  const bestCp = [...complete].sort(
+    (a, b) => (b.silverPerCp ?? 0) - (a.silverPerCp ?? 0),
+  )[0];
+  const bestDemand = [...rankings].sort(
+    (a, b) => b.demandScore - a.demandScore,
+  )[0];
   return (
     <div className="grid gap-6">
       <div className="grid gap-4 md:grid-cols-4">
-        <Summary title="Best Node" value={best?.node.name ?? "Incomplete"} sub={best ? `Score ${formatNumber(best.score, 1)}` : "Need market/workload"} />
-        <Summary title="Best Silver/Day" value={bestSilver?.node.name ?? "-"} sub={formatSilver(bestSilver?.realizableSilverPerDay)} />
-        <Summary title="Best Silver/CP" value={bestCp?.node.name ?? "-"} sub={formatSilver(bestCp?.silverPerCp)} />
-        <Summary title="Highest Demand" value={bestDemand?.node.name ?? "-"} sub={`${formatNumber(bestDemand?.demandScore, 0)} ${bestDemand?.demandLabel ?? ""}`} />
+        <Summary
+          title="Best Node"
+          value={best?.node.name ?? "Incomplete"}
+          sub={
+            best
+              ? `Score ${formatNumber(best.score, 1)}`
+              : "Need market/workload"
+          }
+        />
+        <Summary
+          title="Best Silver/Day"
+          value={bestSilver?.node.name ?? "-"}
+          sub={formatSilver(bestSilver?.realizableSilverPerDay)}
+        />
+        <Summary
+          title="Best Silver/CP"
+          value={bestCp?.node.name ?? "-"}
+          sub={formatSilver(bestCp?.silverPerCp)}
+        />
+        <Summary
+          title="Highest Demand"
+          value={bestDemand?.node.name ?? "-"}
+          sub={`${formatNumber(bestDemand?.demandScore, 0)} ${bestDemand?.demandLabel ?? ""}`}
+        />
       </div>
       <Panel>
         <h2 className="mb-4 text-xl font-bold">Top 10 Nodes</h2>
-        <RankingTable rankings={rankings.slice(0, 10)} openDetail={openDetail} />
+        <RankingTable
+          rankings={rankings.slice(0, 10)}
+          openDetail={openDetail}
+        />
       </Panel>
     </div>
   );
 }
 
-function NodesPage({ rankings, openDetail }: { rankings: NodeRanking[]; openDetail: (id: number) => void }) {
+function NodesPage({
+  rankings,
+  openDetail,
+}: {
+  rankings: NodeRanking[];
+  openDetail: (id: number) => void;
+}) {
   const [region, setRegion] = useState("All");
   const [type, setType] = useState("All");
   const [maxCp, setMaxCp] = useState(6);
   const [minDemand, setMinDemand] = useState("Low");
   const [sort, setSort] = useState<SortKey>("score");
-  const regions = ["All", ...Array.from(new Set(rankings.map((ranking) => ranking.node.region))).sort()];
-  const types = ["All", ...Array.from(new Set(rankings.map((ranking) => ranking.node.type))).sort()];
-  const minDemandScore = { Low: 0, Medium: 31, High: 61, "Very High": 81 }[minDemand] ?? 0;
-  const filtered = useMemo(() => rankings.filter((ranking) => (region === "All" || ranking.node.region === region) && (type === "All" || ranking.node.type === type) && ranking.node.cpCost <= maxCp && ranking.demandScore >= minDemandScore).sort((a, b) => sortValue(b, sort) - sortValue(a, sort)), [rankings, region, type, maxCp, minDemandScore, sort]);
+  const regions = [
+    "All",
+    ...Array.from(
+      new Set(rankings.map((ranking) => ranking.node.region)),
+    ).sort(),
+  ];
+  const types = [
+    "All",
+    ...Array.from(new Set(rankings.map((ranking) => ranking.node.type))).sort(),
+  ];
+  const minDemandScore =
+    { Low: 0, Medium: 31, High: 61, "Very High": 81 }[minDemand] ?? 0;
+  const filtered = useMemo(
+    () =>
+      rankings
+        .filter(
+          (ranking) =>
+            (region === "All" || ranking.node.region === region) &&
+            (type === "All" || ranking.node.type === type) &&
+            ranking.node.cpCost <= maxCp &&
+            ranking.demandScore >= minDemandScore,
+        )
+        .sort((a, b) => sortValue(b, sort) - sortValue(a, sort)),
+    [rankings, region, type, maxCp, minDemandScore, sort],
+  );
   return (
     <Panel>
       <div className="mb-5 grid gap-3 md:grid-cols-5">
-        <Select label="Region" value={region} values={regions} setValue={setRegion} />
+        <Select
+          label="Region"
+          value={region}
+          values={regions}
+          setValue={setRegion}
+        />
         <Select label="Type" value={type} values={types} setValue={setType} />
-        <label className="text-sm text-slate-300">Max CP <span className="text-brass">{maxCp}</span><input className="mt-2 w-full" type="range" min="1" max="6" value={maxCp} onChange={(event) => setMaxCp(Number(event.target.value))} /></label>
-        <Select label="Min Demand" value={minDemand} values={["Low", "Medium", "High", "Very High"]} setValue={setMinDemand} />
-        <Select label="Sort" value={sort} values={["score", "silver/day", "cp", "demand", "liquidity", "yield"]} setValue={(value) => setSort(value as SortKey)} />
+        <label className="text-sm text-slate-300">
+          Max CP <span className="text-brass">{maxCp}</span>
+          <input
+            className="mt-2 w-full"
+            type="range"
+            min="1"
+            max="6"
+            value={maxCp}
+            onChange={(event) => setMaxCp(Number(event.target.value))}
+          />
+        </label>
+        <Select
+          label="Min Demand"
+          value={minDemand}
+          values={["Low", "Medium", "High", "Very High"]}
+          setValue={setMinDemand}
+        />
+        <Select
+          label="Sort"
+          value={sort}
+          values={["score", "silver/day", "cp", "demand", "liquidity", "yield"]}
+          setValue={(value) => setSort(value as SortKey)}
+        />
       </div>
       <RankingTable rankings={filtered} openDetail={openDetail} />
     </Panel>
   );
 }
 
-function MapPage({ rankings, openDetail }: { rankings: NodeRanking[]; openDetail: (id: number) => void }) {
-  const [selectedId, setSelectedId] = useState<number | null>(rankings.find((ranking) => ranking.rank === 1)?.node.id ?? null);
+function MapPage({
+  rankings,
+  openDetail,
+}: {
+  rankings: NodeRanking[];
+  openDetail: (id: number) => void;
+}) {
+  const [selectedId, setSelectedId] = useState<number | null>(
+    rankings.find((ranking) => ranking.rank === 1)?.node.id ?? null,
+  );
   const [type, setType] = useState("All");
   const [showOnlyRanked, setShowOnlyRanked] = useState(true);
-  const types = ["All", ...Array.from(new Set(rankings.map((ranking) => ranking.node.type))).sort()];
-  const mapRankings = rankings.filter((ranking) => ranking.node.position && (type === "All" || ranking.node.type === type) && (!showOnlyRanked || ranking.score != null));
-  const selected = mapRankings.find((ranking) => ranking.node.id === selectedId) ?? mapRankings[0] ?? null;
-  const bounds = { minX: -67 * 2 * 12800, minZ: -71 * 2 * 12800, maxX: 58 * 2 * 12800, maxZ: 35 * 2 * 12800 };
+  const types = [
+    "All",
+    ...Array.from(new Set(rankings.map((ranking) => ranking.node.type))).sort(),
+  ];
+  const mapRankings = rankings.filter(
+    (ranking) =>
+      ranking.node.position &&
+      (type === "All" || ranking.node.type === type) &&
+      (!showOnlyRanked || ranking.score != null),
+  );
+  const selected =
+    mapRankings.find((ranking) => ranking.node.id === selectedId) ??
+    mapRankings[0] ??
+    null;
+  const bounds = {
+    minX: -67 * 2 * 12800,
+    minZ: -71 * 2 * 12800,
+    maxX: 58 * 2 * 12800,
+    maxZ: 35 * 2 * 12800,
+  };
   const zoom = 1;
-  const tileWorldSize = (256 * 12800) / (2 ** zoom);
+  const tileWorldSize = (256 * 12800) / 2 ** zoom;
   const tileMinX = Math.floor(bounds.minX / tileWorldSize);
   const tileMaxX = Math.floor((bounds.maxX - 1) / tileWorldSize);
   const tileMinY = Math.floor(bounds.minZ / tileWorldSize);
   const tileMaxY = Math.floor((bounds.maxZ - 1) / tileWorldSize);
   const tiles = [];
-  for (let x = tileMinX; x <= tileMaxX; x++) for (let y = tileMinY; y <= tileMaxY; y++) tiles.push({ x, y });
-  const leftFor = (x: number) => ((x - bounds.minX) / (bounds.maxX - bounds.minX)) * 100;
-  const topFor = (z: number) => (1 - (z - bounds.minZ) / (bounds.maxZ - bounds.minZ)) * 100;
+  for (let x = tileMinX; x <= tileMaxX; x++)
+    for (let y = tileMinY; y <= tileMaxY; y++) tiles.push({ x, y });
+  const leftFor = (x: number) =>
+    ((x - bounds.minX) / (bounds.maxX - bounds.minX)) * 100;
+  const topFor = (z: number) =>
+    (1 - (z - bounds.minZ) / (bounds.maxZ - bounds.minZ)) * 100;
 
-  return <div className="grid gap-5 lg:grid-cols-[1fr_360px]">
-    <Panel>
-      <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-        <div><h2 className="text-2xl font-black">Map View</h2><p className="mt-1 text-sm text-slate-400">Workerman map tiles with ranked production-node overlays.</p></div>
-        <div className="flex flex-wrap items-end gap-3"><Select label="Type" value={type} values={types} setValue={setType} /><label className="flex items-center gap-2 pb-2 text-sm text-slate-300"><input type="checkbox" checked={showOnlyRanked} onChange={(event) => setShowOnlyRanked(event.target.checked)} />Ranked only</label></div>
-      </div>
-      <div className="relative overflow-hidden rounded-xl border border-white/10 bg-black" style={{ aspectRatio: "1.18 / 1" }}>
-        <div className="absolute inset-0">
-          {tiles.map((tile) => {
-            const left = leftFor(tile.x * tileWorldSize);
-            const right = leftFor((tile.x + 1) * tileWorldSize);
-            const top = topFor((tile.y + 1) * tileWorldSize);
-            const bottom = topFor(tile.y * tileWorldSize);
-            return <img key={`${tile.x}_${tile.y}`} src={`https://shrddr.github.io/maptiles/${zoom}/${tile.x}_${tile.y}.webp`} alt="" className="absolute h-full w-full object-fill" style={{ left: `${left}%`, top: `${top}%`, width: `${right - left}%`, height: `${bottom - top}%` }} draggable={false} />;
-          })}
+  return (
+    <div className="grid gap-5 lg:grid-cols-[1fr_360px]">
+      <Panel>
+        <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h2 className="text-2xl font-black">Map View</h2>
+            <p className="mt-1 text-sm text-slate-400">
+              Workerman map tiles with ranked production-node overlays.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-end gap-3">
+            <Select
+              label="Type"
+              value={type}
+              values={types}
+              setValue={setType}
+            />
+            <label className="flex items-center gap-2 pb-2 text-sm text-slate-300">
+              <input
+                type="checkbox"
+                checked={showOnlyRanked}
+                onChange={(event) => setShowOnlyRanked(event.target.checked)}
+              />
+              Ranked only
+            </label>
+          </div>
         </div>
-        {mapRankings.map((ranking) => {
-          const position = ranking.node.position!;
-          const size = ranking.rank != null && ranking.rank <= 10 ? 14 : ranking.score != null ? 9 : 7;
-          const color = ranking.rank != null && ranking.rank <= 10 ? "bg-brass border-amber-100" : ranking.score != null ? "bg-jade border-emerald-100" : "bg-slate-500 border-slate-300";
-          return <button key={ranking.node.id} title={`${ranking.rank ?? "-"}. ${ranking.node.name}`} className={`absolute rounded-full border shadow-lg ${color}`} style={{ left: `${leftFor(position.x)}%`, top: `${topFor(position.z)}%`, width: size, height: size, transform: "translate(-50%, -50%)" }} onClick={() => setSelectedId(ranking.node.id)} />;
-        })}
-        <div className="absolute bottom-2 right-2 rounded bg-black/70 px-2 py-1 text-xs text-slate-300">Map tiles: Workerman / shrddr.github.io</div>
-      </div>
-    </Panel>
-    <Panel>{selected ? <MapNodeDetail ranking={selected} openDetail={openDetail} /> : <div className="text-sm text-slate-400">No nodes with coordinates found.</div>}</Panel>
-  </div>;
+        <div
+          className="relative overflow-hidden rounded-xl border border-white/10 bg-black"
+          style={{ aspectRatio: "1.18 / 1" }}
+        >
+          <div className="absolute inset-0">
+            {tiles.map((tile) => {
+              const left = leftFor(tile.x * tileWorldSize);
+              const right = leftFor((tile.x + 1) * tileWorldSize);
+              const top = topFor((tile.y + 1) * tileWorldSize);
+              const bottom = topFor(tile.y * tileWorldSize);
+              return (
+                <img
+                  key={`${tile.x}_${tile.y}`}
+                  src={`https://shrddr.github.io/maptiles/${zoom}/${tile.x}_${tile.y}.webp`}
+                  alt=""
+                  className="absolute h-full w-full object-fill"
+                  style={{
+                    left: `${left}%`,
+                    top: `${top}%`,
+                    width: `${right - left}%`,
+                    height: `${bottom - top}%`,
+                  }}
+                  draggable={false}
+                />
+              );
+            })}
+          </div>
+          {mapRankings.map((ranking) => {
+            const position = ranking.node.position!;
+            const size =
+              ranking.rank != null && ranking.rank <= 10
+                ? 14
+                : ranking.score != null
+                  ? 9
+                  : 7;
+            const color =
+              ranking.rank != null && ranking.rank <= 10
+                ? "bg-brass border-amber-100"
+                : ranking.score != null
+                  ? "bg-jade border-emerald-100"
+                  : "bg-slate-500 border-slate-300";
+            return (
+              <button
+                key={ranking.node.id}
+                title={`${ranking.rank ?? "-"}. ${ranking.node.name}`}
+                className={`absolute rounded-full border shadow-lg ${color}`}
+                style={{
+                  left: `${leftFor(position.x)}%`,
+                  top: `${topFor(position.z)}%`,
+                  width: size,
+                  height: size,
+                  transform: "translate(-50%, -50%)",
+                }}
+                onClick={() => setSelectedId(ranking.node.id)}
+              />
+            );
+          })}
+          <div className="absolute bottom-2 right-2 rounded bg-black/70 px-2 py-1 text-xs text-slate-300">
+            Map tiles: Workerman / shrddr.github.io
+          </div>
+        </div>
+      </Panel>
+      <Panel>
+        {selected ? (
+          <MapNodeDetail ranking={selected} openDetail={openDetail} />
+        ) : (
+          <div className="text-sm text-slate-400">
+            No nodes with coordinates found.
+          </div>
+        )}
+      </Panel>
+    </div>
+  );
 }
 
-function MapNodeDetail({ ranking, openDetail }: { ranking: NodeRanking; openDetail: (id: number) => void }) {
-  return <div>
-    <div className="flex items-start justify-between gap-3"><div><div className="text-sm text-brass">Rank {ranking.rank ?? "-"}</div><h3 className="mt-1 text-xl font-black">{ranking.node.name}</h3><p className="mt-1 text-sm text-slate-400">{ranking.node.type} · {ranking.node.cpCost} CP · {ranking.node.nearestTown ?? ranking.node.region}</p></div><span className={`rounded-full border px-2 py-1 text-xs ${confidenceClass(ranking.confidence)}`}>{ranking.confidence}</span></div>
-    <div className="mt-4 grid grid-cols-2 gap-3"><Summary title="Silver/day" value={formatSilver(ranking.realizableSilverPerDay)} sub={`${formatSilver(ranking.silverPerCp)} / CP`} /><Summary title="Score" value={formatNumber(ranking.score, 1)} sub={`${formatNumber(ranking.demandScore, 0)} ${ranking.demandLabel}`} /></div>
-    <h4 className="mt-5 font-bold">Products</h4>
-    <div className="mt-2 grid gap-2">{ranking.products.map((product) => <div key={product.itemId ?? product.itemName} className="rounded-lg border border-white/10 bg-white/5 p-2"><div className="font-semibold">{product.itemName}</div><ProductSummaryLine product={product} /></div>)}</div>
-    <button className="btn-primary mt-5" onClick={() => openDetail(ranking.node.id)}>Open full detail</button>
-  </div>;
+function MapNodeDetail({
+  ranking,
+  openDetail,
+}: {
+  ranking: NodeRanking;
+  openDetail: (id: number) => void;
+}) {
+  return (
+    <div>
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <div className="text-sm text-brass">Rank {ranking.rank ?? "-"}</div>
+          <h3 className="mt-1 text-xl font-black">{ranking.node.name}</h3>
+          <p className="mt-1 text-sm text-slate-400">
+            {ranking.node.type} · {ranking.node.cpCost} CP ·{" "}
+            {ranking.node.nearestTown ?? ranking.node.region}
+          </p>
+        </div>
+        <span
+          className={`rounded-full border px-2 py-1 text-xs ${confidenceClass(ranking.confidence)}`}
+        >
+          {ranking.confidence}
+        </span>
+      </div>
+      <div className="mt-4 grid grid-cols-2 gap-3">
+        <Summary
+          title="Silver/day"
+          value={formatSilver(ranking.realizableSilverPerDay)}
+          sub={`${formatSilver(ranking.silverPerCp)} / CP`}
+        />
+        <Summary
+          title="Score"
+          value={formatNumber(ranking.score, 1)}
+          sub={`${formatNumber(ranking.demandScore, 0)} ${ranking.demandLabel}`}
+        />
+      </div>
+      <h4 className="mt-5 font-bold">Products</h4>
+      <div className="mt-2 grid gap-2">
+        {ranking.products.map((product) => (
+          <div
+            key={product.itemId ?? product.itemName}
+            className="rounded-lg border border-white/10 bg-white/5 p-2"
+          >
+            <div className="font-semibold">{product.itemName}</div>
+            <ProductSummaryLine product={product} />
+          </div>
+        ))}
+      </div>
+      <button
+        className="btn-primary mt-5"
+        onClick={() => openDetail(ranking.node.id)}
+      >
+        Open full detail
+      </button>
+    </div>
+  );
 }
 
 function sortValue(ranking: NodeRanking, key: SortKey): number {
@@ -215,64 +700,325 @@ function sortValue(ranking: NodeRanking, key: SortKey): number {
   if (key === "cp") return ranking.silverPerCp ?? -1;
   if (key === "demand") return ranking.demandScore;
   if (key === "liquidity") return ranking.liquidityScore;
-  if (key === "yield") return ranking.products.reduce((sum, product) => sum + (product.yieldPerDay ?? 0), 0);
+  if (key === "yield")
+    return ranking.products.reduce(
+      (sum, product) => sum + (product.yieldPerDay ?? 0),
+      0,
+    );
   return ranking.score ?? -1;
 }
 
-function RankingTable({ rankings, openDetail }: { rankings: NodeRanking[]; openDetail: (id: number) => void }) {
+function RankingTable({
+  rankings,
+  openDetail,
+}: {
+  rankings: NodeRanking[];
+  openDetail: (id: number) => void;
+}) {
   return (
     <div className="overflow-x-auto">
       <table className="w-full min-w-[1180px] text-left text-sm">
-        <thead className="border-b border-white/10 text-xs uppercase tracking-wider text-slate-400"><tr><th className="py-3">Rank</th><th>Node</th><th>Region</th><th>Item</th><th>CP</th><th>Yield/day</th><th>Silver/day</th><th>Silver/CP</th><th>Demand</th><th>Score</th><th>Data</th></tr></thead>
-        <tbody>{rankings.map((ranking) => <tr key={ranking.node.id} className="border-b border-white/5 align-top hover:bg-white/5"><td className="py-3 text-brass">{ranking.rank ?? "-"}</td><td className="py-3"><button className="font-semibold text-white hover:text-brass" onClick={() => openDetail(ranking.node.id)}>{ranking.node.name}</button><div className="text-xs text-slate-500">{ranking.node.productionCategory}</div></td><td className="py-3">{ranking.node.region}</td><td className="py-3"><div className="grid gap-2">{ranking.products.map((product) => <div key={`${ranking.node.id}:${product.itemId ?? product.itemName}`} className="border-b border-white/5 pb-2 last:border-0 last:pb-0"><div className="font-semibold text-white">{product.itemName}</div><ProductSummaryLine product={product} /></div>)}</div></td><td className="py-3">{ranking.node.cpCost}</td><td className="py-3">{formatNumber(ranking.products.reduce((sum, p) => sum + (p.yieldPerDay ?? 0), 0))}</td><td className="py-3 font-semibold text-white">{formatSilver(ranking.realizableSilverPerDay)}</td><td className="py-3">{formatSilver(ranking.silverPerCp)}</td><td className="py-3">{formatNumber(ranking.demandScore, 0)} {ranking.demandLabel}</td><td className="py-3">{formatNumber(ranking.score, 1)}</td><td className="py-3"><span className={`rounded-full border px-2 py-1 text-xs ${confidenceClass(ranking.confidence)}`}>{ranking.confidence}</span></td></tr>)}</tbody>
+        <thead className="border-b border-white/10 text-xs uppercase tracking-wider text-slate-400">
+          <tr>
+            <th className="py-3">Rank</th>
+            <th>Node</th>
+            <th>Region</th>
+            <th>Item</th>
+            <th>CP</th>
+            <th>Yield/day</th>
+            <th>Silver/day</th>
+            <th>Silver/CP</th>
+            <th>Demand</th>
+            <th>Score</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rankings.map((ranking) => (
+            <tr
+              key={ranking.node.id}
+              className="border-b border-white/5 align-top hover:bg-white/5"
+            >
+              <td className="py-3 text-brass">{ranking.rank ?? "-"}</td>
+              <td className="py-3">
+                <button
+                  className="font-semibold text-white hover:text-brass"
+                  onClick={() => openDetail(ranking.node.id)}
+                >
+                  {ranking.node.name}
+                </button>
+                <div className="text-xs text-slate-500">
+                  {ranking.node.productionCategory}
+                </div>
+              </td>
+              <td className="py-3">{ranking.node.region}</td>
+              <td className="py-3">
+                <div className="grid gap-2">
+                  {ranking.products.map((product) => (
+                    <div
+                      key={`${ranking.node.id}:${product.itemId ?? product.itemName}`}
+                      className="border-b border-white/5 pb-2 last:border-0 last:pb-0"
+                    >
+                      <div className="font-semibold text-white">
+                        {product.itemName}
+                      </div>
+                      <ProductSummaryLine product={product} />
+                    </div>
+                  ))}
+                </div>
+              </td>
+              <td className="py-3">{ranking.node.cpCost}</td>
+              <td className="py-3">
+                {formatNumber(
+                  ranking.products.reduce(
+                    (sum, p) => sum + (p.yieldPerDay ?? 0),
+                    0,
+                  ),
+                )}
+              </td>
+              <td className="py-3 font-semibold text-white">
+                {formatSilver(ranking.realizableSilverPerDay)}
+              </td>
+              <td className="py-3">{formatSilver(ranking.silverPerCp)}</td>
+              <td className="py-3">
+                {formatNumber(ranking.demandScore, 0)} {ranking.demandLabel}
+              </td>
+              <td className="py-3">{formatNumber(ranking.score, 1)}</td>
+              <td className="py-3">
+                <span
+                  className={`rounded-full border px-2 py-1 text-xs ${confidenceClass(ranking.confidence)}`}
+                >
+                  {ranking.confidence}
+                </span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
       </table>
     </div>
   );
 }
 
-function ProductSummaryLine({ product }: { product: NodeRanking["products"][number] }) {
+function ProductSummaryLine({
+  product,
+}: {
+  product: NodeRanking["products"][number];
+}) {
   const luckyOnly = product.averageYield == null && product.luckyYield != null;
   if (luckyOnly) {
-    return <div className="text-xs text-slate-400">Lucky only · Excluded at 0 luck · Price {formatSilver(product.marketData?.currentPrice)} · Avg sales/day {formatNumber(product.marketData?.averageDailyVolume, 0)}</div>;
+    return (
+      <div className="text-xs text-slate-400">
+        Lucky only · Excluded at 0 luck · Price{" "}
+        {formatSilver(product.marketData?.currentPrice)} · Avg sales/day{" "}
+        {formatNumber(product.marketData?.averageDailyVolume, 0)}
+      </div>
+    );
   }
-  return <div className="text-xs text-slate-400">{formatNumber(product.yieldPerDay, 0)}/day · Price {formatSilver(product.marketData?.currentPrice)} · {formatSilver(product.realizableSilverPerDay)}/day · Avg sales/day {formatNumber(product.marketData?.averageDailyVolume, 0)}</div>;
+  return (
+    <div className="text-xs text-slate-400">
+      {formatNumber(product.yieldPerDay, 0)}/day · Price{" "}
+      {formatSilver(product.marketData?.currentPrice)} ·{" "}
+      {formatSilver(product.realizableSilverPerDay)}/day · Avg sales/day{" "}
+      {formatNumber(product.marketData?.averageDailyVolume, 0)}
+    </div>
+  );
 }
 
 function DetailPage({ detail }: { detail: NodeRanking | null }) {
   useEffect(() => {
-    if (detail) document.title = `BDO ${detail.node.name} Worker Node Profitability`;
+    if (detail)
+      document.title = `BDO ${detail.node.name} Worker Node Profitability`;
   }, [detail]);
   if (!detail) return <Panel>Loading node...</Panel>;
   return (
     <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
       <Panel>
         <h2 className="text-3xl font-black">{detail.node.name}</h2>
-        <p className="mt-2 text-slate-400">{detail.node.region} · {detail.node.type} · {detail.node.cpCost} CP</p>
-        <div className="mt-4 grid gap-3 sm:grid-cols-3"><Summary title="Cycle Time" value={`${formatNumber(detail.cycleTimeMinutes)} min`} sub={`${formatNumber(detail.cyclesPerDay)} cycles/day`} /><Summary title="Realizable Silver" value={formatSilver(detail.realizableSilverPerDay)} sub={`${formatSilver(detail.silverPerCp)} / CP`} /><Summary title="Score" value={formatNumber(detail.score, 1)} sub={`${detail.demandLabel} demand`} /></div>
+        <p className="mt-2 text-slate-400">
+          {detail.node.region} · {detail.node.type} · {detail.node.cpCost} CP
+        </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <Summary
+            title="Cycle Time"
+            value={`${formatNumber(detail.cycleTimeMinutes)} min`}
+            sub={`${formatNumber(detail.cyclesPerDay)} cycles/day`}
+          />
+          <Summary
+            title="Realizable Silver"
+            value={formatSilver(detail.realizableSilverPerDay)}
+            sub={`${formatSilver(detail.silverPerCp)} / CP`}
+          />
+          <Summary
+            title="Score"
+            value={formatNumber(detail.score, 1)}
+            sub={`${detail.demandLabel} demand`}
+          />
+        </div>
         <h3 className="mt-6 text-xl font-bold">Products</h3>
-        <div className="mt-3 grid gap-3">{detail.products.map((product) => <div key={product.itemName} className="rounded-xl border border-white/10 bg-white/5 p-3"><div className="font-semibold">{product.itemName} {product.averageYield == null && product.luckyYield != null && <span className="ml-2 text-xs font-normal text-brass">Lucky only, excluded at 0 luck</span>}</div><div className="mt-1"><ProductSummaryLine product={product} /></div><div className="mt-2 grid gap-2 text-sm text-slate-300 sm:grid-cols-4"><span>Yield/day: {formatNumber(product.yieldPerDay)}</span><span>Price: {formatSilver(product.marketData?.currentPrice)}</span><span>14d sales: {formatNumber(product.marketData?.fourteenDayVolume, 0)}</span><span>Avg sales/day: {formatNumber(product.marketData?.averageDailyVolume, 0)}</span><span>Total trades: {formatNumber(product.marketData?.totalTrades, 0)}</span><span>Theoretical: {formatSilver(product.theoreticalSilverPerDay)}</span><span>Realizable: {formatSilver(product.realizableSilverPerDay)}</span></div><div className="mt-2 text-xs text-slate-500">Market: {product.marketData?.source ?? "unavailable"} {product.marketData?.message ? `· ${product.marketData.message}` : ""}</div></div>)}</div>
+        <div className="mt-3 grid gap-3">
+          {detail.products.map((product) => (
+            <div
+              key={product.itemName}
+              className="rounded-xl border border-white/10 bg-white/5 p-3"
+            >
+              <div className="font-semibold">
+                {product.itemName}{" "}
+                {product.averageYield == null && product.luckyYield != null && (
+                  <span className="ml-2 text-xs font-normal text-brass">
+                    Lucky only, excluded at 0 luck
+                  </span>
+                )}
+              </div>
+              <div className="mt-1">
+                <ProductSummaryLine product={product} />
+              </div>
+              <div className="mt-2 grid gap-2 text-sm text-slate-300 sm:grid-cols-4">
+                <span>Yield/day: {formatNumber(product.yieldPerDay)}</span>
+                <span>
+                  Price: {formatSilver(product.marketData?.currentPrice)}
+                </span>
+                <span>
+                  14d sales:{" "}
+                  {formatNumber(product.marketData?.fourteenDayVolume, 0)}
+                </span>
+                <span>
+                  Avg sales/day:{" "}
+                  {formatNumber(product.marketData?.averageDailyVolume, 0)}
+                </span>
+                <span>
+                  Total trades:{" "}
+                  {formatNumber(product.marketData?.totalTrades, 0)}
+                </span>
+                <span>
+                  Theoretical: {formatSilver(product.theoreticalSilverPerDay)}
+                </span>
+                <span>
+                  Realizable: {formatSilver(product.realizableSilverPerDay)}
+                </span>
+              </div>
+              <div className="mt-2 text-xs text-slate-500">
+                Market: {product.marketData?.source ?? "unavailable"}{" "}
+                {product.marketData?.message
+                  ? `· ${product.marketData.message}`
+                  : ""}
+              </div>
+            </div>
+          ))}
+        </div>
       </Panel>
       <Panel>
         <h3 className="text-xl font-bold">Calculation Breakdown</h3>
-        <dl className="mt-4 grid gap-3 text-sm"><Break label="Worker" value="Artisan Goblin (150 work speed, 7.5 movement speed)" /><Break label="Workload" value={detail.node.workload == null ? "Missing" : String(detail.node.workload)} /><Break label="Distance" value={detail.node.distance == null ? "Missing" : String(detail.node.distance)} /><Break label="Cycle time" value={`${formatNumber(detail.cycleTimeMinutes)} minutes`} /><Break label="Cycles/day" value={formatNumber(detail.cyclesPerDay)} /><Break label="Demand score" value={`${formatNumber(detail.demandScore, 0)} / 100`} /><Break label="Liquidity score" value={`${formatNumber(detail.liquidityScore, 0)} / 100`} /><Break label="Data confidence" value={detail.confidence} /></dl>
-        {detail.issues.length > 0 && <div className="mt-5 rounded-xl border border-red-400/25 bg-red-500/10 p-3"><div className="font-semibold text-red-200">Incomplete data</div><ul className="mt-2 list-inside list-disc text-sm text-red-100">{detail.issues.map((issue) => <li key={issue}>{issue}</li>)}</ul></div>}
+        <dl className="mt-4 grid gap-3 text-sm">
+          <Break
+            label="Worker"
+            value="Artisan Goblin (150 work speed, 7.5 movement speed)"
+          />
+          <Break
+            label="Workload"
+            value={
+              detail.node.workload == null
+                ? "Missing"
+                : String(detail.node.workload)
+            }
+          />
+          <Break
+            label="Distance"
+            value={
+              detail.node.distance == null
+                ? "Missing"
+                : String(detail.node.distance)
+            }
+          />
+          <Break
+            label="Cycle time"
+            value={`${formatNumber(detail.cycleTimeMinutes)} minutes`}
+          />
+          <Break label="Cycles/day" value={formatNumber(detail.cyclesPerDay)} />
+          <Break
+            label="Demand score"
+            value={`${formatNumber(detail.demandScore, 0)} / 100`}
+          />
+          <Break
+            label="Liquidity score"
+            value={`${formatNumber(detail.liquidityScore, 0)} / 100`}
+          />
+          <Break label="Data confidence" value={detail.confidence} />
+        </dl>
+        {detail.issues.length > 0 && (
+          <div className="mt-5 rounded-xl border border-red-400/25 bg-red-500/10 p-3">
+            <div className="font-semibold text-red-200">Incomplete data</div>
+            <ul className="mt-2 list-inside list-disc text-sm text-red-100">
+              {detail.issues.map((issue) => (
+                <li key={issue}>{issue}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </Panel>
     </div>
   );
 }
 
 function Panel({ children }: { children: React.ReactNode }) {
-  return <section className="rounded-2xl border border-white/10 bg-black/35 p-5 shadow-xl backdrop-blur">{children}</section>;
+  return (
+    <section className="rounded-2xl border border-white/10 bg-black/35 p-5 shadow-xl backdrop-blur">
+      {children}
+    </section>
+  );
 }
 
-function Summary({ title, value, sub }: { title: string; value: string; sub: string }) {
-  return <div className="rounded-xl border border-white/10 bg-white/[0.04] p-4"><div className="text-xs uppercase tracking-wider text-slate-500">{title}</div><div className="mt-2 truncate text-xl font-black text-white">{value}</div><div className="mt-1 text-sm text-slate-400">{sub}</div></div>;
+function Summary({
+  title,
+  value,
+  sub,
+}: {
+  title: string;
+  value: string;
+  sub: string;
+}) {
+  return (
+    <div className="rounded-xl border border-white/10 bg-white/[0.04] p-4">
+      <div className="text-xs uppercase tracking-wider text-slate-500">
+        {title}
+      </div>
+      <div className="mt-2 truncate text-xl font-black text-white">{value}</div>
+      <div className="mt-1 text-sm text-slate-400">{sub}</div>
+    </div>
+  );
 }
 
-function Select({ label, value, values, setValue }: { label: string; value: string; values: string[]; setValue: (value: string) => void }) {
-  return <label className="text-sm text-slate-300">{label}<select className="mt-2 w-full rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-white" value={value} onChange={(event) => setValue(event.target.value)}>{values.map((entry) => <option key={entry}>{entry}</option>)}</select></label>;
+function Select({
+  label,
+  value,
+  values,
+  setValue,
+}: {
+  label: string;
+  value: string;
+  values: string[];
+  setValue: (value: string) => void;
+}) {
+  return (
+    <label className="text-sm text-slate-300">
+      {label}
+      <select
+        className="mt-2 w-full rounded-lg border border-white/10 bg-slate-950 px-3 py-2 text-white"
+        value={value}
+        onChange={(event) => setValue(event.target.value)}
+      >
+        {values.map((entry) => (
+          <option key={entry}>{entry}</option>
+        ))}
+      </select>
+    </label>
+  );
 }
 
 function Break({ label, value }: { label: string; value: string }) {
-  return <div className="flex justify-between gap-4 border-b border-white/10 pb-2"><dt className="text-slate-400">{label}</dt><dd className="text-right text-white">{value}</dd></div>;
+  return (
+    <div className="flex justify-between gap-4 border-b border-white/10 pb-2">
+      <dt className="text-slate-400">{label}</dt>
+      <dd className="text-right text-white">{value}</dd>
+    </div>
+  );
 }
