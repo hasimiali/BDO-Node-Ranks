@@ -8,6 +8,7 @@ import { DataPage } from "./DataPage";
 type Page = "dashboard" | "nodes" | "map" | "data" | "detail";
 type SortKey = "score" | "silver/day" | "cp" | "demand" | "liquidity" | "yield";
 const marketRegions = ["NA", "EU", "ASIA", "MENA", "JP", "KR", "TW", "SA", "RU"];
+const donateNumber = "081358579850";
 
 export function App() {
   const [rankings, setRankings] = useState<NodeRanking[]>([]);
@@ -18,6 +19,8 @@ export function App() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [detail, setDetail] = useState<NodeRanking | null>(null);
   const [marketRegion, setMarketRegion] = useState(() => localStorage.getItem("bdo-market-region") ?? "ASIA");
+  const [donateOpen, setDonateOpen] = useState(false);
+  const [donateCopied, setDonateCopied] = useState(false);
 
   useEffect(() => {
     setLoading(true);
@@ -42,10 +45,17 @@ export function App() {
     setPage("detail");
   }
 
+  async function copyDonateNumber() {
+    await navigator.clipboard.writeText(donateNumber);
+    setDonateCopied(true);
+    window.setTimeout(() => setDonateCopied(false), 1600);
+  }
+
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#1f2937_0,#090b10_38%,#05070a_100%)] text-slate-100">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8">
-        <Header page={page} setPage={setPage} status={status} marketRegion={marketRegion} setMarketRegion={setMarketRegion} />
+        <Header page={page} setPage={setPage} status={status} marketRegion={marketRegion} setMarketRegion={setMarketRegion} openDonate={() => setDonateOpen(true)} />
+        {donateOpen && <DonateModal copied={donateCopied} copyNumber={copyDonateNumber} close={() => setDonateOpen(false)} />}
         {loading && <Panel>Loading rankings...</Panel>}
         {error && <Panel><span className="text-red-300">{error}</span></Panel>}
         {!loading && !error && page === "dashboard" && <Dashboard rankings={rankings} openDetail={openDetail} />}
@@ -58,7 +68,7 @@ export function App() {
   );
 }
 
-function Header({ page, setPage, status, marketRegion, setMarketRegion }: { page: Page; setPage: (page: Page) => void; status: MarketStatus | null; marketRegion: string; setMarketRegion: (region: string) => void }) {
+function Header({ page, setPage, status, marketRegion, setMarketRegion, openDonate }: { page: Page; setPage: (page: Page) => void; status: MarketStatus | null; marketRegion: string; setMarketRegion: (region: string) => void; openDonate: () => void }) {
   return (
     <header className="rounded-2xl border border-white/10 bg-black/35 p-5 shadow-2xl backdrop-blur">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
@@ -73,11 +83,23 @@ function Header({ page, setPage, status, marketRegion, setMarketRegion }: { page
           <button className={navClass(page === "nodes")} onClick={() => setPage("nodes")}>Nodes</button>
           <button className={navClass(page === "map")} onClick={() => setPage("map")}>Map</button>
           <button className={navClass(page === "data")} onClick={() => setPage("data")}>Data</button>
+          <button className="rounded-full bg-brass px-4 py-2 text-sm font-extrabold text-black transition hover:bg-amber-300" onClick={openDonate}>Donate</button>
         </div>
       </div>
       {status && <div className="mt-4 rounded-xl border border-amber-400/25 bg-amber-500/10 px-3 py-2 text-sm text-amber-200">Market provider: {status.provider} ({status.region}). Unofficial. API failures display unavailable or stale data.</div>}
     </header>
   );
+}
+
+function DonateModal({ copied, copyNumber, close }: { copied: boolean; copyNumber: () => void; close: () => void }) {
+  return <div className="fixed inset-0 z-50 grid place-items-center bg-black/70 px-4" onClick={close}>
+    <div className="w-full max-w-sm rounded-2xl border border-white/10 bg-slate-950 p-5 shadow-2xl" onClick={(event) => event.stopPropagation()}>
+      <div className="flex items-start justify-between gap-4"><div><p className="text-xs uppercase tracking-[0.3em] text-brass">Support</p><h2 className="mt-2 text-2xl font-black text-white">Donate</h2></div><button className="rounded-full bg-white/10 px-3 py-1 text-sm text-slate-200 hover:bg-white/20" onClick={close}>Close</button></div>
+      <p className="mt-4 text-sm text-slate-300">Kirim donasi via ShopeePay, GoPay, atau DANA ke nomor berikut.</p>
+      <div className="mt-4 rounded-xl border border-brass/25 bg-brass/10 p-4 text-center"><div className="text-xs uppercase tracking-wider text-slate-400">ShopeePay / GoPay / DANA</div><div className="mt-2 text-3xl font-black tracking-wide text-brass">{donateNumber}</div></div>
+      <button className="btn-primary mt-4 w-full" onClick={copyNumber}>{copied ? "Copied" : "Copy number"}</button>
+    </div>
+  </div>;
 }
 
 function navClass(active: boolean) {
