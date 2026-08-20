@@ -3,6 +3,17 @@
     "id": 131,
     "productionNodeId": 131,
     "parentNodeId": 21,
+    "parentNode": {
+      "id": 21,
+      "name": "Bartali Farm",
+      "kind": 5,
+      "cpCost": 1,
+      "position": {
+        "x": 11684.6,
+        "y": -4390.19,
+        "z": 56102.5
+      }
+    },
     "regionGroup": 1,
     "workerSpecies": [
       0,
@@ -57,6 +68,17 @@
     "id": 132,
     "productionNodeId": 132,
     "parentNodeId": 21,
+    "parentNode": {
+      "id": 21,
+      "name": "Bartali Farm",
+      "kind": 5,
+      "cpCost": 1,
+      "position": {
+        "x": 11684.6,
+        "y": -4390.19,
+        "z": 56102.5
+      }
+    },
     "regionGroup": 1,
     "workerSpecies": [
       0,
@@ -111,6 +133,17 @@
     "id": 135,
     "productionNodeId": 135,
     "parentNodeId": 22,
+    "parentNode": {
+      "id": 22,
+      "name": "Finto Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 38476.6,
+        "y": -4476.81,
+        "z": 80100.9
+      }
+    },
     "regionGroup": 1,
     "workerSpecies": [
       0,
@@ -165,6 +198,17 @@
     "id": 136,
     "productionNodeId": 136,
     "parentNodeId": 22,
+    "parentNode": {
+      "id": 22,
+      "name": "Finto Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 38476.6,
+        "y": -4476.81,
+        "z": 80100.9
+      }
+    },
     "regionGroup": 1,
     "workerSpecies": [
       0,
@@ -219,6 +263,17 @@
     "id": 139,
     "productionNodeId": 139,
     "parentNodeId": 23,
+    "parentNode": {
+      "id": 23,
+      "name": "Goblin Cave",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 56472.7,
+        "y": -2895.62,
+        "z": 50425.7
+      }
+    },
     "regionGroup": 6,
     "workerSpecies": [
       0,
@@ -283,6 +338,17 @@
     "id": 142,
     "productionNodeId": 142,
     "parentNodeId": 23,
+    "parentNode": {
+      "id": 23,
+      "name": "Goblin Cave",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 56472.7,
+        "y": -2895.62,
+        "z": 50425.7
+      }
+    },
     "regionGroup": 6,
     "workerSpecies": [
       0,
@@ -377,6 +443,17 @@
     "id": 144,
     "productionNodeId": 144,
     "parentNodeId": 24,
+    "parentNode": {
+      "id": 24,
+      "name": "Ancient Stone Chamber",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -41064.4,
+        "y": -955.746,
+        "z": 8242.06
+      }
+    },
     "regionGroup": 3,
     "workerSpecies": [
       0,
@@ -441,6 +518,17 @@
     "id": 147,
     "productionNodeId": 147,
     "parentNodeId": 25,
+    "parentNode": {
+      "id": 25,
+      "name": "Imp Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -35189.6,
+        "y": -7462.96,
+        "z": 60016.3
+      }
+    },
     "regionGroup": 2,
     "workerSpecies": [
       0,
@@ -505,6 +593,17 @@
     "id": 148,
     "productionNodeId": 148,
     "parentNodeId": 25,
+    "parentNode": {
+      "id": 25,
+      "name": "Imp Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -35189.6,
+        "y": -7462.96,
+        "z": 60016.3
+      }
+    },
     "regionGroup": 2,
     "workerSpecies": [
       0,
@@ -569,6 +668,17 @@
     "id": 151,
     "productionNodeId": 151,
     "parentNodeId": 26,
+    "parentNode": {
+      "id": 26,
+      "name": "Loggia Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -13268,
+        "y": -4321.23,
+        "z": 76679.2
+      }
+    },
     "regionGroup": 1,
     "workerSpecies": [
       0,
@@ -623,6 +733,17 @@
     "id": 155,
     "productionNodeId": 155,
     "parentNodeId": 41,
+    "parentNode": {
+      "id": 41,
+      "name": "Cron Castle Site",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 32892.6,
+        "y": -1049.35,
+        "z": 116483
+      }
+    },
     "regionGroup": 7,
     "workerSpecies": [
       0,
@@ -687,6 +808,17 @@
     "id": 159,
     "productionNodeId": 159,
     "parentNodeId": 42,
+    "parentNode": {
+      "id": 42,
+      "name": "Ehwaz Hill",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 61199.8,
+        "y": -3267.33,
+        "z": 92402.5
+      }
+    },
     "regionGroup": 7,
     "workerSpecies": [
       0,
@@ -751,6 +883,17 @@
     "id": 160,
     "productionNodeId": 160,
     "parentNodeId": 42,
+    "parentNode": {
+      "id": 42,
+      "name": "Ehwaz Hill",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 61199.8,
+        "y": -3267.33,
+        "z": 92402.5
+      }
+    },
     "regionGroup": 7,
     "workerSpecies": [
       0,
@@ -855,6 +998,17 @@
     "id": 164,
     "productionNodeId": 164,
     "parentNodeId": 43,
+    "parentNode": {
+      "id": 43,
+      "name": "Forest of Plunder",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 42040.4,
+        "y": -4236.05,
+        "z": 62605.2
+      }
+    },
     "regionGroup": 6,
     "workerSpecies": [
       0,
@@ -919,6 +1073,17 @@
     "id": 167,
     "productionNodeId": 167,
     "parentNodeId": 44,
+    "parentNode": {
+      "id": 44,
+      "name": "Balenos Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 29970,
+        "y": -3814.08,
+        "z": 46568.1
+      }
+    },
     "regionGroup": 5,
     "workerSpecies": [
       0,
@@ -1013,6 +1178,17 @@
     "id": 168,
     "productionNodeId": 168,
     "parentNodeId": 44,
+    "parentNode": {
+      "id": 44,
+      "name": "Balenos Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 29970,
+        "y": -3814.08,
+        "z": 46568.1
+      }
+    },
     "regionGroup": 5,
     "workerSpecies": [
       0,
@@ -1077,6 +1253,17 @@
     "id": 171,
     "productionNodeId": 171,
     "parentNodeId": 45,
+    "parentNode": {
+      "id": 45,
+      "name": "Toscani Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -30432.3,
+        "y": -3017.58,
+        "z": 28481.4
+      }
+    },
     "regionGroup": 4,
     "workerSpecies": [
       0,
@@ -1131,6 +1318,17 @@
     "id": 172,
     "productionNodeId": 172,
     "parentNodeId": 45,
+    "parentNode": {
+      "id": 45,
+      "name": "Toscani Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -30432.3,
+        "y": -3017.58,
+        "z": 28481.4
+      }
+    },
     "regionGroup": 4,
     "workerSpecies": [
       0,
@@ -1185,6 +1383,17 @@
     "id": 175,
     "productionNodeId": 175,
     "parentNodeId": 46,
+    "parentNode": {
+      "id": 46,
+      "name": "Coastal Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -26249.2,
+        "y": -7931.12,
+        "z": 91748.6
+      }
+    },
     "regionGroup": 8,
     "workerSpecies": [
       0,
@@ -1249,6 +1458,17 @@
     "id": 176,
     "productionNodeId": 176,
     "parentNodeId": 46,
+    "parentNode": {
+      "id": 46,
+      "name": "Coastal Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -26249.2,
+        "y": -7931.12,
+        "z": 91748.6
+      }
+    },
     "regionGroup": 8,
     "workerSpecies": [
       0,
@@ -1313,6 +1533,17 @@
     "id": 183,
     "productionNodeId": 183,
     "parentNodeId": 48,
+    "parentNode": {
+      "id": 48,
+      "name": "Forest of Seclusion",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -48820.6,
+        "y": -4243.73,
+        "z": 22596.2
+      }
+    },
     "regionGroup": 3,
     "workerSpecies": [
       0,
@@ -1407,6 +1638,17 @@
     "id": 184,
     "productionNodeId": 184,
     "parentNodeId": 48,
+    "parentNode": {
+      "id": 48,
+      "name": "Forest of Seclusion",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -48820.6,
+        "y": -4243.73,
+        "z": 22596.2
+      }
+    },
     "regionGroup": 3,
     "workerSpecies": [
       0,
@@ -1471,6 +1713,17 @@
     "id": 187,
     "productionNodeId": 187,
     "parentNodeId": 49,
+    "parentNode": {
+      "id": 49,
+      "name": "Coastal Cliff",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -57058.2,
+        "y": -5088.61,
+        "z": 95951
+      }
+    },
     "regionGroup": 8,
     "workerSpecies": [
       0,
@@ -1535,6 +1788,17 @@
     "id": 188,
     "productionNodeId": 188,
     "parentNodeId": 49,
+    "parentNode": {
+      "id": 49,
+      "name": "Coastal Cliff",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -57058.2,
+        "y": -5088.61,
+        "z": 95951
+      }
+    },
     "regionGroup": 2,
     "workerSpecies": [
       0,
@@ -1599,6 +1863,17 @@
     "id": 201,
     "productionNodeId": 201,
     "parentNodeId": 66,
+    "parentNode": {
+      "id": 66,
+      "name": "Wolf Hills",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -111081,
+        "y": -1850.66,
+        "z": 90954.1
+      }
+    },
     "regionGroup": 62,
     "workerSpecies": [
       0,
@@ -1703,6 +1978,17 @@
     "id": 202,
     "productionNodeId": 202,
     "parentNodeId": 68,
+    "parentNode": {
+      "id": 68,
+      "name": "Terrmian Cliff",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -183358,
+        "y": -3960.79,
+        "z": 151644
+      }
+    },
     "regionGroup": 63,
     "workerSpecies": [
       0,
@@ -1767,6 +2053,17 @@
     "id": 203,
     "productionNodeId": 203,
     "parentNodeId": 64,
+    "parentNode": {
+      "id": 64,
+      "name": "Casta Farm",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -123096,
+        "y": -1480.17,
+        "z": 116693
+      }
+    },
     "regionGroup": 61,
     "workerSpecies": [
       0,
@@ -1821,6 +2118,17 @@
     "id": 204,
     "productionNodeId": 204,
     "parentNodeId": 65,
+    "parentNode": {
+      "id": 65,
+      "name": "Wale Farm",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -144298,
+        "y": -1309.78,
+        "z": 139534
+      }
+    },
     "regionGroup": 61,
     "workerSpecies": [
       0,
@@ -1875,6 +2183,17 @@
     "id": 206,
     "productionNodeId": 206,
     "parentNodeId": 66,
+    "parentNode": {
+      "id": 66,
+      "name": "Wolf Hills",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -111081,
+        "y": -1850.66,
+        "z": 90954.1
+      }
+    },
     "regionGroup": 62,
     "workerSpecies": [
       0,
@@ -1979,6 +2298,17 @@
     "id": 207,
     "productionNodeId": 207,
     "parentNodeId": 72,
+    "parentNode": {
+      "id": 72,
+      "name": "Mask Owl's Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -206188,
+        "y": 1947.77,
+        "z": 89039.3
+      }
+    },
     "regionGroup": 64,
     "workerSpecies": [
       0,
@@ -2043,6 +2373,17 @@
     "id": 208,
     "productionNodeId": 208,
     "parentNodeId": 72,
+    "parentNode": {
+      "id": 72,
+      "name": "Mask Owl's Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -206188,
+        "y": 1947.77,
+        "z": 89039.3
+      }
+    },
     "regionGroup": 64,
     "workerSpecies": [
       0,
@@ -2107,6 +2448,17 @@
     "id": 209,
     "productionNodeId": 209,
     "parentNodeId": 63,
+    "parentNode": {
+      "id": 63,
+      "name": "Elder's Bridge",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -268469,
+        "y": 4342.03,
+        "z": 106982
+      }
+    },
     "regionGroup": 64,
     "workerSpecies": [
       0,
@@ -2211,6 +2563,17 @@
     "id": 431,
     "productionNodeId": 431,
     "parentNodeId": 321,
+    "parentNode": {
+      "id": 321,
+      "name": "Alejandro Farm",
+      "kind": 5,
+      "cpCost": 1,
+      "position": {
+        "x": 9948.75,
+        "y": 1508.87,
+        "z": -14269.4
+      }
+    },
     "regionGroup": 13,
     "workerSpecies": [
       0,
@@ -2265,6 +2628,17 @@
     "id": 432,
     "productionNodeId": 432,
     "parentNodeId": 321,
+    "parentNode": {
+      "id": 321,
+      "name": "Alejandro Farm",
+      "kind": 5,
+      "cpCost": 1,
+      "position": {
+        "x": 9948.75,
+        "y": 1508.87,
+        "z": -14269.4
+      }
+    },
     "regionGroup": 13,
     "workerSpecies": [
       0,
@@ -2309,6 +2683,17 @@
     "id": 435,
     "productionNodeId": 435,
     "parentNodeId": 322,
+    "parentNode": {
+      "id": 322,
+      "name": "Costa Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 13320.8,
+        "y": -1319.24,
+        "z": -62420.7
+      }
+    },
     "regionGroup": 19,
     "workerSpecies": [
       0,
@@ -2363,6 +2748,17 @@
     "id": 436,
     "productionNodeId": 436,
     "parentNodeId": 322,
+    "parentNode": {
+      "id": 322,
+      "name": "Costa Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 13320.8,
+        "y": -1319.24,
+        "z": -62420.7
+      }
+    },
     "regionGroup": 19,
     "workerSpecies": [
       0,
@@ -2417,6 +2813,17 @@
     "id": 438,
     "productionNodeId": 438,
     "parentNodeId": 322,
+    "parentNode": {
+      "id": 322,
+      "name": "Costa Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 13320.8,
+        "y": -1319.24,
+        "z": -62420.7
+      }
+    },
     "regionGroup": 19,
     "workerSpecies": [
       0,
@@ -2481,6 +2888,17 @@
     "id": 439,
     "productionNodeId": 439,
     "parentNodeId": 323,
+    "parentNode": {
+      "id": 323,
+      "name": "Moretti Plantation",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 71577.8,
+        "y": -1403.05,
+        "z": -71092.9
+      }
+    },
     "regionGroup": 21,
     "workerSpecies": [
       0,
@@ -2535,6 +2953,17 @@
     "id": 440,
     "productionNodeId": 440,
     "parentNodeId": 323,
+    "parentNode": {
+      "id": 323,
+      "name": "Moretti Plantation",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 71577.8,
+        "y": -1403.05,
+        "z": -71092.9
+      }
+    },
     "regionGroup": 21,
     "workerSpecies": [
       0,
@@ -2599,6 +3028,17 @@
     "id": 443,
     "productionNodeId": 443,
     "parentNodeId": 324,
+    "parentNode": {
+      "id": 324,
+      "name": "Castle Ruins",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 89167.7,
+        "y": -1417.94,
+        "z": -100577
+      }
+    },
     "regionGroup": 21,
     "workerSpecies": [
       0,
@@ -2703,6 +3143,17 @@
     "id": 451,
     "productionNodeId": 451,
     "parentNodeId": 326,
+    "parentNode": {
+      "id": 326,
+      "name": "Northern Heidel Quarry",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 32502.9,
+        "y": -4381.46,
+        "z": 8868.56
+      }
+    },
     "regionGroup": 12,
     "workerSpecies": [
       0,
@@ -2767,6 +3218,17 @@
     "id": 452,
     "productionNodeId": 452,
     "parentNodeId": 326,
+    "parentNode": {
+      "id": 326,
+      "name": "Northern Heidel Quarry",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 32502.9,
+        "y": -4381.46,
+        "z": 8868.56
+      }
+    },
     "regionGroup": 12,
     "workerSpecies": [
       0,
@@ -2831,6 +3293,17 @@
     "id": 455,
     "productionNodeId": 455,
     "parentNodeId": 327,
+    "parentNode": {
+      "id": 327,
+      "name": "Serendia Shrine",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 35595,
+        "y": 1645.48,
+        "z": -161993
+      }
+    },
     "regionGroup": 22,
     "workerSpecies": [
       0,
@@ -2925,6 +3398,17 @@
     "id": 459,
     "productionNodeId": 459,
     "parentNodeId": 328,
+    "parentNode": {
+      "id": 328,
+      "name": "Lynch Ranch",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -40661.1,
+        "y": 7572.63,
+        "z": -5787.49
+      }
+    },
     "regionGroup": 14,
     "workerSpecies": [
       0,
@@ -2979,6 +3463,17 @@
     "id": 463,
     "productionNodeId": 463,
     "parentNodeId": 341,
+    "parentNode": {
+      "id": 341,
+      "name": "Northern Plain of Serendia",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -54008.5,
+        "y": -2393.87,
+        "z": -44849.4
+      }
+    },
     "regionGroup": 14,
     "workerSpecies": [
       0,
@@ -3043,6 +3538,17 @@
     "id": 464,
     "productionNodeId": 464,
     "parentNodeId": 341,
+    "parentNode": {
+      "id": 341,
+      "name": "Northern Plain of Serendia",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -54008.5,
+        "y": -2393.87,
+        "z": -44849.4
+      }
+    },
     "regionGroup": 14,
     "workerSpecies": [
       0,
@@ -3137,6 +3643,17 @@
     "id": 471,
     "productionNodeId": 471,
     "parentNodeId": 343,
+    "parentNode": {
+      "id": 343,
+      "name": "Glish Swamp",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -33168.9,
+        "y": -2209.93,
+        "z": -108733
+      }
+    },
     "regionGroup": 19,
     "workerSpecies": [
       0,
@@ -3201,6 +3718,17 @@
     "id": 472,
     "productionNodeId": 472,
     "parentNodeId": 343,
+    "parentNode": {
+      "id": 343,
+      "name": "Glish Swamp",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -33168.9,
+        "y": -2209.93,
+        "z": -108733
+      }
+    },
     "regionGroup": 19,
     "workerSpecies": [
       0,
@@ -3265,6 +3793,17 @@
     "id": 475,
     "productionNodeId": 475,
     "parentNodeId": 344,
+    "parentNode": {
+      "id": 344,
+      "name": "Southern Swamp",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 10783.2,
+        "y": -1831.7,
+        "z": -133512
+      }
+    },
     "regionGroup": 20,
     "workerSpecies": [
       0,
@@ -3329,6 +3868,17 @@
     "id": 476,
     "productionNodeId": 476,
     "parentNodeId": 344,
+    "parentNode": {
+      "id": 344,
+      "name": "Southern Swamp",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 10783.2,
+        "y": -1831.7,
+        "z": -133512
+      }
+    },
     "regionGroup": 20,
     "workerSpecies": [
       0,
@@ -3393,6 +3943,17 @@
     "id": 480,
     "productionNodeId": 480,
     "parentNodeId": 345,
+    "parentNode": {
+      "id": 345,
+      "name": "Glish Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 33421,
+        "y": 422.266,
+        "z": -110650
+      }
+    },
     "regionGroup": 20,
     "workerSpecies": [
       0,
@@ -3457,6 +4018,17 @@
     "id": 483,
     "productionNodeId": 483,
     "parentNodeId": 346,
+    "parentNode": {
+      "id": 346,
+      "name": "Northern Swamp",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 46692.7,
+        "y": -3034.68,
+        "z": -71397.6
+      }
+    },
     "regionGroup": 20,
     "workerSpecies": [
       0,
@@ -3521,6 +4093,17 @@
     "id": 487,
     "productionNodeId": 487,
     "parentNodeId": 347,
+    "parentNode": {
+      "id": 347,
+      "name": "Lynch Farm Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -19176.4,
+        "y": -2986.41,
+        "z": -37246
+      }
+    },
     "regionGroup": 14,
     "workerSpecies": [
       0,
@@ -3585,6 +4168,17 @@
     "id": 488,
     "productionNodeId": 488,
     "parentNodeId": 347,
+    "parentNode": {
+      "id": 347,
+      "name": "Lynch Farm Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -19176.4,
+        "y": -2986.41,
+        "z": -37246
+      }
+    },
     "regionGroup": 14,
     "workerSpecies": [
       0,
@@ -3649,6 +4243,17 @@
     "id": 831,
     "productionNodeId": 831,
     "parentNodeId": 635,
+    "parentNode": {
+      "id": 635,
+      "name": "Epheria Valley",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -344922,
+        "y": -2165.62,
+        "z": 1688.06
+      }
+    },
     "regionGroup": 37,
     "workerSpecies": [
       0,
@@ -3713,6 +4318,17 @@
     "id": 834,
     "productionNodeId": 834,
     "parentNodeId": 622,
+    "parentNode": {
+      "id": 622,
+      "name": "Quint Hill",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -300849,
+        "y": -1715.14,
+        "z": 21103.5
+      }
+    },
     "regionGroup": 36,
     "workerSpecies": [
       0,
@@ -3807,6 +4423,17 @@
     "id": 835,
     "productionNodeId": 835,
     "parentNodeId": 622,
+    "parentNode": {
+      "id": 622,
+      "name": "Quint Hill",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -300849,
+        "y": -1715.14,
+        "z": 21103.5
+      }
+    },
     "regionGroup": 36,
     "workerSpecies": [
       0,
@@ -3871,6 +4498,17 @@
     "id": 840,
     "productionNodeId": 840,
     "parentNodeId": 624,
+    "parentNode": {
+      "id": 624,
+      "name": "Bree Tree Ruins",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -220778,
+        "y": 1327.97,
+        "z": 52498.9
+      }
+    },
     "regionGroup": 34,
     "workerSpecies": [
       0,
@@ -3975,6 +4613,17 @@
     "id": 841,
     "productionNodeId": 841,
     "parentNodeId": 624,
+    "parentNode": {
+      "id": 624,
+      "name": "Bree Tree Ruins",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -220778,
+        "y": 1327.97,
+        "z": 52498.9
+      }
+    },
     "regionGroup": 34,
     "workerSpecies": [
       0,
@@ -4039,6 +4688,17 @@
     "id": 842,
     "productionNodeId": 842,
     "parentNodeId": 638,
+    "parentNode": {
+      "id": 638,
+      "name": "Bernianto Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -230917,
+        "y": -2335.06,
+        "z": 11949
+      }
+    },
     "regionGroup": 36,
     "workerSpecies": [
       0,
@@ -4103,6 +4763,17 @@
     "id": 843,
     "productionNodeId": 843,
     "parentNodeId": 625,
+    "parentNode": {
+      "id": 625,
+      "name": "Khuruto Cave",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -165422,
+        "y": -864.713,
+        "z": -3992.34
+      }
+    },
     "regionGroup": 33,
     "workerSpecies": [
       0,
@@ -4167,6 +4838,17 @@
     "id": 849,
     "productionNodeId": 849,
     "parentNodeId": 627,
+    "parentNode": {
+      "id": 627,
+      "name": "Karanda Ridge",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -123130,
+        "y": 12030.1,
+        "z": 33133
+      }
+    },
     "regionGroup": 33,
     "workerSpecies": [
       0,
@@ -4231,6 +4913,17 @@
     "id": 852,
     "productionNodeId": 852,
     "parentNodeId": 628,
+    "parentNode": {
+      "id": 628,
+      "name": "Northern Wheat Plantation",
+      "kind": 1,
+      "cpCost": 1,
+      "position": {
+        "x": -211833,
+        "y": -1318.06,
+        "z": -11113.9
+      }
+    },
     "regionGroup": 34,
     "workerSpecies": [
       0,
@@ -4285,6 +4978,17 @@
     "id": 853,
     "productionNodeId": 853,
     "parentNodeId": 628,
+    "parentNode": {
+      "id": 628,
+      "name": "Northern Wheat Plantation",
+      "kind": 1,
+      "cpCost": 1,
+      "position": {
+        "x": -211833,
+        "y": -1318.06,
+        "z": -11113.9
+      }
+    },
     "regionGroup": 34,
     "workerSpecies": [
       0,
@@ -4339,6 +5043,17 @@
     "id": 854,
     "productionNodeId": 854,
     "parentNodeId": 628,
+    "parentNode": {
+      "id": 628,
+      "name": "Northern Wheat Plantation",
+      "kind": 1,
+      "cpCost": 1,
+      "position": {
+        "x": -211833,
+        "y": -1318.06,
+        "z": -11113.9
+      }
+    },
     "regionGroup": 34,
     "workerSpecies": [
       0,
@@ -4393,6 +5108,17 @@
     "id": 855,
     "productionNodeId": 855,
     "parentNodeId": 629,
+    "parentNode": {
+      "id": 629,
+      "name": "Old Dandelion",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -167221,
+        "y": -400.197,
+        "z": -16922.8
+      }
+    },
     "regionGroup": 33,
     "workerSpecies": [
       0,
@@ -4487,6 +5213,17 @@
     "id": 901,
     "productionNodeId": 901,
     "parentNodeId": 715,
+    "parentNode": {
+      "id": 715,
+      "name": "Mansha Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -374905,
+        "y": 714.427,
+        "z": -123663
+      }
+    },
     "regionGroup": 39,
     "workerSpecies": [
       0,
@@ -4591,6 +5328,17 @@
     "id": 902,
     "productionNodeId": 902,
     "parentNodeId": 715,
+    "parentNode": {
+      "id": 715,
+      "name": "Mansha Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -374905,
+        "y": 714.427,
+        "z": -123663
+      }
+    },
     "regionGroup": 39,
     "workerSpecies": [
       0,
@@ -4655,6 +5403,17 @@
     "id": 903,
     "productionNodeId": 903,
     "parentNodeId": 722,
+    "parentNode": {
+      "id": 722,
+      "name": "Phoniel's Cabin",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -305393,
+        "y": 7176.35,
+        "z": -146278
+      }
+    },
     "regionGroup": 40,
     "workerSpecies": [
       0,
@@ -4759,6 +5518,17 @@
     "id": 904,
     "productionNodeId": 904,
     "parentNodeId": 710,
+    "parentNode": {
+      "id": 710,
+      "name": "Rhua Tree Stub",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -252197,
+        "y": -289.425,
+        "z": -208235
+      }
+    },
     "regionGroup": 43,
     "workerSpecies": [
       0,
@@ -4823,6 +5593,17 @@
     "id": 905,
     "productionNodeId": 905,
     "parentNodeId": 718,
+    "parentNode": {
+      "id": 718,
+      "name": "Lumberjack's Rest Area",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -391570,
+        "y": 8420.3,
+        "z": -208168
+      }
+    },
     "regionGroup": 39,
     "workerSpecies": [
       0,
@@ -4917,6 +5698,17 @@
     "id": 906,
     "productionNodeId": 906,
     "parentNodeId": 719,
+    "parentNode": {
+      "id": 719,
+      "name": "Longleaf Tree Sentry Post",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -347480,
+        "y": 13993.8,
+        "z": -255672
+      }
+    },
     "regionGroup": 42,
     "workerSpecies": [
       0,
@@ -4981,6 +5773,17 @@
     "id": 907,
     "productionNodeId": 907,
     "parentNodeId": 720,
+    "parentNode": {
+      "id": 720,
+      "name": "Longleaf Tree Forest",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -306868,
+        "y": 11592.2,
+        "z": -265455
+      }
+    },
     "regionGroup": 42,
     "workerSpecies": [
       0,
@@ -5085,6 +5888,17 @@
     "id": 908,
     "productionNodeId": 908,
     "parentNodeId": 703,
+    "parentNode": {
+      "id": 703,
+      "name": "Treant Forest",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -407222,
+        "y": 5661.5,
+        "z": -174147
+      }
+    },
     "regionGroup": 39,
     "workerSpecies": [
       0,
@@ -5179,6 +5993,17 @@
     "id": 910,
     "productionNodeId": 910,
     "parentNodeId": 716,
+    "parentNode": {
+      "id": 716,
+      "name": "Marie Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -191443,
+        "y": 8283.6,
+        "z": -249158
+      }
+    },
     "regionGroup": 43,
     "workerSpecies": [
       0,
@@ -5283,6 +6108,17 @@
     "id": 911,
     "productionNodeId": 911,
     "parentNodeId": 716,
+    "parentNode": {
+      "id": 716,
+      "name": "Marie Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -191443,
+        "y": 8283.6,
+        "z": -249158
+      }
+    },
     "regionGroup": 43,
     "workerSpecies": [
       0,
@@ -5347,6 +6183,17 @@
     "id": 912,
     "productionNodeId": 912,
     "parentNodeId": 710,
+    "parentNode": {
+      "id": 710,
+      "name": "Rhua Tree Stub",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -252197,
+        "y": -289.425,
+        "z": -208235
+      }
+    },
     "regionGroup": 43,
     "workerSpecies": [
       0,
@@ -5411,6 +6258,17 @@
     "id": 913,
     "productionNodeId": 913,
     "parentNodeId": 706,
+    "parentNode": {
+      "id": 706,
+      "name": "Rhutum Outstation",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -343418,
+        "y": 1467.69,
+        "z": -153330
+      }
+    },
     "regionGroup": 39,
     "workerSpecies": [
       0,
@@ -5475,6 +6333,17 @@
     "id": 914,
     "productionNodeId": 914,
     "parentNodeId": 705,
+    "parentNode": {
+      "id": 705,
+      "name": "Behr Riverhead",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -302619,
+        "y": 2657.93,
+        "z": -186153
+      }
+    },
     "regionGroup": 41,
     "workerSpecies": [
       0,
@@ -5539,6 +6408,17 @@
     "id": 950,
     "productionNodeId": 950,
     "parentNodeId": 656,
+    "parentNode": {
+      "id": 656,
+      "name": "Primal Giant Post",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -133377,
+        "y": 2788.67,
+        "z": -230206
+      }
+    },
     "regionGroup": 46,
     "workerSpecies": [
       0,
@@ -5603,6 +6483,17 @@
     "id": 951,
     "productionNodeId": 951,
     "parentNodeId": 674,
+    "parentNode": {
+      "id": 674,
+      "name": "Keplan Quarry",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -154453,
+        "y": 1554.14,
+        "z": -132095
+      }
+    },
     "regionGroup": 45,
     "workerSpecies": [
       0,
@@ -5667,6 +6558,17 @@
     "id": 952,
     "productionNodeId": 952,
     "parentNodeId": 652,
+    "parentNode": {
+      "id": 652,
+      "name": "Oze Pass",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -139626,
+        "y": 4097.19,
+        "z": -82406
+      }
+    },
     "regionGroup": 45,
     "workerSpecies": [
       0,
@@ -5761,6 +6663,17 @@
     "id": 957,
     "productionNodeId": 957,
     "parentNodeId": 672,
+    "parentNode": {
+      "id": 672,
+      "name": "Glutoni Cave",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -178187,
+        "y": -2406.88,
+        "z": -144115
+      }
+    },
     "regionGroup": 44,
     "workerSpecies": [
       0,
@@ -5825,6 +6738,17 @@
     "id": 958,
     "productionNodeId": 958,
     "parentNodeId": 672,
+    "parentNode": {
+      "id": 672,
+      "name": "Glutoni Cave",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -178187,
+        "y": -2406.88,
+        "z": -144115
+      }
+    },
     "regionGroup": 44,
     "workerSpecies": [
       0,
@@ -5889,6 +6813,17 @@
     "id": 959,
     "productionNodeId": 959,
     "parentNodeId": 662,
+    "parentNode": {
+      "id": 662,
+      "name": "Hexe Stone Wall",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -171746,
+        "y": 2628.29,
+        "z": -241757
+      }
+    },
     "regionGroup": 46,
     "workerSpecies": [
       0,
@@ -5953,6 +6888,17 @@
     "id": 1029,
     "productionNodeId": 1029,
     "parentNodeId": 1005,
+    "parentNode": {
+      "id": 1005,
+      "name": "Pujara Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 258690,
+        "y": -3304.76,
+        "z": 295960
+      }
+    },
     "regionGroup": 105,
     "workerSpecies": [
       0,
@@ -6047,6 +6993,17 @@
     "id": 1030,
     "productionNodeId": 1030,
     "parentNodeId": 1005,
+    "parentNode": {
+      "id": 1005,
+      "name": "Pujara Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 258690,
+        "y": -3304.76,
+        "z": 295960
+      }
+    },
     "regionGroup": 105,
     "workerSpecies": [
       0,
@@ -6141,6 +7098,17 @@
     "id": 1031,
     "productionNodeId": 1031,
     "parentNodeId": 1003,
+    "parentNode": {
+      "id": 1003,
+      "name": "Pilava Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 255801,
+        "y": -6358.02,
+        "z": 191862
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6235,6 +7203,17 @@
     "id": 1032,
     "productionNodeId": 1032,
     "parentNodeId": 1003,
+    "parentNode": {
+      "id": 1003,
+      "name": "Pilava Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 255801,
+        "y": -6358.02,
+        "z": 191862
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6329,6 +7308,17 @@
     "id": 1033,
     "productionNodeId": 1033,
     "parentNodeId": 1004,
+    "parentNode": {
+      "id": 1004,
+      "name": "Delinghart Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 205951,
+        "y": -8150,
+        "z": 200129
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6423,6 +7413,17 @@
     "id": 1034,
     "productionNodeId": 1034,
     "parentNodeId": 1004,
+    "parentNode": {
+      "id": 1004,
+      "name": "Delinghart Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 205951,
+        "y": -8150,
+        "z": 200129
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6517,6 +7518,17 @@
     "id": 1035,
     "productionNodeId": 1035,
     "parentNodeId": 1012,
+    "parentNode": {
+      "id": 1012,
+      "name": "Taramura Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 129340,
+        "y": -4967.78,
+        "z": 191491
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6601,6 +7613,17 @@
     "id": 1036,
     "productionNodeId": 1036,
     "parentNodeId": 1012,
+    "parentNode": {
+      "id": 1012,
+      "name": "Taramura Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 129340,
+        "y": -4967.78,
+        "z": 191491
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6695,6 +7718,17 @@
     "id": 1037,
     "productionNodeId": 1037,
     "parentNodeId": 1011,
+    "parentNode": {
+      "id": 1011,
+      "name": "Beiruwa Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 84729.4,
+        "y": -6334.9,
+        "z": 165217
+      }
+    },
     "regionGroup": 111,
     "workerSpecies": [
       0,
@@ -6789,6 +7823,17 @@
     "id": 1038,
     "productionNodeId": 1038,
     "parentNodeId": 1021,
+    "parentNode": {
+      "id": 1021,
+      "name": "Paratama Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 43288.6,
+        "y": -6644.43,
+        "z": 207825
+      }
+    },
     "regionGroup": 104,
     "workerSpecies": [
       0,
@@ -6883,6 +7928,17 @@
     "id": 1040,
     "productionNodeId": 1040,
     "parentNodeId": 1039,
+    "parentNode": {
+      "id": 1039,
+      "name": "Ephde Rune Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 7230.57,
+        "y": -7615.67,
+        "z": 165212
+      }
+    },
     "regionGroup": 101,
     "workerSpecies": [
       0,
@@ -6977,6 +8033,17 @@
     "id": 1041,
     "productionNodeId": 1041,
     "parentNodeId": 1020,
+    "parentNode": {
+      "id": 1020,
+      "name": "Mariveno Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -25890.8,
+        "y": -7067.2,
+        "z": 224844
+      }
+    },
     "regionGroup": 101,
     "workerSpecies": [
       0,
@@ -7071,6 +8138,17 @@
     "id": 1042,
     "productionNodeId": 1042,
     "parentNodeId": 1018,
+    "parentNode": {
+      "id": 1018,
+      "name": "Luivano Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -43910,
+        "y": -6213.56,
+        "z": 181358
+      }
+    },
     "regionGroup": 101,
     "workerSpecies": [
       0,
@@ -7165,6 +8243,17 @@
     "id": 1043,
     "productionNodeId": 1043,
     "parentNodeId": 1027,
+    "parentNode": {
+      "id": 1027,
+      "name": "Angie Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -131366,
+        "y": -5793.49,
+        "z": 238017
+      }
+    },
     "regionGroup": 101,
     "workerSpecies": [
       0,
@@ -7259,6 +8348,17 @@
     "id": 1045,
     "productionNodeId": 1045,
     "parentNodeId": 1027,
+    "parentNode": {
+      "id": 1027,
+      "name": "Angie Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -131366,
+        "y": -5793.49,
+        "z": 238017
+      }
+    },
     "regionGroup": 101,
     "workerSpecies": [
       0,
@@ -7353,6 +8453,17 @@
     "id": 1046,
     "productionNodeId": 1046,
     "parentNodeId": 1016,
+    "parentNode": {
+      "id": 1016,
+      "name": "Orffs Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -55021.4,
+        "y": -3854.57,
+        "z": 330371
+      }
+    },
     "regionGroup": 102,
     "workerSpecies": [
       0,
@@ -7447,6 +8558,17 @@
     "id": 1047,
     "productionNodeId": 1047,
     "parentNodeId": 1016,
+    "parentNode": {
+      "id": 1016,
+      "name": "Orffs Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -55021.4,
+        "y": -3854.57,
+        "z": 330371
+      }
+    },
     "regionGroup": 102,
     "workerSpecies": [
       0,
@@ -7541,6 +8663,17 @@
     "id": 1048,
     "productionNodeId": 1048,
     "parentNodeId": 1026,
+    "parentNode": {
+      "id": 1026,
+      "name": "Invernen Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -123249,
+        "y": -4889.1,
+        "z": 303782
+      }
+    },
     "regionGroup": 102,
     "workerSpecies": [
       0,
@@ -7635,6 +8768,17 @@
     "id": 1050,
     "productionNodeId": 1050,
     "parentNodeId": 1026,
+    "parentNode": {
+      "id": 1026,
+      "name": "Invernen Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -123249,
+        "y": -4889.1,
+        "z": 303782
+      }
+    },
     "regionGroup": 102,
     "workerSpecies": [
       0,
@@ -7729,6 +8873,17 @@
     "id": 1071,
     "productionNodeId": 1071,
     "parentNodeId": 1063,
+    "parentNode": {
+      "id": 1063,
+      "name": "Serca Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -384974,
+        "y": -6127.45,
+        "z": 86495.4
+      }
+    },
     "regionGroup": 106,
     "workerSpecies": [
       0,
@@ -7823,6 +8978,17 @@
     "id": 1072,
     "productionNodeId": 1072,
     "parentNodeId": 1064,
+    "parentNode": {
+      "id": 1064,
+      "name": "Baeza Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -439636,
+        "y": -6223.46,
+        "z": 85688.5
+      }
+    },
     "regionGroup": 108,
     "workerSpecies": [
       0,
@@ -7917,6 +9083,17 @@
     "id": 1073,
     "productionNodeId": 1073,
     "parentNodeId": 1065,
+    "parentNode": {
+      "id": 1065,
+      "name": "Modric Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -468288,
+        "y": -6107.16,
+        "z": 99032
+      }
+    },
     "regionGroup": 108,
     "workerSpecies": [
       0,
@@ -8011,6 +9188,17 @@
     "id": 1074,
     "productionNodeId": 1074,
     "parentNodeId": 1067,
+    "parentNode": {
+      "id": 1067,
+      "name": "Teyamal Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -524725,
+        "y": -5517.21,
+        "z": 66122.4
+      }
+    },
     "regionGroup": 108,
     "workerSpecies": [
       0,
@@ -8105,6 +9293,17 @@
     "id": 1075,
     "productionNodeId": 1075,
     "parentNodeId": 1067,
+    "parentNode": {
+      "id": 1067,
+      "name": "Teyamal Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -524725,
+        "y": -5517.21,
+        "z": 66122.4
+      }
+    },
     "regionGroup": 108,
     "workerSpecies": [
       0,
@@ -8199,6 +9398,17 @@
     "id": 1076,
     "productionNodeId": 1076,
     "parentNodeId": 1062,
+    "parentNode": {
+      "id": 1062,
+      "name": "Randis Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -383461,
+        "y": -7187.92,
+        "z": 110496
+      }
+    },
     "regionGroup": 106,
     "workerSpecies": [
       0,
@@ -8293,6 +9503,17 @@
     "id": 1077,
     "productionNodeId": 1077,
     "parentNodeId": 1059,
+    "parentNode": {
+      "id": 1059,
+      "name": "Daton Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -443029,
+        "y": -1988.7,
+        "z": 213565
+      }
+    },
     "regionGroup": 107,
     "workerSpecies": [
       0,
@@ -8387,6 +9608,17 @@
     "id": 1078,
     "productionNodeId": 1078,
     "parentNodeId": 1062,
+    "parentNode": {
+      "id": 1062,
+      "name": "Randis Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -383461,
+        "y": -7187.92,
+        "z": 110496
+      }
+    },
     "regionGroup": 106,
     "workerSpecies": [
       0,
@@ -8481,6 +9713,17 @@
     "id": 1079,
     "productionNodeId": 1079,
     "parentNodeId": 1058,
+    "parentNode": {
+      "id": 1058,
+      "name": "Oben Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -393076,
+        "y": 554.474,
+        "z": 206009
+      }
+    },
     "regionGroup": 107,
     "workerSpecies": [
       0,
@@ -8575,6 +9818,17 @@
     "id": 1080,
     "productionNodeId": 1080,
     "parentNodeId": 1058,
+    "parentNode": {
+      "id": 1058,
+      "name": "Oben Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -393076,
+        "y": 554.474,
+        "z": 206009
+      }
+    },
     "regionGroup": 107,
     "workerSpecies": [
       0,
@@ -8669,6 +9923,17 @@
     "id": 1081,
     "productionNodeId": 1081,
     "parentNodeId": 1061,
+    "parentNode": {
+      "id": 1061,
+      "name": "Barater Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -325298,
+        "y": -6866.32,
+        "z": 145943
+      }
+    },
     "regionGroup": 107,
     "workerSpecies": [
       0,
@@ -8763,6 +10028,17 @@
     "id": 1082,
     "productionNodeId": 1082,
     "parentNodeId": 1061,
+    "parentNode": {
+      "id": 1061,
+      "name": "Barater Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -325298,
+        "y": -6866.32,
+        "z": 145943
+      }
+    },
     "regionGroup": 107,
     "workerSpecies": [
       0,
@@ -8857,6 +10133,17 @@
     "id": 1083,
     "productionNodeId": 1083,
     "parentNodeId": 1056,
+    "parentNode": {
+      "id": 1056,
+      "name": "Albresser Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -330051,
+        "y": -4645.65,
+        "z": 172260
+      }
+    },
     "regionGroup": 107,
     "workerSpecies": [
       0,
@@ -8951,6 +10238,17 @@
     "id": 1084,
     "productionNodeId": 1084,
     "parentNodeId": 1053,
+    "parentNode": {
+      "id": 1053,
+      "name": "Staren Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -248601,
+        "y": -1504.09,
+        "z": 207950
+      }
+    },
     "regionGroup": 103,
     "workerSpecies": [
       0,
@@ -9045,6 +10343,17 @@
     "id": 1085,
     "productionNodeId": 1085,
     "parentNodeId": 1053,
+    "parentNode": {
+      "id": 1053,
+      "name": "Staren Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -248601,
+        "y": -1504.09,
+        "z": 207950
+      }
+    },
     "regionGroup": 103,
     "workerSpecies": [
       0,
@@ -9139,6 +10448,17 @@
     "id": 1086,
     "productionNodeId": 1086,
     "parentNodeId": 1054,
+    "parentNode": {
+      "id": 1054,
+      "name": "Lisz Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -233814,
+        "y": -1049.67,
+        "z": 266645
+      }
+    },
     "regionGroup": 103,
     "workerSpecies": [
       0,
@@ -9233,6 +10553,17 @@
     "id": 1087,
     "productionNodeId": 1087,
     "parentNodeId": 1054,
+    "parentNode": {
+      "id": 1054,
+      "name": "Lisz Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -233814,
+        "y": -1049.67,
+        "z": 266645
+      }
+    },
     "regionGroup": 103,
     "workerSpecies": [
       0,
@@ -9327,6 +10658,17 @@
     "id": 1088,
     "productionNodeId": 1088,
     "parentNodeId": 1052,
+    "parentNode": {
+      "id": 1052,
+      "name": "Louruve Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -213127,
+        "y": -4464.43,
+        "z": 234473
+      }
+    },
     "regionGroup": 103,
     "workerSpecies": [
       0,
@@ -9421,6 +10763,17 @@
     "id": 1089,
     "productionNodeId": 1089,
     "parentNodeId": 1010,
+    "parentNode": {
+      "id": 1010,
+      "name": "Weita Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 38273.7,
+        "y": -7679.64,
+        "z": 257200
+      }
+    },
     "regionGroup": 104,
     "workerSpecies": [
       0,
@@ -9515,6 +10868,17 @@
     "id": 1090,
     "productionNodeId": 1090,
     "parentNodeId": 1020,
+    "parentNode": {
+      "id": 1020,
+      "name": "Mariveno Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -25890.8,
+        "y": -7067.2,
+        "z": 224844
+      }
+    },
     "regionGroup": 101,
     "workerSpecies": [
       0,
@@ -9609,6 +10973,17 @@
     "id": 1201,
     "productionNodeId": 1201,
     "parentNodeId": 1159,
+    "parentNode": {
+      "id": 1159,
+      "name": "Ahto Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 204968,
+        "y": -3806.85,
+        "z": -20737.6
+      }
+    },
     "regionGroup": 54,
     "workerSpecies": [
       0,
@@ -9673,6 +11048,17 @@
     "id": 1202,
     "productionNodeId": 1202,
     "parentNodeId": 1159,
+    "parentNode": {
+      "id": 1159,
+      "name": "Ahto Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 204968,
+        "y": -3806.85,
+        "z": -20737.6
+      }
+    },
     "regionGroup": 54,
     "workerSpecies": [
       0,
@@ -9727,6 +11113,17 @@
     "id": 1203,
     "productionNodeId": 1203,
     "parentNodeId": 1149,
+    "parentNode": {
+      "id": 1149,
+      "name": "Omar Lava Cave",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 249925,
+        "y": -5625.74,
+        "z": -15730.9
+      }
+    },
     "regionGroup": 54,
     "workerSpecies": [
       0,
@@ -9801,6 +11198,17 @@
     "id": 1204,
     "productionNodeId": 1204,
     "parentNodeId": 1149,
+    "parentNode": {
+      "id": 1149,
+      "name": "Omar Lava Cave",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 249925,
+        "y": -5625.74,
+        "z": -15730.9
+      }
+    },
     "regionGroup": 54,
     "workerSpecies": [
       0,
@@ -9875,6 +11283,17 @@
     "id": 1205,
     "productionNodeId": 1205,
     "parentNodeId": 1160,
+    "parentNode": {
+      "id": 1160,
+      "name": "Shuri Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 196127,
+        "y": -272.65,
+        "z": 23967.5
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -9949,6 +11368,17 @@
     "id": 1206,
     "productionNodeId": 1206,
     "parentNodeId": 1161,
+    "parentNode": {
+      "id": 1161,
+      "name": "Kasula Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 243568,
+        "y": -1441.83,
+        "z": -77109
+      }
+    },
     "regionGroup": 54,
     "workerSpecies": [
       0,
@@ -10013,6 +11443,17 @@
     "id": 1207,
     "productionNodeId": 1207,
     "parentNodeId": 1161,
+    "parentNode": {
+      "id": 1161,
+      "name": "Kasula Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 243568,
+        "y": -1441.83,
+        "z": -77109
+      }
+    },
     "regionGroup": 54,
     "workerSpecies": [
       0,
@@ -10067,6 +11508,17 @@
     "id": 1208,
     "productionNodeId": 1208,
     "parentNodeId": 1144,
+    "parentNode": {
+      "id": 1144,
+      "name": "Abandoned Iron Mine",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 319879,
+        "y": -10611.4,
+        "z": -126855
+      }
+    },
     "regionGroup": 56,
     "workerSpecies": [
       0,
@@ -10141,6 +11593,17 @@
     "id": 1209,
     "productionNodeId": 1209,
     "parentNodeId": 1144,
+    "parentNode": {
+      "id": 1144,
+      "name": "Abandoned Iron Mine",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 319879,
+        "y": -10611.4,
+        "z": -126855
+      }
+    },
     "regionGroup": 56,
     "workerSpecies": [
       0,
@@ -10215,6 +11678,17 @@
     "id": 1210,
     "productionNodeId": 1210,
     "parentNodeId": 1155,
+    "parentNode": {
+      "id": 1155,
+      "name": "Elric Shrine",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 170964,
+        "y": 10677,
+        "z": 75440.1
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -10279,6 +11753,17 @@
     "id": 1211,
     "productionNodeId": 1211,
     "parentNodeId": 1136,
+    "parentNode": {
+      "id": 1136,
+      "name": "Kamasylve Temple",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 148023,
+        "y": 1452.95,
+        "z": -33975.7
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -10343,6 +11828,17 @@
     "id": 1212,
     "productionNodeId": 1212,
     "parentNodeId": 1134,
+    "parentNode": {
+      "id": 1134,
+      "name": "Mediah Northern Highlands",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 159233,
+        "y": -3141.67,
+        "z": 125712
+      }
+    },
     "regionGroup": 52,
     "workerSpecies": [
       0,
@@ -10447,6 +11943,17 @@
     "id": 1213,
     "productionNodeId": 1213,
     "parentNodeId": 1162,
+    "parentNode": {
+      "id": 1162,
+      "name": "Ancient Fissure",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 130363,
+        "y": 4265.02,
+        "z": 25714.3
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -10521,6 +12028,17 @@
     "id": 1214,
     "productionNodeId": 1214,
     "parentNodeId": 1146,
+    "parentNode": {
+      "id": 1146,
+      "name": "Marni's 2nd Lab",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 389423,
+        "y": 1054.72,
+        "z": -172300
+      }
+    },
     "regionGroup": 55,
     "workerSpecies": [
       0,
@@ -10585,6 +12103,17 @@
     "id": 1215,
     "productionNodeId": 1215,
     "parentNodeId": 1155,
+    "parentNode": {
+      "id": 1155,
+      "name": "Elric Shrine",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 170964,
+        "y": 10677,
+        "z": 75440.1
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -10689,6 +12218,17 @@
     "id": 1216,
     "productionNodeId": 1216,
     "parentNodeId": 1134,
+    "parentNode": {
+      "id": 1134,
+      "name": "Mediah Northern Highlands",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 159233,
+        "y": -3141.67,
+        "z": 125712
+      }
+    },
     "regionGroup": 52,
     "workerSpecies": [
       0,
@@ -10793,6 +12333,17 @@
     "id": 1217,
     "productionNodeId": 1217,
     "parentNodeId": 1162,
+    "parentNode": {
+      "id": 1162,
+      "name": "Ancient Fissure",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 130363,
+        "y": 4265.02,
+        "z": 25714.3
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -10857,6 +12408,17 @@
     "id": 1218,
     "productionNodeId": 1218,
     "parentNodeId": 1163,
+    "parentNode": {
+      "id": 1163,
+      "name": "Mediah Shore",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 247844,
+        "y": -6299.84,
+        "z": 38672.8
+      }
+    },
     "regionGroup": 51,
     "workerSpecies": [
       0,
@@ -10931,6 +12493,17 @@
     "id": 1219,
     "productionNodeId": 1219,
     "parentNodeId": 1133,
+    "parentNode": {
+      "id": 1133,
+      "name": "Stonetail Wasteland",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 209220,
+        "y": -381.175,
+        "z": 80233.9
+      }
+    },
     "regionGroup": 51,
     "workerSpecies": [
       0,
@@ -11035,6 +12608,17 @@
     "id": 1220,
     "productionNodeId": 1220,
     "parentNodeId": 1156,
+    "parentNode": {
+      "id": 1156,
+      "name": "Ancient Ruins Excavation Site",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 164338,
+        "y": 4825.45,
+        "z": 9253.9
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -11099,6 +12683,17 @@
     "id": 1221,
     "productionNodeId": 1221,
     "parentNodeId": 1136,
+    "parentNode": {
+      "id": 1136,
+      "name": "Kamasylve Temple",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 148023,
+        "y": 1452.95,
+        "z": -33975.7
+      }
+    },
     "regionGroup": 53,
     "workerSpecies": [
       0,
@@ -11163,6 +12758,17 @@
     "id": 1501,
     "productionNodeId": 1501,
     "parentNodeId": 1304,
+    "parentNode": {
+      "id": 1304,
+      "name": "Gorgo Rock Belt",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 393559,
+        "y": -3785.44,
+        "z": 39584.3
+      }
+    },
     "regionGroup": 203,
     "workerSpecies": [
       0,
@@ -11217,6 +12823,17 @@
     "id": 1502,
     "productionNodeId": 1502,
     "parentNodeId": 1304,
+    "parentNode": {
+      "id": 1304,
+      "name": "Gorgo Rock Belt",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 393559,
+        "y": -3785.44,
+        "z": 39584.3
+      }
+    },
     "regionGroup": 203,
     "workerSpecies": [
       0,
@@ -11331,6 +12948,17 @@
     "id": 1504,
     "productionNodeId": 1504,
     "parentNodeId": 1305,
+    "parentNode": {
+      "id": 1305,
+      "name": "Veteran's Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 422278,
+        "y": -169.218,
+        "z": 47373
+      }
+    },
     "regionGroup": 203,
     "workerSpecies": [
       0,
@@ -11445,6 +13073,17 @@
     "id": 1505,
     "productionNodeId": 1505,
     "parentNodeId": 1307,
+    "parentNode": {
+      "id": 1307,
+      "name": "Kunid's Vacation Spot",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 403646,
+        "y": -7186.34,
+        "z": 97768.1
+      }
+    },
     "regionGroup": 209,
     "workerSpecies": [
       0,
@@ -11509,6 +13148,17 @@
     "id": 1506,
     "productionNodeId": 1506,
     "parentNodeId": 1308,
+    "parentNode": {
+      "id": 1308,
+      "name": "Leical Falls",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 386105,
+        "y": -1755.67,
+        "z": 131364
+      }
+    },
     "regionGroup": 209,
     "workerSpecies": [
       0,
@@ -11573,6 +13223,17 @@
     "id": 1507,
     "productionNodeId": 1507,
     "parentNodeId": 1309,
+    "parentNode": {
+      "id": 1309,
+      "name": "Pujiya Canyon",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 427585,
+        "y": -1995.67,
+        "z": -26700.4
+      }
+    },
     "regionGroup": 210,
     "workerSpecies": [
       0,
@@ -11647,6 +13308,17 @@
     "id": 1508,
     "productionNodeId": 1508,
     "parentNodeId": 1310,
+    "parentNode": {
+      "id": 1310,
+      "name": "Bashim Base",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 478999,
+        "y": -5005.54,
+        "z": -81716.7
+      }
+    },
     "regionGroup": 210,
     "workerSpecies": [
       0,
@@ -11721,6 +13393,17 @@
     "id": 1509,
     "productionNodeId": 1509,
     "parentNodeId": 1318,
+    "parentNode": {
+      "id": 1318,
+      "name": "Capotia",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 551095,
+        "y": 12297.8,
+        "z": 37857.4
+      }
+    },
     "regionGroup": 205,
     "workerSpecies": [
       0,
@@ -11775,6 +13458,17 @@
     "id": 1510,
     "productionNodeId": 1510,
     "parentNodeId": 1318,
+    "parentNode": {
+      "id": 1318,
+      "name": "Capotia",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 551095,
+        "y": 12297.8,
+        "z": 37857.4
+      }
+    },
     "regionGroup": 205,
     "workerSpecies": [
       0,
@@ -11849,6 +13543,17 @@
     "id": 1512,
     "productionNodeId": 1512,
     "parentNodeId": 1325,
+    "parentNode": {
+      "id": 1325,
+      "name": "Pilgrim's Haven",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 679352,
+        "y": 12333.6,
+        "z": 104564
+      }
+    },
     "regionGroup": 205,
     "workerSpecies": [
       0,
@@ -11963,6 +13668,17 @@
     "id": 1513,
     "productionNodeId": 1513,
     "parentNodeId": 1325,
+    "parentNode": {
+      "id": 1325,
+      "name": "Pilgrim's Haven",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 679352,
+        "y": 12333.6,
+        "z": 104564
+      }
+    },
     "regionGroup": 205,
     "workerSpecies": [
       0,
@@ -12037,6 +13753,17 @@
     "id": 1514,
     "productionNodeId": 1514,
     "parentNodeId": 1328,
+    "parentNode": {
+      "id": 1328,
+      "name": "Bambu Valley",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 727582,
+        "y": 12460.6,
+        "z": 371156
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -12091,6 +13818,17 @@
     "id": 1515,
     "productionNodeId": 1515,
     "parentNodeId": 1329,
+    "parentNode": {
+      "id": 1329,
+      "name": "Iris Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 760598,
+        "y": 8247.73,
+        "z": 406195
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -12145,6 +13883,17 @@
     "id": 1516,
     "productionNodeId": 1516,
     "parentNodeId": 1329,
+    "parentNode": {
+      "id": 1329,
+      "name": "Iris Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 760598,
+        "y": 8247.73,
+        "z": 406195
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -12259,6 +14008,17 @@
     "id": 1517,
     "productionNodeId": 1517,
     "parentNodeId": 1330,
+    "parentNode": {
+      "id": 1330,
+      "name": "Kmach Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 766617,
+        "y": 15083.2,
+        "z": 355961
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -12333,6 +14093,17 @@
     "id": 1518,
     "productionNodeId": 1518,
     "parentNodeId": 1330,
+    "parentNode": {
+      "id": 1330,
+      "name": "Kmach Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 766617,
+        "y": 15083.2,
+        "z": 355961
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -12387,6 +14158,17 @@
     "id": 1519,
     "productionNodeId": 1519,
     "parentNodeId": 1344,
+    "parentNode": {
+      "id": 1344,
+      "name": "Aakman",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 813638,
+        "y": 5502.69,
+        "z": -110341
+      }
+    },
     "regionGroup": 206,
     "workerSpecies": [
       0,
@@ -12441,6 +14223,17 @@
     "id": 1520,
     "productionNodeId": 1520,
     "parentNodeId": 1345,
+    "parentNode": {
+      "id": 1345,
+      "name": "Crescent Shrine",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 730906,
+        "y": 22552.1,
+        "z": -201213
+      }
+    },
     "regionGroup": 207,
     "workerSpecies": [
       0,
@@ -12495,6 +14288,17 @@
     "id": 1521,
     "productionNodeId": 1521,
     "parentNodeId": 1345,
+    "parentNode": {
+      "id": 1345,
+      "name": "Crescent Shrine",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 730906,
+        "y": 22552.1,
+        "z": -201213
+      }
+    },
     "regionGroup": 207,
     "workerSpecies": [
       0,
@@ -12569,6 +14373,17 @@
     "id": 1522,
     "productionNodeId": 1522,
     "parentNodeId": 1346,
+    "parentNode": {
+      "id": 1346,
+      "name": "Crescent Mountains",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 773384,
+        "y": 29797.5,
+        "z": -170818
+      }
+    },
     "regionGroup": 207,
     "workerSpecies": [
       0,
@@ -12643,6 +14458,17 @@
     "id": 1523,
     "productionNodeId": 1523,
     "parentNodeId": 1346,
+    "parentNode": {
+      "id": 1346,
+      "name": "Crescent Mountains",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 773384,
+        "y": 29797.5,
+        "z": -170818
+      }
+    },
     "regionGroup": 207,
     "workerSpecies": [
       0,
@@ -12717,6 +14543,17 @@
     "id": 1524,
     "productionNodeId": 1524,
     "parentNodeId": 1347,
+    "parentNode": {
+      "id": 1347,
+      "name": "Titium Valley",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 1002250,
+        "y": 15114.8,
+        "z": -165443
+      }
+    },
     "regionGroup": 208,
     "workerSpecies": [
       0,
@@ -12771,6 +14608,17 @@
     "id": 1525,
     "productionNodeId": 1525,
     "parentNodeId": 1347,
+    "parentNode": {
+      "id": 1347,
+      "name": "Titium Valley",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 1002250,
+        "y": 15114.8,
+        "z": -165443
+      }
+    },
     "regionGroup": 208,
     "workerSpecies": [
       0,
@@ -12825,6 +14673,17 @@
     "id": 1526,
     "productionNodeId": 1526,
     "parentNodeId": 1347,
+    "parentNode": {
+      "id": 1347,
+      "name": "Titium Valley",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 1002250,
+        "y": 15114.8,
+        "z": -165443
+      }
+    },
     "regionGroup": 208,
     "workerSpecies": [
       0,
@@ -12939,6 +14798,17 @@
     "id": 1527,
     "productionNodeId": 1527,
     "parentNodeId": 1351,
+    "parentNode": {
+      "id": 1351,
+      "name": "Bazaar Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 578361,
+        "y": 22269.2,
+        "z": 25749.7
+      }
+    },
     "regionGroup": 205,
     "workerSpecies": [
       0,
@@ -12993,6 +14863,17 @@
     "id": 1528,
     "productionNodeId": 1528,
     "parentNodeId": 1351,
+    "parentNode": {
+      "id": 1351,
+      "name": "Bazaar Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 578361,
+        "y": 22269.2,
+        "z": 25749.7
+      }
+    },
     "regionGroup": 205,
     "workerSpecies": [
       0,
@@ -13047,6 +14928,17 @@
     "id": 1529,
     "productionNodeId": 1529,
     "parentNodeId": 1352,
+    "parentNode": {
+      "id": 1352,
+      "name": "Shakatu Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 567974,
+        "y": 5455.36,
+        "z": 285316
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -13101,6 +14993,17 @@
     "id": 1530,
     "productionNodeId": 1530,
     "parentNodeId": 1352,
+    "parentNode": {
+      "id": 1352,
+      "name": "Shakatu Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 567974,
+        "y": 5455.36,
+        "z": 285316
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -13155,6 +15058,17 @@
     "id": 1531,
     "productionNodeId": 1531,
     "parentNodeId": 1352,
+    "parentNode": {
+      "id": 1352,
+      "name": "Shakatu Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 567974,
+        "y": 5455.36,
+        "z": 285316
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -13209,6 +15123,17 @@
     "id": 1532,
     "productionNodeId": 1532,
     "parentNodeId": 1353,
+    "parentNode": {
+      "id": 1353,
+      "name": "Altas Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 998115,
+        "y": -2690.6,
+        "z": 333094
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13263,6 +15188,17 @@
     "id": 1533,
     "productionNodeId": 1533,
     "parentNodeId": 1353,
+    "parentNode": {
+      "id": 1353,
+      "name": "Altas Farmland",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 998115,
+        "y": -2690.6,
+        "z": 333094
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13317,6 +15253,17 @@
     "id": 1534,
     "productionNodeId": 1534,
     "parentNodeId": 1354,
+    "parentNode": {
+      "id": 1354,
+      "name": "Erdal Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 995260,
+        "y": 8799.03,
+        "z": 224866
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13371,6 +15318,17 @@
     "id": 1535,
     "productionNodeId": 1535,
     "parentNodeId": 1354,
+    "parentNode": {
+      "id": 1354,
+      "name": "Erdal Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 995260,
+        "y": 8799.03,
+        "z": 224866
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13425,6 +15383,17 @@
     "id": 1536,
     "productionNodeId": 1536,
     "parentNodeId": 1355,
+    "parentNode": {
+      "id": 1355,
+      "name": "Valencia Plantation",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 990646,
+        "y": 10337.9,
+        "z": 197386
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13479,6 +15448,17 @@
     "id": 1537,
     "productionNodeId": 1537,
     "parentNodeId": 1355,
+    "parentNode": {
+      "id": 1355,
+      "name": "Valencia Plantation",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 990646,
+        "y": 10337.9,
+        "z": 197386
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13533,6 +15513,17 @@
     "id": 1538,
     "productionNodeId": 1538,
     "parentNodeId": 1355,
+    "parentNode": {
+      "id": 1355,
+      "name": "Valencia Plantation",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 990646,
+        "y": 10337.9,
+        "z": 197386
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13587,6 +15578,17 @@
     "id": 1539,
     "productionNodeId": 1539,
     "parentNodeId": 1356,
+    "parentNode": {
+      "id": 1356,
+      "name": "Fohalam Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 985941,
+        "y": 10306.2,
+        "z": 176471
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13641,6 +15643,17 @@
     "id": 1540,
     "productionNodeId": 1540,
     "parentNodeId": 1356,
+    "parentNode": {
+      "id": 1356,
+      "name": "Fohalam Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 985941,
+        "y": 10306.2,
+        "z": 176471
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -13695,6 +15708,17 @@
     "id": 1553,
     "productionNodeId": 1553,
     "parentNodeId": 1336,
+    "parentNode": {
+      "id": 1336,
+      "name": "Pilgrim's Sanctum: Humility",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 892725,
+        "y": 16087.2,
+        "z": -61532.3
+      }
+    },
     "regionGroup": 206,
     "workerSpecies": [
       0,
@@ -13759,6 +15783,17 @@
     "id": 1554,
     "productionNodeId": 1554,
     "parentNodeId": 1379,
+    "parentNode": {
+      "id": 1379,
+      "name": "Areha Palm Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1232790,
+        "y": 1191.24,
+        "z": 199861
+      }
+    },
     "regionGroup": 212,
     "workerSpecies": [
       0,
@@ -13873,6 +15908,17 @@
     "id": 1555,
     "productionNodeId": 1555,
     "parentNodeId": 1379,
+    "parentNode": {
+      "id": 1379,
+      "name": "Areha Palm Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1232790,
+        "y": 1191.24,
+        "z": 199861
+      }
+    },
     "regionGroup": 212,
     "workerSpecies": [
       0,
@@ -13987,6 +16033,17 @@
     "id": 1556,
     "productionNodeId": 1556,
     "parentNodeId": 1389,
+    "parentNode": {
+      "id": 1389,
+      "name": "Gavinya Coastal Cliff",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1163610,
+        "y": 607.986,
+        "z": 514146
+      }
+    },
     "regionGroup": 214,
     "workerSpecies": [
       0,
@@ -14061,6 +16118,17 @@
     "id": 1557,
     "productionNodeId": 1557,
     "parentNodeId": 1389,
+    "parentNode": {
+      "id": 1389,
+      "name": "Gavinya Coastal Cliff",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1163610,
+        "y": 607.986,
+        "z": 514146
+      }
+    },
     "regionGroup": 214,
     "workerSpecies": [
       0,
@@ -14125,6 +16193,17 @@
     "id": 1558,
     "productionNodeId": 1558,
     "parentNodeId": 1388,
+    "parentNode": {
+      "id": 1388,
+      "name": "Gavinya Great Crater",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 1093740,
+        "y": 33485.5,
+        "z": 488521
+      }
+    },
     "regionGroup": 214,
     "workerSpecies": [
       0,
@@ -14199,6 +16278,17 @@
     "id": 1559,
     "productionNodeId": 1559,
     "parentNodeId": 1392,
+    "parentNode": {
+      "id": 1392,
+      "name": "Ivero Cliff",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 928558,
+        "y": 9127.87,
+        "z": 468371
+      }
+    },
     "regionGroup": 215,
     "workerSpecies": [
       0,
@@ -14273,6 +16363,17 @@
     "id": 1560,
     "productionNodeId": 1560,
     "parentNodeId": 1385,
+    "parentNode": {
+      "id": 1385,
+      "name": "Northern Sand Dune",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1264070,
+        "y": 9240.92,
+        "z": 285793
+      }
+    },
     "regionGroup": 213,
     "workerSpecies": [
       0,
@@ -14387,6 +16488,17 @@
     "id": 1561,
     "productionNodeId": 1561,
     "parentNodeId": 1387,
+    "parentNode": {
+      "id": 1387,
+      "name": "Gavinya Volcano Zone",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 1166230,
+        "y": 14055.7,
+        "z": 442864
+      }
+    },
     "regionGroup": 214,
     "workerSpecies": [
       0,
@@ -14461,6 +16573,17 @@
     "id": 1562,
     "productionNodeId": 1562,
     "parentNodeId": 1387,
+    "parentNode": {
+      "id": 1387,
+      "name": "Gavinya Volcano Zone",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 1166230,
+        "y": 14055.7,
+        "z": 442864
+      }
+    },
     "regionGroup": 214,
     "workerSpecies": [
       0,
@@ -14535,6 +16658,17 @@
     "id": 1565,
     "productionNodeId": 1565,
     "parentNodeId": 1354,
+    "parentNode": {
+      "id": 1354,
+      "name": "Erdal Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 995260,
+        "y": 8799.03,
+        "z": 224866
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -14589,6 +16723,17 @@
     "id": 1566,
     "productionNodeId": 1566,
     "parentNodeId": 1390,
+    "parentNode": {
+      "id": 1390,
+      "name": "Roud Sulfur Works",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 1084880,
+        "y": 23078.9,
+        "z": 418194
+      }
+    },
     "regionGroup": 214,
     "workerSpecies": [
       0,
@@ -14673,6 +16818,17 @@
     "id": 1633,
     "productionNodeId": 1633,
     "parentNodeId": 1610,
+    "parentNode": {
+      "id": 1610,
+      "name": "Viv Foretta Hamlet",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -312779,
+        "y": 26385.1,
+        "z": -312312
+      }
+    },
     "regionGroup": 153,
     "workerSpecies": [
       0,
@@ -14737,6 +16893,17 @@
     "id": 1635,
     "productionNodeId": 1635,
     "parentNodeId": 1605,
+    "parentNode": {
+      "id": 1605,
+      "name": "Shady Tree Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -387619,
+        "y": 2935.95,
+        "z": -471699
+      }
+    },
     "regionGroup": 151,
     "workerSpecies": [
       0,
@@ -14851,6 +17018,17 @@
     "id": 1636,
     "productionNodeId": 1636,
     "parentNodeId": 1609,
+    "parentNode": {
+      "id": 1609,
+      "name": "Holo Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -441231,
+        "y": 15925.7,
+        "z": -353628
+      }
+    },
     "regionGroup": 152,
     "workerSpecies": [
       0,
@@ -14915,6 +17093,17 @@
     "id": 1637,
     "productionNodeId": 1637,
     "parentNodeId": 1619,
+    "parentNode": {
+      "id": 1619,
+      "name": "Tooth Fairy Forest",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -586038,
+        "y": 10784.9,
+        "z": -315386
+      }
+    },
     "regionGroup": 155,
     "workerSpecies": [
       0,
@@ -14979,6 +17168,17 @@
     "id": 1638,
     "productionNodeId": 1638,
     "parentNodeId": 1618,
+    "parentNode": {
+      "id": 1618,
+      "name": "Loopy Tree Forest",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -540821,
+        "y": 10390.5,
+        "z": -211970
+      }
+    },
     "regionGroup": 157,
     "workerSpecies": [
       0,
@@ -15093,6 +17293,17 @@
     "id": 1639,
     "productionNodeId": 1639,
     "parentNodeId": 1624,
+    "parentNode": {
+      "id": 1624,
+      "name": "Polly's Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -558641,
+        "y": -3233.77,
+        "z": -420951
+      }
+    },
     "regionGroup": 156,
     "workerSpecies": [
       0,
@@ -15157,6 +17368,17 @@
     "id": 1640,
     "productionNodeId": 1640,
     "parentNodeId": 1629,
+    "parentNode": {
+      "id": 1629,
+      "name": "Weenie Cabin",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -584660,
+        "y": -3563.9,
+        "z": -375443
+      }
+    },
     "regionGroup": 156,
     "workerSpecies": [
       0,
@@ -15221,6 +17443,17 @@
     "id": 1641,
     "productionNodeId": 1641,
     "parentNodeId": 1628,
+    "parentNode": {
+      "id": 1628,
+      "name": "Looney Cabin",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -576232,
+        "y": -2661.22,
+        "z": -439055
+      }
+    },
     "regionGroup": 156,
     "workerSpecies": [
       0,
@@ -15285,6 +17518,17 @@
     "id": 1642,
     "productionNodeId": 1642,
     "parentNodeId": 1622,
+    "parentNode": {
+      "id": 1622,
+      "name": "Lake Flondor",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -470258,
+        "y": -4790.85,
+        "z": -413458
+      }
+    },
     "regionGroup": 154,
     "workerSpecies": [
       0,
@@ -15349,6 +17593,17 @@
     "id": 1645,
     "productionNodeId": 1645,
     "parentNodeId": 1625,
+    "parentNode": {
+      "id": 1625,
+      "name": "Southern Kamasylvia",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -492554,
+        "y": 1891.25,
+        "z": -499348
+      }
+    },
     "regionGroup": 158,
     "workerSpecies": [
       0,
@@ -15413,6 +17668,17 @@
     "id": 1671,
     "productionNodeId": 1671,
     "parentNodeId": 1650,
+    "parentNode": {
+      "id": 1650,
+      "name": "Duvencrune Farmland",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -73674.8,
+        "y": 17074.4,
+        "z": -418209
+      }
+    },
     "regionGroup": 222,
     "workerSpecies": [
       0,
@@ -15467,6 +17733,17 @@
     "id": 1672,
     "productionNodeId": 1672,
     "parentNodeId": 1650,
+    "parentNode": {
+      "id": 1650,
+      "name": "Duvencrune Farmland",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -73674.8,
+        "y": 17074.4,
+        "z": -418209
+      }
+    },
     "regionGroup": 222,
     "workerSpecies": [
       0,
@@ -15521,6 +17798,17 @@
     "id": 1673,
     "productionNodeId": 1673,
     "parentNodeId": 1670,
+    "parentNode": {
+      "id": 1670,
+      "name": "Marak Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 2193.15,
+        "y": 33730.9,
+        "z": -397162
+      }
+    },
     "regionGroup": 239,
     "workerSpecies": [
       0,
@@ -15575,6 +17863,17 @@
     "id": 1674,
     "productionNodeId": 1674,
     "parentNodeId": 1670,
+    "parentNode": {
+      "id": 1670,
+      "name": "Marak Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 2193.15,
+        "y": 33730.9,
+        "z": -397162
+      }
+    },
     "regionGroup": 239,
     "workerSpecies": [
       0,
@@ -15629,6 +17928,17 @@
     "id": 1675,
     "productionNodeId": 1675,
     "parentNodeId": 1664,
+    "parentNode": {
+      "id": 1664,
+      "name": "Gervish Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 13845.4,
+        "y": 10550.4,
+        "z": -285698
+      }
+    },
     "regionGroup": 233,
     "workerSpecies": [
       0,
@@ -15743,6 +18053,17 @@
     "id": 1676,
     "productionNodeId": 1676,
     "parentNodeId": 1664,
+    "parentNode": {
+      "id": 1664,
+      "name": "Gervish Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 13845.4,
+        "y": 10550.4,
+        "z": -285698
+      }
+    },
     "regionGroup": 233,
     "workerSpecies": [
       0,
@@ -15857,6 +18178,17 @@
     "id": 1677,
     "productionNodeId": 1677,
     "parentNodeId": 1668,
+    "parentNode": {
+      "id": 1668,
+      "name": "Tshira Ruins",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 104760,
+        "y": 3337.12,
+        "z": -273497
+      }
+    },
     "regionGroup": 237,
     "workerSpecies": [
       0,
@@ -15911,6 +18243,17 @@
     "id": 1678,
     "productionNodeId": 1678,
     "parentNodeId": 1668,
+    "parentNode": {
+      "id": 1668,
+      "name": "Tshira Ruins",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 104760,
+        "y": 3337.12,
+        "z": -273497
+      }
+    },
     "regionGroup": 237,
     "workerSpecies": [
       0,
@@ -15965,6 +18308,17 @@
     "id": 1679,
     "productionNodeId": 1679,
     "parentNodeId": 1653,
+    "parentNode": {
+      "id": 1653,
+      "name": "Akum Rocky Mountain",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -234036,
+        "y": 14468.7,
+        "z": -382428
+      }
+    },
     "regionGroup": 225,
     "workerSpecies": [
       0,
@@ -16029,6 +18383,17 @@
     "id": 1680,
     "productionNodeId": 1680,
     "parentNodeId": 1653,
+    "parentNode": {
+      "id": 1653,
+      "name": "Akum Rocky Mountain",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -234036,
+        "y": 14468.7,
+        "z": -382428
+      }
+    },
     "regionGroup": 225,
     "workerSpecies": [
       0,
@@ -16093,6 +18458,17 @@
     "id": 1681,
     "productionNodeId": 1681,
     "parentNodeId": 1654,
+    "parentNode": {
+      "id": 1654,
+      "name": "Khalk Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -212148,
+        "y": 5749,
+        "z": -423074
+      }
+    },
     "regionGroup": 227,
     "workerSpecies": [
       0,
@@ -16157,6 +18533,17 @@
     "id": 1682,
     "productionNodeId": 1682,
     "parentNodeId": 1654,
+    "parentNode": {
+      "id": 1654,
+      "name": "Khalk Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -212148,
+        "y": 5749,
+        "z": -423074
+      }
+    },
     "regionGroup": 227,
     "workerSpecies": [
       0,
@@ -16221,6 +18608,17 @@
     "id": 1683,
     "productionNodeId": 1683,
     "parentNodeId": 1665,
+    "parentNode": {
+      "id": 1665,
+      "name": "Dormann Lumber Camp",
+      "kind": 5,
+      "cpCost": 1,
+      "position": {
+        "x": -35312.8,
+        "y": 6970.05,
+        "z": -226421
+      }
+    },
     "regionGroup": 234,
     "workerSpecies": [
       0,
@@ -16335,6 +18733,17 @@
     "id": 1684,
     "productionNodeId": 1684,
     "parentNodeId": 1665,
+    "parentNode": {
+      "id": 1665,
+      "name": "Dormann Lumber Camp",
+      "kind": 5,
+      "cpCost": 1,
+      "position": {
+        "x": -35312.8,
+        "y": 6970.05,
+        "z": -226421
+      }
+    },
     "regionGroup": 234,
     "workerSpecies": [
       0,
@@ -16449,6 +18858,17 @@
     "id": 1685,
     "productionNodeId": 1685,
     "parentNodeId": 1666,
+    "parentNode": {
+      "id": 1666,
+      "name": "Khimut Lumber Camp",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 109532,
+        "y": 11127.1,
+        "z": -209077
+      }
+    },
     "regionGroup": 235,
     "workerSpecies": [
       0,
@@ -16563,6 +18983,17 @@
     "id": 1686,
     "productionNodeId": 1686,
     "parentNodeId": 1666,
+    "parentNode": {
+      "id": 1666,
+      "name": "Khimut Lumber Camp",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 109532,
+        "y": 11127.1,
+        "z": -209077
+      }
+    },
     "regionGroup": 235,
     "workerSpecies": [
       0,
@@ -16677,6 +19108,17 @@
     "id": 1687,
     "productionNodeId": 1687,
     "parentNodeId": 1655,
+    "parentNode": {
+      "id": 1655,
+      "name": "Sherekhan Necropolis",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -156851,
+        "y": 19691,
+        "z": -365116
+      }
+    },
     "regionGroup": 223,
     "workerSpecies": [
       0,
@@ -16741,6 +19183,17 @@
     "id": 1688,
     "productionNodeId": 1688,
     "parentNodeId": 1663,
+    "parentNode": {
+      "id": 1663,
+      "name": "Fountain of Origin",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -152817,
+        "y": 24319.7,
+        "z": -315614
+      }
+    },
     "regionGroup": 232,
     "workerSpecies": [
       0,
@@ -16805,6 +19258,17 @@
     "id": 1707,
     "productionNodeId": 1707,
     "parentNodeId": 1742,
+    "parentNode": {
+      "id": 1742,
+      "name": "Delmira Plantation",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -182305,
+        "y": 17684.8,
+        "z": -566439
+      }
+    },
     "regionGroup": 196,
     "workerSpecies": [
       0,
@@ -16859,6 +19323,17 @@
     "id": 1708,
     "productionNodeId": 1708,
     "parentNodeId": 1742,
+    "parentNode": {
+      "id": 1742,
+      "name": "Delmira Plantation",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -182305,
+        "y": 17684.8,
+        "z": -566439
+      }
+    },
     "regionGroup": 196,
     "workerSpecies": [
       0,
@@ -16913,6 +19388,17 @@
     "id": 1709,
     "productionNodeId": 1709,
     "parentNodeId": 1694,
+    "parentNode": {
+      "id": 1694,
+      "name": "Crypt of Resting Thoughts",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -230721,
+        "y": 31855.3,
+        "z": -516136
+      }
+    },
     "regionGroup": 167,
     "workerSpecies": [
       0,
@@ -16977,6 +19463,17 @@
     "id": 1710,
     "productionNodeId": 1710,
     "parentNodeId": 1703,
+    "parentNode": {
+      "id": 1703,
+      "name": "Olun's Valley",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -156035,
+        "y": 14408.9,
+        "z": -523320
+      }
+    },
     "regionGroup": 162,
     "workerSpecies": [
       0,
@@ -17041,6 +19538,17 @@
     "id": 1711,
     "productionNodeId": 1711,
     "parentNodeId": 1703,
+    "parentNode": {
+      "id": 1703,
+      "name": "Olun's Valley",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -156035,
+        "y": 14408.9,
+        "z": -523320
+      }
+    },
     "regionGroup": 162,
     "workerSpecies": [
       0,
@@ -17105,6 +19613,17 @@
     "id": 1712,
     "productionNodeId": 1712,
     "parentNodeId": 1693,
+    "parentNode": {
+      "id": 1693,
+      "name": "Thornwood Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -287588,
+        "y": 21282.7,
+        "z": -497453
+      }
+    },
     "regionGroup": 166,
     "workerSpecies": [
       0,
@@ -17209,6 +19728,17 @@
     "id": 1713,
     "productionNodeId": 1713,
     "parentNodeId": 1695,
+    "parentNode": {
+      "id": 1695,
+      "name": "Narcion",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -261485,
+        "y": 5859.89,
+        "z": -594713
+      }
+    },
     "regionGroup": 164,
     "workerSpecies": [
       0,
@@ -17263,6 +19793,17 @@
     "id": 1714,
     "productionNodeId": 1714,
     "parentNodeId": 1698,
+    "parentNode": {
+      "id": 1698,
+      "name": "Starry Midnight Port",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -321664,
+        "y": -6766.98,
+        "z": -598912
+      }
+    },
     "regionGroup": 170,
     "workerSpecies": [
       0,
@@ -17357,6 +19898,17 @@
     "id": 1715,
     "productionNodeId": 1715,
     "parentNodeId": 1744,
+    "parentNode": {
+      "id": 1744,
+      "name": "Shiv Valley Road",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -189689,
+        "y": 16000.4,
+        "z": -611292
+      }
+    },
     "regionGroup": 198,
     "workerSpecies": [
       0,
@@ -17461,6 +20013,17 @@
     "id": 1716,
     "productionNodeId": 1716,
     "parentNodeId": 1743,
+    "parentNode": {
+      "id": 1743,
+      "name": "Mountain of Division",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -223837,
+        "y": 23233.3,
+        "z": -449325
+      }
+    },
     "regionGroup": 197,
     "workerSpecies": [
       0,
@@ -17525,6 +20088,17 @@
     "id": 1717,
     "productionNodeId": 1717,
     "parentNodeId": 1704,
+    "parentNode": {
+      "id": 1704,
+      "name": "Star's End",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -498925,
+        "y": 409.476,
+        "z": -67504.5
+      }
+    },
     "regionGroup": 174,
     "workerSpecies": [
       0,
@@ -17599,6 +20173,17 @@
     "id": 1720,
     "productionNodeId": 1720,
     "parentNodeId": 1704,
+    "parentNode": {
+      "id": 1704,
+      "name": "Star's End",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -498925,
+        "y": 409.476,
+        "z": -67504.5
+      }
+    },
     "regionGroup": 174,
     "workerSpecies": [
       0,
@@ -17663,6 +20248,17 @@
     "id": 1734,
     "productionNodeId": 1734,
     "parentNodeId": 1007,
+    "parentNode": {
+      "id": 1007,
+      "name": "Al-Naha Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 36729.7,
+        "y": -5573.44,
+        "z": 370254
+      }
+    },
     "regionGroup": 105,
     "workerSpecies": [
       0,
@@ -17737,6 +20333,17 @@
     "id": 1735,
     "productionNodeId": 1735,
     "parentNodeId": 1008,
+    "parentNode": {
+      "id": 1008,
+      "name": "Racid Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 69250.5,
+        "y": -2527.4,
+        "z": 408777
+      }
+    },
     "regionGroup": 105,
     "workerSpecies": [
       0,
@@ -17811,6 +20418,17 @@
     "id": 1736,
     "productionNodeId": 1736,
     "parentNodeId": 1099,
+    "parentNode": {
+      "id": 1099,
+      "name": "Tinberra Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 218576,
+        "y": -1876.2,
+        "z": 529420
+      }
+    },
     "regionGroup": 110,
     "workerSpecies": [
       0,
@@ -17885,6 +20503,17 @@
     "id": 1737,
     "productionNodeId": 1737,
     "parentNodeId": 1100,
+    "parentNode": {
+      "id": 1100,
+      "name": "Lerao Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 268242,
+        "y": -4213.67,
+        "z": 520144
+      }
+    },
     "regionGroup": 110,
     "workerSpecies": [
       0,
@@ -17959,6 +20588,17 @@
     "id": 1767,
     "productionNodeId": 1767,
     "parentNodeId": 1753,
+    "parentNode": {
+      "id": 1753,
+      "name": "Mountain of Eternal Winter",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 190571,
+        "y": 34019.8,
+        "z": -497015
+      }
+    },
     "regionGroup": 78,
     "workerSpecies": [
       0,
@@ -18023,6 +20663,17 @@
     "id": 1768,
     "productionNodeId": 1768,
     "parentNodeId": 1751,
+    "parentNode": {
+      "id": 1751,
+      "name": "Maslan's Yulas Citron Orchard",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 210771,
+        "y": 24417,
+        "z": -392768
+      }
+    },
     "regionGroup": 82,
     "workerSpecies": [
       0,
@@ -18077,6 +20728,17 @@
     "id": 1769,
     "productionNodeId": 1769,
     "parentNodeId": 1759,
+    "parentNode": {
+      "id": 1759,
+      "name": "Sherekhan Iron Mine",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 45648.6,
+        "y": 23485.9,
+        "z": -500233
+      }
+    },
     "regionGroup": 68,
     "workerSpecies": [
       0,
@@ -18131,6 +20793,17 @@
     "id": 1770,
     "productionNodeId": 1770,
     "parentNodeId": 1759,
+    "parentNode": {
+      "id": 1759,
+      "name": "Sherekhan Iron Mine",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 45648.6,
+        "y": 23485.9,
+        "z": -500233
+      }
+    },
     "regionGroup": 68,
     "workerSpecies": [
       0,
@@ -18195,6 +20868,17 @@
     "id": 1771,
     "productionNodeId": 1771,
     "parentNodeId": 1755,
+    "parentNode": {
+      "id": 1755,
+      "name": "Jade Starlight Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 151697,
+        "y": 16485.6,
+        "z": -494546
+      }
+    },
     "regionGroup": 79,
     "workerSpecies": [
       0,
@@ -18299,6 +20983,17 @@
     "id": 1772,
     "productionNodeId": 1772,
     "parentNodeId": 1755,
+    "parentNode": {
+      "id": 1755,
+      "name": "Jade Starlight Forest",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 151697,
+        "y": 16485.6,
+        "z": -494546
+      }
+    },
     "regionGroup": 79,
     "workerSpecies": [
       0,
@@ -18353,6 +21048,17 @@
     "id": 1773,
     "productionNodeId": 1773,
     "parentNodeId": 1766,
+    "parentNode": {
+      "id": 1766,
+      "name": "Pilgrim's End",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -51041.8,
+        "y": 35584.2,
+        "z": -525014
+      }
+    },
     "regionGroup": 65,
     "workerSpecies": [
       0,
@@ -18417,6 +21123,17 @@
     "id": 1774,
     "productionNodeId": 1774,
     "parentNodeId": 1766,
+    "parentNode": {
+      "id": 1766,
+      "name": "Pilgrim's End",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -51041.8,
+        "y": 35584.2,
+        "z": -525014
+      }
+    },
     "regionGroup": 65,
     "workerSpecies": [
       0,
@@ -18481,6 +21198,17 @@
     "id": 1775,
     "productionNodeId": 1775,
     "parentNodeId": 1763,
+    "parentNode": {
+      "id": 1763,
+      "name": "Camp Balacs",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 88812,
+        "y": 20158.3,
+        "z": -434728
+      }
+    },
     "regionGroup": 69,
     "workerSpecies": [
       0,
@@ -18535,6 +21263,17 @@
     "id": 1776,
     "productionNodeId": 1776,
     "parentNodeId": 1757,
+    "parentNode": {
+      "id": 1757,
+      "name": "Tori Woods",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 107869,
+        "y": 19116.6,
+        "z": -506506
+      }
+    },
     "regionGroup": 81,
     "workerSpecies": [
       0,
@@ -18589,6 +21328,17 @@
     "id": 1777,
     "productionNodeId": 1777,
     "parentNodeId": 1756,
+    "parentNode": {
+      "id": 1756,
+      "name": "Mountain Top Guard Post",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 126765,
+        "y": 15366.4,
+        "z": -470721
+      }
+    },
     "regionGroup": 80,
     "workerSpecies": [
       0,
@@ -18683,6 +21433,17 @@
     "id": 1778,
     "productionNodeId": 1778,
     "parentNodeId": 1762,
+    "parentNode": {
+      "id": 1762,
+      "name": "Zvier Highlands",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 112707,
+        "y": 16683.2,
+        "z": -441773
+      }
+    },
     "regionGroup": 74,
     "workerSpecies": [
       0,
@@ -18747,6 +21508,17 @@
     "id": 1779,
     "productionNodeId": 1779,
     "parentNodeId": 1762,
+    "parentNode": {
+      "id": 1762,
+      "name": "Zvier Highlands",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 112707,
+        "y": 16683.2,
+        "z": -441773
+      }
+    },
     "regionGroup": 74,
     "workerSpecies": [
       0,
@@ -18791,6 +21563,17 @@
     "id": 1780,
     "productionNodeId": 1780,
     "parentNodeId": 1748,
+    "parentNode": {
+      "id": 1748,
+      "name": "Wind Nol's Perch",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 166543,
+        "y": 13654.4,
+        "z": -347198
+      }
+    },
     "regionGroup": 72,
     "workerSpecies": [
       0,
@@ -18895,6 +21678,17 @@
     "id": 1803,
     "productionNodeId": 1803,
     "parentNodeId": 1786,
+    "parentNode": {
+      "id": 1786,
+      "name": "Solgaji Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1253520,
+        "y": -3978.47,
+        "z": 1183370
+      }
+    },
     "regionGroup": 119,
     "workerSpecies": [
       6,
@@ -18946,6 +21740,17 @@
     "id": 1807,
     "productionNodeId": 1807,
     "parentNodeId": 1788,
+    "parentNode": {
+      "id": 1788,
+      "name": "Dokkebi Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1215750,
+        "y": 6823.65,
+        "z": 1258110
+      }
+    },
     "regionGroup": 121,
     "workerSpecies": 6,
     "region": "Region Group 121",
@@ -19033,6 +21838,17 @@
     "id": 1808,
     "productionNodeId": 1808,
     "parentNodeId": 1788,
+    "parentNode": {
+      "id": 1788,
+      "name": "Dokkebi Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1215750,
+        "y": 6823.65,
+        "z": 1258110
+      }
+    },
     "regionGroup": 121,
     "workerSpecies": 6,
     "region": "Region Group 121",
@@ -19110,6 +21926,17 @@
     "id": 1809,
     "productionNodeId": 1809,
     "parentNodeId": 1789,
+    "parentNode": {
+      "id": 1789,
+      "name": "Golden Pig Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1148250,
+        "y": -1919.29,
+        "z": 1152180
+      }
+    },
     "regionGroup": 122,
     "workerSpecies": [
       6,
@@ -19191,6 +22018,17 @@
     "id": 1811,
     "productionNodeId": 1811,
     "parentNodeId": 1790,
+    "parentNode": {
+      "id": 1790,
+      "name": "Gowun Plateau",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1162750,
+        "y": 18854.2,
+        "z": 1190940
+      }
+    },
     "regionGroup": 123,
     "workerSpecies": [
       6,
@@ -19242,6 +22080,17 @@
     "id": 1812,
     "productionNodeId": 1812,
     "parentNodeId": 1790,
+    "parentNode": {
+      "id": 1790,
+      "name": "Gowun Plateau",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1162750,
+        "y": 18854.2,
+        "z": 1190940
+      }
+    },
     "regionGroup": 123,
     "workerSpecies": [
       6,
@@ -19293,6 +22142,17 @@
     "id": 1813,
     "productionNodeId": 1813,
     "parentNodeId": 1792,
+    "parentNode": {
+      "id": 1792,
+      "name": "Bomnae County",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1069940,
+        "y": -5893.55,
+        "z": 1122840
+      }
+    },
     "regionGroup": 125,
     "workerSpecies": [
       6,
@@ -19394,6 +22254,17 @@
     "id": 1814,
     "productionNodeId": 1814,
     "parentNodeId": 1792,
+    "parentNode": {
+      "id": 1792,
+      "name": "Bomnae County",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1069940,
+        "y": -5893.55,
+        "z": 1122840
+      }
+    },
     "regionGroup": 125,
     "workerSpecies": [
       6,
@@ -19445,6 +22316,17 @@
     "id": 1815,
     "productionNodeId": 1815,
     "parentNodeId": 1793,
+    "parentNode": {
+      "id": 1793,
+      "name": "Honglim Base",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1084290,
+        "y": 11247.5,
+        "z": 1198410
+      }
+    },
     "regionGroup": 126,
     "workerSpecies": [
       6,
@@ -19546,6 +22428,17 @@
     "id": 1816,
     "productionNodeId": 1816,
     "parentNodeId": 1793,
+    "parentNode": {
+      "id": 1793,
+      "name": "Honglim Base",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1084290,
+        "y": 11247.5,
+        "z": 1198410
+      }
+    },
     "regionGroup": 126,
     "workerSpecies": [
       6,
@@ -19597,6 +22490,17 @@
     "id": 1817,
     "productionNodeId": 1817,
     "parentNodeId": 1794,
+    "parentNode": {
+      "id": 1794,
+      "name": "Yeowoo Pass",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1077990,
+        "y": 22259.8,
+        "z": 1240560
+      }
+    },
     "regionGroup": 127,
     "workerSpecies": [
       6,
@@ -19648,6 +22552,17 @@
     "id": 1818,
     "productionNodeId": 1818,
     "parentNodeId": 1794,
+    "parentNode": {
+      "id": 1794,
+      "name": "Yeowoo Pass",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1077990,
+        "y": 22259.8,
+        "z": 1240560
+      }
+    },
     "regionGroup": 127,
     "workerSpecies": [
       6,
@@ -19699,6 +22614,17 @@
     "id": 1819,
     "productionNodeId": 1819,
     "parentNodeId": 1796,
+    "parentNode": {
+      "id": 1796,
+      "name": "Bari Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1105830,
+        "y": -6933.33,
+        "z": 1421990
+      }
+    },
     "regionGroup": 129,
     "workerSpecies": [
       6,
@@ -19750,6 +22676,17 @@
     "id": 1820,
     "productionNodeId": 1820,
     "parentNodeId": 1796,
+    "parentNode": {
+      "id": 1796,
+      "name": "Bari Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1105830,
+        "y": -6933.33,
+        "z": 1421990
+      }
+    },
     "regionGroup": 129,
     "workerSpecies": [
       6,
@@ -19841,6 +22778,17 @@
     "id": 1821,
     "productionNodeId": 1821,
     "parentNodeId": 1797,
+    "parentNode": {
+      "id": 1797,
+      "name": "Beombawi Valley",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1199430,
+        "y": 26355.5,
+        "z": 1387610
+      }
+    },
     "regionGroup": 130,
     "workerSpecies": [
       6,
@@ -19942,6 +22890,17 @@
     "id": 1822,
     "productionNodeId": 1822,
     "parentNodeId": 1797,
+    "parentNode": {
+      "id": 1797,
+      "name": "Beombawi Valley",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1199430,
+        "y": 26355.5,
+        "z": 1387610
+      }
+    },
     "regionGroup": 130,
     "workerSpecies": [
       6,
@@ -19993,6 +22952,17 @@
     "id": 1823,
     "productionNodeId": 1823,
     "parentNodeId": 1799,
+    "parentNode": {
+      "id": 1799,
+      "name": "Haemo Island",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1349680,
+        "y": 6109.35,
+        "z": 1025630
+      }
+    },
     "regionGroup": 132,
     "workerSpecies": [
       6,
@@ -20054,6 +23024,17 @@
     "id": 1824,
     "productionNodeId": 1824,
     "parentNodeId": 1782,
+    "parentNode": {
+      "id": 1782,
+      "name": "Hanji County",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1324280,
+        "y": 14768.4,
+        "z": 1242690
+      }
+    },
     "regionGroup": 115,
     "workerSpecies": [
       6,
@@ -20105,6 +23086,17 @@
     "id": 1825,
     "productionNodeId": 1825,
     "parentNodeId": 1782,
+    "parentNode": {
+      "id": 1782,
+      "name": "Hanji County",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1324280,
+        "y": 14768.4,
+        "z": 1242690
+      }
+    },
     "regionGroup": 115,
     "workerSpecies": [
       6,
@@ -20156,6 +23148,17 @@
     "id": 1826,
     "productionNodeId": 1826,
     "parentNodeId": 1795,
+    "parentNode": {
+      "id": 1795,
+      "name": "Nopsae's Byeot County",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1031140,
+        "y": -3281.28,
+        "z": 1298580
+      }
+    },
     "regionGroup": 128,
     "workerSpecies": [
       6,
@@ -20207,6 +23210,17 @@
     "id": 1827,
     "productionNodeId": 1827,
     "parentNodeId": 1795,
+    "parentNode": {
+      "id": 1795,
+      "name": "Nopsae's Byeot County",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1031140,
+        "y": -3281.28,
+        "z": 1298580
+      }
+    },
     "regionGroup": 128,
     "workerSpecies": [
       6,
@@ -20258,6 +23272,17 @@
     "id": 1828,
     "productionNodeId": 1828,
     "parentNodeId": 1795,
+    "parentNode": {
+      "id": 1795,
+      "name": "Nopsae's Byeot County",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1031140,
+        "y": -3281.28,
+        "z": 1298580
+      }
+    },
     "regionGroup": 128,
     "workerSpecies": [
       6,
@@ -20309,6 +23334,17 @@
     "id": 1829,
     "productionNodeId": 1829,
     "parentNodeId": 1795,
+    "parentNode": {
+      "id": 1795,
+      "name": "Nopsae's Byeot County",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1031140,
+        "y": -3281.28,
+        "z": 1298580
+      }
+    },
     "regionGroup": 128,
     "workerSpecies": [
       6,
@@ -20370,6 +23406,17 @@
     "id": 1830,
     "productionNodeId": 1830,
     "parentNodeId": 1797,
+    "parentNode": {
+      "id": 1797,
+      "name": "Beombawi Valley",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1199430,
+        "y": 26355.5,
+        "z": 1387610
+      }
+    },
     "regionGroup": 130,
     "workerSpecies": [
       6,
@@ -20441,6 +23488,17 @@
     "id": 1833,
     "productionNodeId": 1833,
     "parentNodeId": 1832,
+    "parentNode": {
+      "id": 1832,
+      "name": "Dallae Pier",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -994803,
+        "y": -7819.19,
+        "z": 1341090
+      }
+    },
     "regionGroup": 128,
     "workerSpecies": [
       6,
@@ -20542,6 +23600,17 @@
     "id": 1879,
     "productionNodeId": 1879,
     "parentNodeId": 1857,
+    "parentNode": {
+      "id": 1857,
+      "name": "Godu Village",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1419030,
+        "y": 6399.38,
+        "z": 1239160
+      }
+    },
     "regionGroup": 261,
     "workerSpecies": [
       6,
@@ -20593,6 +23662,17 @@
     "id": 1880,
     "productionNodeId": 1880,
     "parentNodeId": 1857,
+    "parentNode": {
+      "id": 1857,
+      "name": "Godu Village",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1419030,
+        "y": 6399.38,
+        "z": 1239160
+      }
+    },
     "regionGroup": 261,
     "workerSpecies": [
       6,
@@ -20644,6 +23724,17 @@
     "id": 1881,
     "productionNodeId": 1881,
     "parentNodeId": 1857,
+    "parentNode": {
+      "id": 1857,
+      "name": "Godu Village",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1419030,
+        "y": 6399.38,
+        "z": 1239160
+      }
+    },
     "regionGroup": 261,
     "workerSpecies": [
       6,
@@ -20695,6 +23786,17 @@
     "id": 1882,
     "productionNodeId": 1882,
     "parentNodeId": 1857,
+    "parentNode": {
+      "id": 1857,
+      "name": "Godu Village",
+      "kind": 1,
+      "cpCost": 0,
+      "position": {
+        "x": -1419030,
+        "y": 6399.38,
+        "z": 1239160
+      }
+    },
     "regionGroup": 261,
     "workerSpecies": [
       6,
@@ -20746,6 +23848,17 @@
     "id": 1883,
     "productionNodeId": 1883,
     "parentNodeId": 1859,
+    "parentNode": {
+      "id": 1859,
+      "name": "Wonjin Palace",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1496630,
+        "y": 9739,
+        "z": 1290870
+      }
+    },
     "regionGroup": 267,
     "workerSpecies": [
       6,
@@ -20837,6 +23950,17 @@
     "id": 1884,
     "productionNodeId": 1884,
     "parentNodeId": 1860,
+    "parentNode": {
+      "id": 1860,
+      "name": "Myeonggyun Hall",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1386780,
+        "y": 11261.5,
+        "z": 1393900
+      }
+    },
     "regionGroup": 274,
     "workerSpecies": [
       6,
@@ -20898,6 +24022,17 @@
     "id": 1885,
     "productionNodeId": 1885,
     "parentNodeId": 1861,
+    "parentNode": {
+      "id": 1861,
+      "name": "Secret Society",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1366060,
+        "y": 14231.1,
+        "z": 1303710
+      }
+    },
     "regionGroup": 274,
     "workerSpecies": [
       6,
@@ -20969,6 +24104,17 @@
     "id": 1886,
     "productionNodeId": 1886,
     "parentNodeId": 1854,
+    "parentNode": {
+      "id": 1854,
+      "name": "Unjongga Street",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1411590,
+        "y": 8394.77,
+        "z": 1266820
+      }
+    },
     "regionGroup": 256,
     "workerSpecies": [
       6,
@@ -21070,6 +24216,17 @@
     "id": 1887,
     "productionNodeId": 1887,
     "parentNodeId": 1864,
+    "parentNode": {
+      "id": 1864,
+      "name": "Geogugwi Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1480840,
+        "y": -3775,
+        "z": 1225960
+      }
+    },
     "regionGroup": 267,
     "workerSpecies": [
       6,
@@ -21141,6 +24298,17 @@
     "id": 1888,
     "productionNodeId": 1888,
     "parentNodeId": 1864,
+    "parentNode": {
+      "id": 1864,
+      "name": "Geogugwi Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1480840,
+        "y": -3775,
+        "z": 1225960
+      }
+    },
     "regionGroup": 267,
     "workerSpecies": [
       6,
@@ -21192,6 +24360,17 @@
     "id": 1889,
     "productionNodeId": 1889,
     "parentNodeId": 1868,
+    "parentNode": {
+      "id": 1868,
+      "name": "Dume Ridges",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1437460,
+        "y": 10754.8,
+        "z": 1139290
+      }
+    },
     "regionGroup": 272,
     "workerSpecies": [
       6,
@@ -21293,6 +24472,17 @@
     "id": 1890,
     "productionNodeId": 1890,
     "parentNodeId": 1870,
+    "parentNode": {
+      "id": 1870,
+      "name": "Mount Ahshi",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1345070,
+        "y": 2044.04,
+        "z": 1436480
+      }
+    },
     "regionGroup": 274,
     "workerSpecies": [
       6,
@@ -21354,6 +24544,17 @@
     "id": 1891,
     "productionNodeId": 1891,
     "parentNodeId": 1874,
+    "parentNode": {
+      "id": 1874,
+      "name": "Byeolli Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1425220,
+        "y": -1685.48,
+        "z": 1457170
+      }
+    },
     "regionGroup": 278,
     "workerSpecies": [
       6,
@@ -21455,6 +24656,17 @@
     "id": 1892,
     "productionNodeId": 1892,
     "parentNodeId": 1874,
+    "parentNode": {
+      "id": 1874,
+      "name": "Byeolli Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1425220,
+        "y": -1685.48,
+        "z": 1457170
+      }
+    },
     "regionGroup": 278,
     "workerSpecies": [
       6,
@@ -21556,6 +24768,17 @@
     "id": 1893,
     "productionNodeId": 1893,
     "parentNodeId": 1875,
+    "parentNode": {
+      "id": 1875,
+      "name": "Motgol Village",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1390310,
+        "y": -6462.64,
+        "z": 1459540
+      }
+    },
     "regionGroup": 279,
     "workerSpecies": [
       6,
@@ -21627,6 +24850,17 @@
     "id": 1894,
     "productionNodeId": 1894,
     "parentNodeId": 1877,
+    "parentNode": {
+      "id": 1877,
+      "name": "Dongmakgol Village",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1504700,
+        "y": -5216.73,
+        "z": 1375050
+      }
+    },
     "regionGroup": 281,
     "workerSpecies": [
       6,
@@ -21728,6 +24962,17 @@
     "id": 1895,
     "productionNodeId": 1895,
     "parentNodeId": 1878,
+    "parentNode": {
+      "id": 1878,
+      "name": "Dungryong Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1505850,
+        "y": -5980.5,
+        "z": 1357250
+      }
+    },
     "regionGroup": 278,
     "workerSpecies": [
       6,
@@ -21799,6 +25044,17 @@
     "id": 1896,
     "productionNodeId": 1896,
     "parentNodeId": 1878,
+    "parentNode": {
+      "id": 1878,
+      "name": "Dungryong Cave",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1505850,
+        "y": -5980.5,
+        "z": 1357250
+      }
+    },
     "regionGroup": 278,
     "workerSpecies": [
       6,
@@ -21870,6 +25126,17 @@
     "id": 1897,
     "productionNodeId": 1897,
     "parentNodeId": 1863,
+    "parentNode": {
+      "id": 1863,
+      "name": "Dang Forest",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -1520120,
+        "y": -6789.52,
+        "z": 1244840
+      }
+    },
     "regionGroup": 267,
     "workerSpecies": [
       6,
@@ -21941,6 +25208,17 @@
     "id": 1899,
     "productionNodeId": 1899,
     "parentNodeId": 1840,
+    "parentNode": {
+      "id": 1840,
+      "name": "Neruda Plain",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 287069,
+        "y": -1531.28,
+        "z": -225069
+      }
+    },
     "regionGroup": 135,
     "workerSpecies": [
       0,
@@ -22045,6 +25323,17 @@
     "id": 1900,
     "productionNodeId": 1900,
     "parentNodeId": 1835,
+    "parentNode": {
+      "id": 1835,
+      "name": "Atessahra",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 334970,
+        "y": -4372.4,
+        "z": -221799
+      }
+    },
     "regionGroup": 136,
     "workerSpecies": [
       0,
@@ -22109,6 +25398,17 @@
     "id": 1901,
     "productionNodeId": 1901,
     "parentNodeId": 1835,
+    "parentNode": {
+      "id": 1835,
+      "name": "Atessahra",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 334970,
+        "y": -4372.4,
+        "z": -221799
+      }
+    },
     "regionGroup": 136,
     "workerSpecies": [
       0,
@@ -22173,6 +25473,17 @@
     "id": 1902,
     "productionNodeId": 1902,
     "parentNodeId": 1838,
+    "parentNode": {
+      "id": 1838,
+      "name": "Tungrad Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 445503,
+        "y": 576.513,
+        "z": -256745
+      }
+    },
     "regionGroup": 139,
     "workerSpecies": [
       0,
@@ -22237,6 +25548,17 @@
     "id": 1903,
     "productionNodeId": 1903,
     "parentNodeId": 1838,
+    "parentNode": {
+      "id": 1838,
+      "name": "Tungrad Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 445503,
+        "y": 576.513,
+        "z": -256745
+      }
+    },
     "regionGroup": 139,
     "workerSpecies": [
       0,
@@ -22301,6 +25623,17 @@
     "id": 1904,
     "productionNodeId": 1904,
     "parentNodeId": 1837,
+    "parentNode": {
+      "id": 1837,
+      "name": "City of the Dead",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 284246,
+        "y": -4430.86,
+        "z": -283849
+      }
+    },
     "regionGroup": 138,
     "workerSpecies": [
       0,
@@ -22405,6 +25738,17 @@
     "id": 1905,
     "productionNodeId": 1905,
     "parentNodeId": 1846,
+    "parentNode": {
+      "id": 1846,
+      "name": "Darkseekers' Retreat",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 391902,
+        "y": 11164.3,
+        "z": -283834
+      }
+    },
     "regionGroup": 140,
     "workerSpecies": [
       0,
@@ -22479,6 +25823,17 @@
     "id": 1906,
     "productionNodeId": 1906,
     "parentNodeId": 1845,
+    "parentNode": {
+      "id": 1845,
+      "name": "Yzrahid Highlands",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 301031,
+        "y": 16722.6,
+        "z": -399660
+      }
+    },
     "regionGroup": 141,
     "workerSpecies": [
       0,
@@ -22583,6 +25938,17 @@
     "id": 1907,
     "productionNodeId": 1907,
     "parentNodeId": 1845,
+    "parentNode": {
+      "id": 1845,
+      "name": "Yzrahid Highlands",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 301031,
+        "y": 16722.6,
+        "z": -399660
+      }
+    },
     "regionGroup": 141,
     "workerSpecies": [
       0,
@@ -22687,6 +26053,17 @@
     "id": 1908,
     "productionNodeId": 1908,
     "parentNodeId": 1849,
+    "parentNode": {
+      "id": 1849,
+      "name": "Shakhtar Wilds",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 411728,
+        "y": 9415.27,
+        "z": -371625
+      }
+    },
     "regionGroup": 141,
     "workerSpecies": [
       0,
@@ -22791,6 +26168,17 @@
     "id": 1909,
     "productionNodeId": 1909,
     "parentNodeId": 1849,
+    "parentNode": {
+      "id": 1849,
+      "name": "Shakhtar Wilds",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 411728,
+        "y": 9415.27,
+        "z": -371625
+      }
+    },
     "regionGroup": 141,
     "workerSpecies": [
       0,
@@ -22895,6 +26283,17 @@
     "id": 1910,
     "productionNodeId": 1910,
     "parentNodeId": 1851,
+    "parentNode": {
+      "id": 1851,
+      "name": "Stofbir",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 484215,
+        "y": 8161.46,
+        "z": -391712
+      }
+    },
     "regionGroup": 141,
     "workerSpecies": [
       0,
@@ -22999,6 +26398,17 @@
     "id": 1911,
     "productionNodeId": 1911,
     "parentNodeId": 660,
+    "parentNode": {
+      "id": 660,
+      "name": "Marni's Lab",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -182379,
+        "y": 7032.34,
+        "z": -129561
+      }
+    },
     "regionGroup": 44,
     "workerSpecies": [
       0,
@@ -23093,6 +26503,17 @@
     "id": 1912,
     "productionNodeId": 1912,
     "parentNodeId": 670,
+    "parentNode": {
+      "id": 670,
+      "name": "Gianin Farm",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -119323,
+        "y": 3188.03,
+        "z": -178080
+      }
+    },
     "regionGroup": 46,
     "workerSpecies": [
       0,
@@ -23197,6 +26618,17 @@
     "id": 1913,
     "productionNodeId": 1913,
     "parentNodeId": 667,
+    "parentNode": {
+      "id": 667,
+      "name": "Abandoned Quarry",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -159007,
+        "y": -1083.87,
+        "z": -185902
+      }
+    },
     "regionGroup": 44,
     "workerSpecies": [
       0,
@@ -23261,6 +26693,17 @@
     "id": 1914,
     "productionNodeId": 1914,
     "parentNodeId": 664,
+    "parentNode": {
+      "id": 664,
+      "name": "North Abandoned Quarry",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": -151521,
+        "y": 1843.49,
+        "z": -121274
+      }
+    },
     "regionGroup": 45,
     "workerSpecies": [
       0,
@@ -23325,6 +26768,17 @@
     "id": 2037,
     "productionNodeId": 2037,
     "parentNodeId": 2030,
+    "parentNode": {
+      "id": 2030,
+      "name": "Ancient Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 693452,
+        "y": -938.879,
+        "z": 579113
+      }
+    },
     "regionGroup": 292,
     "workerSpecies": [
       0,
@@ -23429,6 +26883,17 @@
     "id": 2038,
     "productionNodeId": 2038,
     "parentNodeId": 2028,
+    "parentNode": {
+      "id": 2028,
+      "name": "Veiled Archives",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 656561,
+        "y": -1317.73,
+        "z": 651425
+      }
+    },
     "regionGroup": 293,
     "workerSpecies": [
       0,
@@ -23503,6 +26968,17 @@
     "id": 2039,
     "productionNodeId": 2039,
     "parentNodeId": 2016,
+    "parentNode": {
+      "id": 2016,
+      "name": "Urnas Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 515231,
+        "y": 6589.07,
+        "z": 576091
+      }
+    },
     "regionGroup": 291,
     "workerSpecies": [
       0,
@@ -23567,6 +27043,17 @@
     "id": 2040,
     "productionNodeId": 2040,
     "parentNodeId": 2014,
+    "parentNode": {
+      "id": 2014,
+      "name": "Azure Battlefield",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 583332,
+        "y": 1643.01,
+        "z": 621826
+      }
+    },
     "regionGroup": 291,
     "workerSpecies": [
       0,
@@ -23641,6 +27128,17 @@
     "id": 2041,
     "productionNodeId": 2041,
     "parentNodeId": 2010,
+    "parentNode": {
+      "id": 2010,
+      "name": "Faith's Resting Place",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 627250,
+        "y": 5492.98,
+        "z": 524008
+      }
+    },
     "regionGroup": 290,
     "workerSpecies": [
       0,
@@ -23735,6 +27233,17 @@
     "id": 2042,
     "productionNodeId": 2042,
     "parentNodeId": 2013,
+    "parentNode": {
+      "id": 2013,
+      "name": "Litovan Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 720240,
+        "y": 10320.4,
+        "z": 510445
+      }
+    },
     "regionGroup": 290,
     "workerSpecies": [
       0,
@@ -23829,6 +27338,17 @@
     "id": 2043,
     "productionNodeId": 2043,
     "parentNodeId": 2013,
+    "parentNode": {
+      "id": 2013,
+      "name": "Litovan Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 720240,
+        "y": 10320.4,
+        "z": 510445
+      }
+    },
     "regionGroup": 290,
     "workerSpecies": [
       0,
@@ -23933,6 +27453,17 @@
     "id": 2044,
     "productionNodeId": 2044,
     "parentNodeId": 2030,
+    "parentNode": {
+      "id": 2030,
+      "name": "Ancient Ruins",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 693452,
+        "y": -938.879,
+        "z": 579113
+      }
+    },
     "regionGroup": 292,
     "workerSpecies": [
       0,
@@ -24037,6 +27568,17 @@
     "id": 2045,
     "productionNodeId": 2045,
     "parentNodeId": 2034,
+    "parentNode": {
+      "id": 2034,
+      "name": "Ebony Opening",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 611454,
+        "y": -499.112,
+        "z": 646459
+      }
+    },
     "regionGroup": 293,
     "workerSpecies": [
       0,
@@ -24111,6 +27653,17 @@
     "id": 2046,
     "productionNodeId": 2046,
     "parentNodeId": 2035,
+    "parentNode": {
+      "id": 2035,
+      "name": "Platerra Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 609412,
+        "y": 1299.82,
+        "z": 699216
+      }
+    },
     "regionGroup": 293,
     "workerSpecies": [
       0,
@@ -24185,6 +27738,17 @@
     "id": 2047,
     "productionNodeId": 2047,
     "parentNodeId": 2022,
+    "parentNode": {
+      "id": 2022,
+      "name": "Great Dark Spot",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 507986,
+        "y": 856.32,
+        "z": 723849
+      }
+    },
     "regionGroup": 294,
     "workerSpecies": [
       0,
@@ -24249,6 +27813,17 @@
     "id": 2048,
     "productionNodeId": 2048,
     "parentNodeId": 2024,
+    "parentNode": {
+      "id": 2024,
+      "name": "Mount Rumanaré",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 568544,
+        "y": 3751.6,
+        "z": 732006
+      }
+    },
     "regionGroup": 294,
     "workerSpecies": [
       0,
@@ -24323,6 +27898,17 @@
     "id": 2049,
     "productionNodeId": 2049,
     "parentNodeId": 2024,
+    "parentNode": {
+      "id": 2024,
+      "name": "Mount Rumanaré",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 568544,
+        "y": 3751.6,
+        "z": 732006
+      }
+    },
     "regionGroup": 294,
     "workerSpecies": [
       0,
@@ -24397,6 +27983,17 @@
     "id": 2050,
     "productionNodeId": 2050,
     "parentNodeId": 2035,
+    "parentNode": {
+      "id": 2035,
+      "name": "Platerra Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 609412,
+        "y": 1299.82,
+        "z": 699216
+      }
+    },
     "regionGroup": 293,
     "workerSpecies": [
       0,
@@ -24501,6 +28098,17 @@
     "id": 2051,
     "productionNodeId": 2051,
     "parentNodeId": 2036,
+    "parentNode": {
+      "id": 2036,
+      "name": "Sanctuary Coastal Outpost",
+      "kind": 1,
+      "cpCost": 1,
+      "position": {
+        "x": 495582,
+        "y": 1093,
+        "z": 461518
+      }
+    },
     "regionGroup": 289,
     "workerSpecies": [
       0,
@@ -24595,6 +28203,17 @@
     "id": 2054,
     "productionNodeId": 2054,
     "parentNodeId": 2053,
+    "parentNode": {
+      "id": 2053,
+      "name": "Frozen Halo",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 617526,
+        "y": 6153.22,
+        "z": 455827
+      }
+    },
     "regionGroup": 290,
     "workerSpecies": [
       0,
@@ -24659,6 +28278,17 @@
     "id": 2058,
     "productionNodeId": 2058,
     "parentNodeId": 1656,
+    "parentNode": {
+      "id": 1656,
+      "name": "Garmoth's Nest",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -21964.1,
+        "y": 9248.69,
+        "z": -329086
+      }
+    },
     "regionGroup": 226,
     "workerSpecies": [
       0,
@@ -24723,6 +28353,17 @@
     "id": 2059,
     "productionNodeId": 2059,
     "parentNodeId": 1656,
+    "parentNode": {
+      "id": 1656,
+      "name": "Garmoth's Nest",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -21964.1,
+        "y": 9248.69,
+        "z": -329086
+      }
+    },
     "regionGroup": 226,
     "workerSpecies": [
       0,
@@ -24787,6 +28428,17 @@
     "id": 2060,
     "productionNodeId": 2060,
     "parentNodeId": 1669,
+    "parentNode": {
+      "id": 1669,
+      "name": "Blood Wolf Settlement",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 68241.7,
+        "y": 34776.6,
+        "z": -345612
+      }
+    },
     "regionGroup": 238,
     "workerSpecies": [
       0,
@@ -24891,6 +28543,17 @@
     "id": 2061,
     "productionNodeId": 2061,
     "parentNodeId": 1669,
+    "parentNode": {
+      "id": 1669,
+      "name": "Blood Wolf Settlement",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 68241.7,
+        "y": 34776.6,
+        "z": -345612
+      }
+    },
     "regionGroup": 238,
     "workerSpecies": [
       0,
@@ -24995,6 +28658,17 @@
     "id": 2062,
     "productionNodeId": 2062,
     "parentNodeId": 1628,
+    "parentNode": {
+      "id": 1628,
+      "name": "Looney Cabin",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -576232,
+        "y": -2661.22,
+        "z": -439055
+      }
+    },
     "regionGroup": 156,
     "workerSpecies": [
       0,
@@ -25059,6 +28733,17 @@
     "id": 2063,
     "productionNodeId": 2063,
     "parentNodeId": 1629,
+    "parentNode": {
+      "id": 1629,
+      "name": "Weenie Cabin",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -584660,
+        "y": -3563.9,
+        "z": -375443
+      }
+    },
     "regionGroup": 156,
     "workerSpecies": [
       0,
@@ -25123,6 +28808,17 @@
     "id": 2064,
     "productionNodeId": 2064,
     "parentNodeId": 1613,
+    "parentNode": {
+      "id": 1613,
+      "name": "Mirumok Ruins",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": -442835,
+        "y": 17410.1,
+        "z": -319189
+      }
+    },
     "regionGroup": 152,
     "workerSpecies": [
       0,
@@ -25187,6 +28883,17 @@
     "id": 2065,
     "productionNodeId": 2065,
     "parentNodeId": 1611,
+    "parentNode": {
+      "id": 1611,
+      "name": "Valtarra Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -343982,
+        "y": 32096.3,
+        "z": -304081
+      }
+    },
     "regionGroup": 153,
     "workerSpecies": [
       0,
@@ -25251,6 +28958,17 @@
     "id": 2066,
     "productionNodeId": 2066,
     "parentNodeId": 1611,
+    "parentNode": {
+      "id": 1611,
+      "name": "Valtarra Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -343982,
+        "y": 32096.3,
+        "z": -304081
+      }
+    },
     "regionGroup": 153,
     "workerSpecies": [
       0,
@@ -25315,6 +29033,17 @@
     "id": 2067,
     "productionNodeId": 2067,
     "parentNodeId": 1695,
+    "parentNode": {
+      "id": 1695,
+      "name": "Narcion",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -261485,
+        "y": 5859.89,
+        "z": -594713
+      }
+    },
     "regionGroup": 164,
     "workerSpecies": [
       0,
@@ -25369,6 +29098,17 @@
     "id": 2068,
     "productionNodeId": 2068,
     "parentNodeId": 1697,
+    "parentNode": {
+      "id": 1697,
+      "name": "La O'delle",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": -302325,
+        "y": 1072.12,
+        "z": -602559
+      }
+    },
     "regionGroup": 161,
     "workerSpecies": [
       0,
@@ -25473,6 +29213,17 @@
     "id": 2069,
     "productionNodeId": 2069,
     "parentNodeId": 1702,
+    "parentNode": {
+      "id": 1702,
+      "name": "Bahit Sanctum",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": -210169,
+        "y": 19704.7,
+        "z": -481195
+      }
+    },
     "regionGroup": 165,
     "workerSpecies": [
       0,
@@ -25537,6 +29288,17 @@
     "id": 2070,
     "productionNodeId": 2070,
     "parentNodeId": 1328,
+    "parentNode": {
+      "id": 1328,
+      "name": "Bambu Valley",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 727582,
+        "y": 12460.6,
+        "z": 371156
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -25611,6 +29373,17 @@
     "id": 2071,
     "productionNodeId": 2071,
     "parentNodeId": 1332,
+    "parentNode": {
+      "id": 1332,
+      "name": "Pilgrim's Sanctum: Obedience",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 814773,
+        "y": 8412.75,
+        "z": 278026
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -25675,6 +29448,17 @@
     "id": 2072,
     "productionNodeId": 2072,
     "parentNodeId": 1333,
+    "parentNode": {
+      "id": 1333,
+      "name": "Pilgrim's Sanctum: Abstinence",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 743190,
+        "y": 12328.6,
+        "z": 144611
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -25739,6 +29523,17 @@
     "id": 2073,
     "productionNodeId": 2073,
     "parentNodeId": 1334,
+    "parentNode": {
+      "id": 1334,
+      "name": "Pilgrim's Sanctum: Sharing",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 891785,
+        "y": 18068.6,
+        "z": 61744.8
+      }
+    },
     "regionGroup": 206,
     "workerSpecies": [
       0,
@@ -25803,6 +29598,17 @@
     "id": 2074,
     "productionNodeId": 2074,
     "parentNodeId": 1335,
+    "parentNode": {
+      "id": 1335,
+      "name": "Pilgrim's Sanctum: Sincerity",
+      "kind": 0,
+      "cpCost": 2,
+      "position": {
+        "x": 821479,
+        "y": 11571.3,
+        "z": -19086.4
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -25867,6 +29673,17 @@
     "id": 2075,
     "productionNodeId": 2075,
     "parentNodeId": 1384,
+    "parentNode": {
+      "id": 1384,
+      "name": "Pila Ku Jail",
+      "kind": 9,
+      "cpCost": 2,
+      "position": {
+        "x": 1144130,
+        "y": 17427.2,
+        "z": -80992.9
+      }
+    },
     "regionGroup": 213,
     "workerSpecies": [
       0,
@@ -25931,6 +29748,17 @@
     "id": 2076,
     "productionNodeId": 2076,
     "parentNodeId": 1393,
+    "parentNode": {
+      "id": 1393,
+      "name": "Dona Rocky Mountain",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1167630,
+        "y": 20403.3,
+        "z": 3222.52
+      }
+    },
     "regionGroup": 202,
     "workerSpecies": [
       0,
@@ -26005,6 +29833,17 @@
     "id": 2077,
     "productionNodeId": 2077,
     "parentNodeId": 1393,
+    "parentNode": {
+      "id": 1393,
+      "name": "Dona Rocky Mountain",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1167630,
+        "y": 20403.3,
+        "z": 3222.52
+      }
+    },
     "regionGroup": 213,
     "workerSpecies": [
       0,
@@ -26079,6 +29918,17 @@
     "id": 2078,
     "productionNodeId": 2078,
     "parentNodeId": 1305,
+    "parentNode": {
+      "id": 1305,
+      "name": "Veteran's Canyon",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 422278,
+        "y": -169.218,
+        "z": 47373
+      }
+    },
     "regionGroup": 203,
     "workerSpecies": [
       0,
@@ -26183,6 +30033,17 @@
     "id": 2079,
     "productionNodeId": 2079,
     "parentNodeId": 1324,
+    "parentNode": {
+      "id": 1324,
+      "name": "Pila Fe",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 461690,
+        "y": 56.4287,
+        "z": 74836.4
+      }
+    },
     "regionGroup": 203,
     "workerSpecies": [
       0,
@@ -26247,6 +30108,17 @@
     "id": 2080,
     "productionNodeId": 2080,
     "parentNodeId": 1324,
+    "parentNode": {
+      "id": 1324,
+      "name": "Pila Fe",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 461690,
+        "y": 56.4287,
+        "z": 74836.4
+      }
+    },
     "regionGroup": 203,
     "workerSpecies": [
       0,
@@ -26311,6 +30183,17 @@
     "id": 2081,
     "productionNodeId": 2081,
     "parentNodeId": 1373,
+    "parentNode": {
+      "id": 1373,
+      "name": "Kisleev Crag",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 365164,
+        "y": 2842.02,
+        "z": 105182
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -26385,6 +30268,17 @@
     "id": 2082,
     "productionNodeId": 2082,
     "parentNodeId": 1310,
+    "parentNode": {
+      "id": 1310,
+      "name": "Bashim Base",
+      "kind": 9,
+      "cpCost": 1,
+      "position": {
+        "x": 478999,
+        "y": -5005.54,
+        "z": -81716.7
+      }
+    },
     "regionGroup": 210,
     "workerSpecies": [
       0,
@@ -26459,6 +30353,17 @@
     "id": 2083,
     "productionNodeId": 2083,
     "parentNodeId": 1312,
+    "parentNode": {
+      "id": 1312,
+      "name": "Deserted City of Runn",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 475591,
+        "y": 738.631,
+        "z": 176016
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -26563,6 +30468,17 @@
     "id": 2084,
     "productionNodeId": 2084,
     "parentNodeId": 1312,
+    "parentNode": {
+      "id": 1312,
+      "name": "Deserted City of Runn",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 475591,
+        "y": 738.631,
+        "z": 176016
+      }
+    },
     "regionGroup": 204,
     "workerSpecies": [
       0,
@@ -26667,6 +30583,17 @@
     "id": 2115,
     "productionNodeId": 2115,
     "parentNodeId": 2105,
+    "parentNode": {
+      "id": 2105,
+      "name": "Radiant Lands",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1147590,
+        "y": 8829.68,
+        "z": 650128
+      }
+    },
     "regionGroup": 296,
     "workerSpecies": [
       0,
@@ -26695,7 +30622,7 @@
       {
         "itemId": 4611,
         "itemName": "Elder Tree Timber",
-        "averageYield": 15,
+        "averageYield": 15.2,
         "luckyYield": null,
         "giantYield": 25,
         "isPrimary": true,
@@ -26705,7 +30632,7 @@
       {
         "itemId": 5007,
         "itemName": "Monk's Branch",
-        "averageYield": 2,
+        "averageYield": 1.9,
         "luckyYield": 0.15,
         "giantYield": 3,
         "isPrimary": false,
@@ -26715,7 +30642,7 @@
       {
         "itemId": 5014,
         "itemName": "Elder Tree Sap",
-        "averageYield": 3,
+        "averageYield": 3.5,
         "luckyYield": null,
         "giantYield": 5,
         "isPrimary": false,
@@ -26771,6 +30698,17 @@
     "id": 2116,
     "productionNodeId": 2116,
     "parentNodeId": 2099,
+    "parentNode": {
+      "id": 2099,
+      "name": "Vulcanoid",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1082990,
+        "y": -6581.16,
+        "z": 750973
+      }
+    },
     "regionGroup": 298,
     "workerSpecies": [
       0,
@@ -26799,9 +30737,9 @@
       {
         "itemId": 4008,
         "itemName": "Vanadium Ore",
-        "averageYield": 8,
+        "averageYield": 10.1,
         "luckyYield": null,
-        "giantYield": 13,
+        "giantYield": 17,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -26809,7 +30747,7 @@
       {
         "itemId": 4408,
         "itemName": "Rough Red Crystal",
-        "averageYield": 4.5,
+        "averageYield": 4.2,
         "luckyYield": null,
         "giantYield": 7,
         "isPrimary": false,
@@ -26835,6 +30773,17 @@
     "id": 2117,
     "productionNodeId": 2117,
     "parentNodeId": 2101,
+    "parentNode": {
+      "id": 2101,
+      "name": "Whispering Memorial",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1040700,
+        "y": 11525.1,
+        "z": 649211
+      }
+    },
     "regionGroup": 300,
     "workerSpecies": [
       0,
@@ -26863,9 +30812,9 @@
       {
         "itemId": 4616,
         "itemName": "Thuja Timber",
-        "averageYield": 15,
+        "averageYield": 14.6,
         "luckyYield": null,
-        "giantYield": 25,
+        "giantYield": 24,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -26873,7 +30822,7 @@
       {
         "itemId": 5007,
         "itemName": "Monk's Branch",
-        "averageYield": 2,
+        "averageYield": 1.9,
         "luckyYield": 0.15,
         "giantYield": 3,
         "isPrimary": false,
@@ -26883,9 +30832,9 @@
       {
         "itemId": 5020,
         "itemName": "Thuja Sap",
-        "averageYield": 3.5,
+        "averageYield": 3.9,
         "luckyYield": null,
-        "giantYield": 5,
+        "giantYield": 6,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -26939,6 +30888,17 @@
     "id": 2118,
     "productionNodeId": 2118,
     "parentNodeId": 2097,
+    "parentNode": {
+      "id": 2097,
+      "name": "Termination Shock",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 1011680,
+        "y": 19228,
+        "z": 621132
+      }
+    },
     "regionGroup": 296,
     "workerSpecies": [
       0,
@@ -26967,7 +30927,7 @@
       {
         "itemId": 4407,
         "itemName": "Rough Mud Crystal",
-        "averageYield": 1,
+        "averageYield": 1.1,
         "luckyYield": null,
         "giantYield": 1,
         "isPrimary": true,
@@ -26977,7 +30937,7 @@
       {
         "itemId": 5960,
         "itemName": "Trace of Nature",
-        "averageYield": 4.5,
+        "averageYield": 4.3,
         "luckyYield": null,
         "giantYield": 7,
         "isPrimary": false,
@@ -27003,6 +30963,17 @@
     "id": 2119,
     "productionNodeId": 2119,
     "parentNodeId": 2093,
+    "parentNode": {
+      "id": 2093,
+      "name": "Ruin's Threshold",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 779842,
+        "y": 3025.4,
+        "z": 602161
+      }
+    },
     "regionGroup": 300,
     "workerSpecies": [
       0,
@@ -27031,9 +31002,9 @@
       {
         "itemId": 4624,
         "itemName": "Caphras Tree Timber",
-        "averageYield": 13.6,
+        "averageYield": 14,
         "luckyYield": null,
-        "giantYield": 22,
+        "giantYield": 23,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27051,9 +31022,9 @@
       {
         "itemId": 5025,
         "itemName": "Caphras Tree Sap",
-        "averageYield": 3.2,
+        "averageYield": 4,
         "luckyYield": null,
-        "giantYield": 5,
+        "giantYield": 6,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27107,6 +31078,17 @@
     "id": 2120,
     "productionNodeId": 2120,
     "parentNodeId": 2093,
+    "parentNode": {
+      "id": 2093,
+      "name": "Ruin's Threshold",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 779842,
+        "y": 3025.4,
+        "z": 602161
+      }
+    },
     "regionGroup": 300,
     "workerSpecies": [
       0,
@@ -27135,9 +31117,9 @@
       {
         "itemId": 4624,
         "itemName": "Caphras Tree Timber",
-        "averageYield": 13,
+        "averageYield": 14,
         "luckyYield": null,
-        "giantYield": 21,
+        "giantYield": 23,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27211,6 +31193,17 @@
     "id": 2121,
     "productionNodeId": 2121,
     "parentNodeId": 2090,
+    "parentNode": {
+      "id": 2090,
+      "name": "Tarsis Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 888864,
+        "y": 17170.4,
+        "z": 709794
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27239,9 +31232,9 @@
       {
         "itemId": 4415,
         "itemName": "Olivine Ore",
-        "averageYield": 1,
+        "averageYield": 0.6,
         "luckyYield": null,
-        "giantYield": 1,
+        "giantYield": 0.6,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27249,9 +31242,9 @@
       {
         "itemId": 5960,
         "itemName": "Trace of Nature",
-        "averageYield": 1.6,
+        "averageYield": 2.7,
         "luckyYield": null,
-        "giantYield": 2,
+        "giantYield": 4,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27275,6 +31268,17 @@
     "id": 2122,
     "productionNodeId": 2122,
     "parentNodeId": 2090,
+    "parentNode": {
+      "id": 2090,
+      "name": "Tarsis Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 888864,
+        "y": 17170.4,
+        "z": 709794
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27303,9 +31307,9 @@
       {
         "itemId": 4016,
         "itemName": "Rough Marble",
-        "averageYield": 12,
+        "averageYield": 10.8,
         "luckyYield": null,
-        "giantYield": 20,
+        "giantYield": 18,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27313,9 +31317,9 @@
       {
         "itemId": 4804,
         "itemName": "Powder of Earth",
-        "averageYield": 3.2,
+        "averageYield": 4.6,
         "luckyYield": null,
-        "giantYield": 5,
+        "giantYield": 7,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27339,6 +31343,17 @@
     "id": 2123,
     "productionNodeId": 2123,
     "parentNodeId": 2089,
+    "parentNode": {
+      "id": 2089,
+      "name": "Mikale Ridge",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 930938,
+        "y": 323.762,
+        "z": 773611
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27367,7 +31382,7 @@
       {
         "itemId": 4611,
         "itemName": "Elder Tree Timber",
-        "averageYield": 15,
+        "averageYield": 14.9,
         "luckyYield": null,
         "giantYield": 25,
         "isPrimary": true,
@@ -27387,7 +31402,7 @@
       {
         "itemId": 5014,
         "itemName": "Elder Tree Sap",
-        "averageYield": 3.6,
+        "averageYield": 4,
         "luckyYield": null,
         "giantYield": 6,
         "isPrimary": false,
@@ -27443,6 +31458,17 @@
     "id": 2124,
     "productionNodeId": 2124,
     "parentNodeId": 2089,
+    "parentNode": {
+      "id": 2089,
+      "name": "Mikale Ridge",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 930938,
+        "y": 323.762,
+        "z": 773611
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27471,7 +31497,7 @@
       {
         "itemId": 4410,
         "itemName": "Rough Black Crystal",
-        "averageYield": 1.5,
+        "averageYield": 1.6,
         "luckyYield": null,
         "giantYield": 2,
         "isPrimary": true,
@@ -27481,9 +31507,9 @@
       {
         "itemId": 5960,
         "itemName": "Trace of Nature",
-        "averageYield": 4.5,
+        "averageYield": 5.2,
         "luckyYield": null,
-        "giantYield": 7,
+        "giantYield": 8,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27507,6 +31533,17 @@
     "id": 2125,
     "productionNodeId": 2125,
     "parentNodeId": 2091,
+    "parentNode": {
+      "id": 2091,
+      "name": "Mount Dirfydan",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 792077,
+        "y": 6917.67,
+        "z": 736561
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27535,7 +31572,7 @@
       {
         "itemId": 4408,
         "itemName": "Rough Red Crystal",
-        "averageYield": 1.5,
+        "averageYield": 1.4,
         "luckyYield": null,
         "giantYield": 2,
         "isPrimary": true,
@@ -27571,6 +31608,17 @@
     "id": 2126,
     "productionNodeId": 2126,
     "parentNodeId": 2091,
+    "parentNode": {
+      "id": 2091,
+      "name": "Mount Dirfydan",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 792077,
+        "y": 6917.67,
+        "z": 736561
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27599,9 +31647,9 @@
       {
         "itemId": 4017,
         "itemName": "Magnetite Ore",
-        "averageYield": 12,
+        "averageYield": 10,
         "luckyYield": null,
-        "giantYield": 20,
+        "giantYield": 16,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27635,6 +31683,17 @@
     "id": 2127,
     "productionNodeId": 2127,
     "parentNodeId": 2087,
+    "parentNode": {
+      "id": 2087,
+      "name": "Aigal Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 797991,
+        "y": 17061.7,
+        "z": 807003
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27673,9 +31732,9 @@
       {
         "itemId": 5960,
         "itemName": "Trace of Nature",
-        "averageYield": 3.5,
+        "averageYield": 4.3,
         "luckyYield": null,
-        "giantYield": 5,
+        "giantYield": 7,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27699,6 +31758,17 @@
     "id": 2128,
     "productionNodeId": 2128,
     "parentNodeId": 2087,
+    "parentNode": {
+      "id": 2087,
+      "name": "Aigal Mountains",
+      "kind": 0,
+      "cpCost": 1,
+      "position": {
+        "x": 797991,
+        "y": 17061.7,
+        "z": 807003
+      }
+    },
     "regionGroup": 299,
     "workerSpecies": [
       0,
@@ -27727,9 +31797,9 @@
       {
         "itemId": 4009,
         "itemName": "Titanium Ore",
-        "averageYield": 10,
+        "averageYield": 10.2,
         "luckyYield": null,
-        "giantYield": 16,
+        "giantYield": 17,
         "isPrimary": true,
         "source": "shrddr-workerman",
         "confidence": "estimated"
@@ -27737,9 +31807,9 @@
       {
         "itemId": 4805,
         "itemName": "Powder of Time",
-        "averageYield": 3.4,
+        "averageYield": 4.2,
         "luckyYield": null,
-        "giantYield": 5,
+        "giantYield": 7,
         "isPrimary": false,
         "source": "shrddr-workerman",
         "confidence": "estimated"

@@ -113,7 +113,7 @@ export function DataPage() {
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement("a");
     anchor.href = url;
-    anchor.download = "bdo-node-optimizer-data.json";
+    anchor.download = "bdo-profit-lab-data.json";
     anchor.click();
     URL.revokeObjectURL(url);
   }

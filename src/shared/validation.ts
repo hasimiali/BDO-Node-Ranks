@@ -1,4 +1,4 @@
-import type { Item, MarketData, WorkerNode, WorkerPreset } from "./models.js";
+import type { CraftRecipe, Item, MarketData, WorkerNode, WorkerPreset } from "./models.js";
 
 export type ValidationSeverity = "error" | "warning";
 
@@ -28,6 +28,7 @@ export interface DataBundle {
   items: Item[];
   manualMarket: MarketData[];
   workerPresets: WorkerPreset[];
+  recipes?: CraftRecipe[];
 }
 
 const allowedNodeTypes = new Set(["Excavation", "Mining", "Logging", "Gathering", "Farming", "Fishing", "Other"]);
@@ -96,6 +97,18 @@ export function validateDataBundle(bundle: DataBundle): ValidationSummary {
     if (!preset.id.trim()) push(issues, "error", "worker", preset.name, "presetId", "Preset ID is required.");
     if (preset.workSpeed <= 0) push(issues, "error", "worker", preset.id, "workSpeed", "Work speed must be positive.");
     if (preset.movementSpeed <= 0) push(issues, "error", "worker", preset.id, "movementSpeed", "Movement speed must be positive.");
+  }
+
+  const recipeIds = new Set<string>();
+  for (const recipe of bundle.recipes ?? []) {
+    if (!recipe.id || recipeIds.has(recipe.id)) push(issues, "error", "item", recipe.id || recipe.name, "recipeId", "Recipe ID is missing or duplicated.");
+    recipeIds.add(recipe.id);
+    if (!recipe.output?.itemId) push(issues, "error", "item", recipe.id, "outputItemId", "Recipe output item ID is required.");
+    if (!recipe.source?.url || !recipe.source.importedAt) push(issues, "warning", "item", recipe.id, "source", "Recipe source metadata is incomplete.");
+    for (const group of recipe.ingredients ?? []) {
+      if (!(group.quantity > 0)) push(issues, "error", "item", recipe.id, "ingredientQuantity", "Recipe ingredient quantity must be positive.");
+      if (!group.alternatives.length) push(issues, "error", "item", recipe.id, "ingredientAlternatives", "Recipe ingredient group needs at least one alternative.");
+    }
   }
 
   return {

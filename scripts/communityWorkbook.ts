@@ -3,7 +3,7 @@ import path from "node:path";
 import XLSX from "xlsx";
 import type { Item, MarketData, WorkerNode, WorkerPreset } from "../src/shared/models.js";
 
-export const templatePath = path.resolve("bdo_node_optimizer_community_template_2026.xlsx");
+export const templatePath = path.resolve("bdo_profit_lab_community_template_2026.xlsx");
 export const dataDir = path.resolve("src/data");
 
 export function readJson<T>(fileName: string): T {

@@ -1,5 +1,5 @@
 {
-  "name": "bdo-node-optimizer",
+  "name": "bdo-profit-lab",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -14,9 +14,14 @@
     "import:workbook": "tsx scripts/importWorkbook.ts",
     "template:community": "tsx scripts/createCommunityTemplate.ts",
     "import:community": "tsx scripts/importCommunityWorkbook.ts",
-    "import:workerman": "tsx scripts/importWorkerman.ts"
+    "import:workerman": "tsx scripts/importWorkerman.ts",
+    "import:recipes": "tsx scripts/importRecipes.ts"
   },
   "dependencies": {
+    "@deck.gl/core": "^9.3.10",
+    "@deck.gl/geo-layers": "^9.3.10",
+    "@deck.gl/layers": "^9.3.10",
+    "@deck.gl/react": "^9.3.10",
     "@radix-ui/react-dialog": "^1.1.23",
     "@radix-ui/react-dropdown-menu": "^2.1.24",
     "@radix-ui/react-label": "^2.1.15",

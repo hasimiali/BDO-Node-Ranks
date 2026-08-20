@@ -18,6 +18,7 @@ export class BdolyticsMarketProvider implements MarketProvider {
   readonly name = "bdolytics";
   private readonly cache = new MarketCache(30 * 60 * 1000);
   private marketRows: Promise<Map<number, BdolyticsRow>> | null = null;
+  private marketRowsLoadedAt = 0;
 
   constructor(readonly region = process.env.BDO_MARKET_REGION ?? "ASIA", private readonly baseUrl = process.env.BDOLYTICS_BASE_URL ?? "https://bdolytics.com") {}
 
@@ -58,8 +59,15 @@ export class BdolyticsMarketProvider implements MarketProvider {
     }
   }
 
+  async getItemsMarketData(itemIds: number[]): Promise<MarketData[]> {
+    return Promise.all(itemIds.map((itemId) => this.getItemMarketData(itemId)));
+  }
+
   private async getMarketRows(): Promise<Map<number, BdolyticsRow>> {
-    this.marketRows ??= this.fetchMarketRows();
+    if (!this.marketRows || Date.now() - this.marketRowsLoadedAt >= 30 * 60 * 1000) {
+      this.marketRowsLoadedAt = Date.now();
+      this.marketRows = this.fetchMarketRows().catch((error) => { this.marketRows = null; this.marketRowsLoadedAt = 0; throw error; });
+    }
     return this.marketRows;
   }
 

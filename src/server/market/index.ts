@@ -17,6 +17,23 @@ class FallbackMarketProvider implements MarketProvider {
     if (primaryData.source !== "unavailable") return primaryData;
     return this.fallback.getItemMarketData(itemId);
   }
+
+  async getItemsMarketData(itemIds: number[]) {
+    const primaryRows = this.primary.getItemsMarketData ? await this.primary.getItemsMarketData(itemIds) : await Promise.all(itemIds.map((id) => this.primary.getItemMarketData(id)));
+    const unavailable = primaryRows.filter((row) => row.source === "unavailable").map((row) => row.itemId);
+    if (!unavailable.length) return primaryRows;
+    const fallbackRows = this.fallback.getItemsMarketData ? await this.fallback.getItemsMarketData(unavailable) : await mapWithConcurrency(unavailable, 8, (id) => this.fallback.getItemMarketData(id));
+    const fallbackById = new Map(fallbackRows.map((row) => [row.itemId, row]));
+    return primaryRows.map((row) => row.source === "unavailable" ? fallbackById.get(row.itemId) ?? row : row);
+  }
+}
+
+async function mapWithConcurrency<T, R>(values: T[], concurrency: number, read: (value: T) => Promise<R>): Promise<R[]> {
+  const output = new Array<R>(values.length);
+  let next = 0;
+  async function worker() { while (next < values.length) { const index = next++; output[index] = await read(values[index]); } }
+  await Promise.all(Array.from({ length: Math.min(concurrency, values.length) }, worker));
+  return output;
 }
 
 export function createMarketProvider(region = process.env.BDO_MARKET_REGION ?? "ASIA"): MarketProvider {

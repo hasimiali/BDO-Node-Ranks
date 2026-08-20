@@ -65,7 +65,7 @@ const nodes: WorkerNode[] = nodeRows.map((row, index) => {
     distance: numberOrNull(row.distanceToNearestTown),
     nearestTown: stringValue(row.nearestTown),
     products: productsByNode.get(nodeId) ?? [],
-    source: "bdo_node_optimizer_community_template_2026.xlsx",
+    source: "bdo_profit_lab_community_template_2026.xlsx",
     confidence: confidence(row.confidence),
     notes: stringValue(row.notes)
   };

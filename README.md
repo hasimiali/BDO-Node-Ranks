@@ -1,6 +1,6 @@
-# BDO Node Optimizer
+# BDO Profit Lab
 
-Non-commercial MVP for comparing Black Desert Online worker nodes with one standardized benchmark worker.
+Non-commercial Black Desert Online economy toolkit for comparing worker nodes, current market prices, crafting costs, recipe profitability, demand, and liquidity.
 
 ## Current Status
 
@@ -10,6 +10,8 @@ Non-commercial MVP for comparing Black Desert Online worker nodes with one stand
 - Calculation engine with Vitest coverage.
 - BDOLytics market provider enabled by default with Arsha fallback available.
 - Workerman import for canonical production node IDs, workload, yields, distances, item IDs, and English names.
+- Cached BDOLytics catalog covering cooking, alchemy, and processing recipes.
+- Craft-profit rankings with recursive buy-versus-craft analysis and finished-item sellability.
 
 Workerman fills most static production-node fields. Community workbook import remains an override layer when run after Workerman import.
 
@@ -19,6 +21,7 @@ Workerman fills most static production-node fields. Community workbook import re
 npm install
 npm run import:workbook
 npm run import:workerman
+npm run import:recipes
 npm run template:community
 npm run import:community
 npm run dev
@@ -143,7 +146,7 @@ npm run template:community
 Output:
 
 ```txt
-bdo_node_optimizer_community_template_2026.xlsx
+bdo_profit_lab_community_template_2026.xlsx
 ```
 
 Sheets:
@@ -199,6 +202,11 @@ GET /api/rankings/:id
 GET /api/items
 GET /api/items/:id
 GET /api/items/:id/market
+GET /api/items/search
+POST /api/market/items
+GET /api/recipes
+GET /api/recipes/:id
+POST /api/crafting/rank
 GET /api/market/status
 GET /api/data/export
 GET /api/data/validate

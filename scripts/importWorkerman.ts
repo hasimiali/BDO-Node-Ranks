@@ -1,12 +1,16 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Item, NodeProduct, NodeType, WorkerNode } from "../src/shared/models.js";
+import type { Item, MapNetwork, NodeProduct, NodeType, WorkerNode } from "../src/shared/models.js";
 
 const baseUrl = "https://shrddr.github.io/workerman/data";
 const source = "shrddr-workerman";
 const sourceUrls = {
   drops: `${baseUrl}/manual/plantzone_drops.json`,
   plantzone: `${baseUrl}/plantzone.json`,
+  exploration: `${baseUrl}/exploration.json`,
+  deckIcons: `${baseUrl}/deck_icons.json`,
+  deckIconPositions: `${baseUrl}/deck_icon_positions.json`,
+  deckLinks: `${baseUrl}/deck_links.json`,
   distances: `${baseUrl}/distances_pzk2tk.json`,
   loc: `${baseUrl}/loc.json`,
   itemInfo: `${baseUrl}/item_info.json`
@@ -27,6 +31,17 @@ interface WorkermanPlantzone {
   regiongroup?: number;
   parent?: number;
   species?: number[];
+}
+
+interface WorkermanExplorationNode {
+  key: number;
+  pos: { x: number; y: number; z: number };
+  kind: number;
+  CP: number;
+  name?: string;
+  is_main?: number;
+  is_plantzone?: boolean;
+  is_planttown?: boolean;
 }
 
 interface WorkermanItemInfo {
@@ -65,9 +80,13 @@ interface DistanceRow {
   confidence: "estimated";
 }
 
-const [drops, plantzones, distances, loc, itemInfo] = await Promise.all([
+const [drops, plantzones, exploration, deckIcons, deckIconPositions, deckLinks, distances, loc, itemInfo] = await Promise.all([
   fetchJson<Record<string, WorkermanDrops>>(sourceUrls.drops),
   fetchJson<Record<string, WorkermanPlantzone>>(sourceUrls.plantzone),
+  fetchJson<Record<string, WorkermanExplorationNode>>(sourceUrls.exploration),
+  fetchJson<Array<[number, number]>>(sourceUrls.deckIcons),
+  fetchJson<Record<string, [number, number]>>(sourceUrls.deckIconPositions),
+  fetchJson<Array<[number, number]>>(sourceUrls.deckLinks),
   fetchJson<Record<string, [number, number][]>>(sourceUrls.distances),
   fetchJson<WorkermanLoc>(sourceUrls.loc),
   fetchJson<Record<string, WorkermanItemInfo>>(sourceUrls.itemInfo)
@@ -84,6 +103,7 @@ const nodes: WorkerNode[] = Object.entries(drops).map(([nodeIdText, dropData]) =
   const productionNodeId = Number(nodeIdText);
   const plantzone = plantzones[nodeIdText];
   const parentNodeId = plantzone?.parent;
+  const parent = parentNodeId == null ? undefined : exploration[String(parentNodeId)];
   const nearest = nearestTown(distances[nodeIdText] ?? []);
   const products = productsFrom(dropData, productionNodeId, itemIds, yieldRows);
   const parentName = parentNodeId == null ? "" : nodeNames[String(parentNodeId)] ?? `Node ${parentNodeId}`;
@@ -103,6 +123,13 @@ const nodes: WorkerNode[] = Object.entries(drops).map(([nodeIdText, dropData]) =
     id: productionNodeId,
     productionNodeId,
     parentNodeId,
+    parentNode: parentNodeId != null && parent ? {
+      id: parentNodeId,
+      name: nodeNames[String(parentNodeId)] ?? parent.name ?? `Node ${parentNodeId}`,
+      kind: parent.kind,
+      cpCost: Number(parent.CP ?? 0),
+      position: parent.pos,
+    } : undefined,
     regionGroup: plantzone?.regiongroup,
     workerSpecies: plantzone?.species,
     region: plantzone?.regiongroup == null ? "Unknown" : `Region Group ${plantzone.regiongroup}`,
@@ -140,7 +167,35 @@ writeJson("nodes.json", nodes);
 writeJson("items.json", items);
 writeJson("yields.json", yieldRows.sort((a, b) => a.productionNodeId - b.productionNodeId || a.itemId - b.itemId));
 writeJson("distances.json", distanceRows.sort((a, b) => a.productionNodeId - b.productionNodeId));
-console.log(`Imported ${nodes.length} Workerman production nodes, ${items.length} items, ${yieldRows.length} yield rows, ${distanceRows.length} distance rows.`);
+const mapNodeIds = new Set(deckIcons.map(([id]) => id).filter((id) => exploration[String(id)] && deckIconPositions[String(id)]));
+const mapNetwork: MapNetwork = {
+  nodes: deckIcons
+    .filter(([id]) => mapNodeIds.has(id))
+    .map(([id, kind]) => {
+      const node = exploration[String(id)];
+      const [x, z] = deckIconPositions[String(id)];
+      return {
+        id,
+        name: nodeNames[String(id)] ?? node.name ?? `Node ${id}`,
+        kind,
+        cpCost: Number(node.CP ?? 0),
+        isMain: node.is_main === 1,
+        isPlantzone: node.is_plantzone === true,
+        isTown:
+          node.is_planttown === true ||
+          (kind > 0 && kind < 3 && Number(node.CP ?? 0) === 0),
+        position: { x, z },
+      };
+    })
+    .sort((a, b) => a.id - b.id),
+  edges: deckLinks
+    .filter(([sourceId, targetId]) => mapNodeIds.has(sourceId) && mapNodeIds.has(targetId))
+    .map(([sourceId, targetId]) => ({ sourceId, targetId })),
+  source,
+  importedAt: new Date().toISOString(),
+};
+writeJson("map-network.json", mapNetwork);
+console.log(`Imported ${nodes.length} Workerman production nodes, ${items.length} items, ${yieldRows.length} yield rows, ${distanceRows.length} distance rows, ${mapNetwork.nodes.length} map icons, and ${mapNetwork.edges.length} map connections.`);
 
 async function fetchJson<T>(url: string): Promise<T> {
   const response = await fetch(url, { headers: { accept: "application/json" } });

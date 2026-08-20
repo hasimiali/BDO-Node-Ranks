@@ -20,7 +20,7 @@ class AppErrorBoundary extends React.Component<
         <main className="grid min-h-screen place-items-center p-4">
           <section className="w-full max-w-lg rounded-xl border bg-card p-7 text-center shadow-sm">
             <p className="text-xs font-medium uppercase tracking-wider text-destructive">Application error</p>
-            <h1 className="mt-2 text-2xl font-semibold tracking-tight">The optimizer could not continue</h1>
+            <h1 className="mt-2 text-2xl font-semibold tracking-tight">BDO Profit Lab could not continue</h1>
             <p className="mt-2 text-sm text-muted-foreground">Reload the application to recover. Your saved market-server preference will be preserved.</p>
             <button className="btn-primary mt-5" type="button" onClick={() => window.location.reload()}>Reload application</button>
           </section>

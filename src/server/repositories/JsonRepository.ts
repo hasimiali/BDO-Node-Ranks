@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import type { Item, MarketData, WorkerNode, WorkerPreset } from "../../shared/models.js";
+import type { CraftRecipe, Item, MapNetwork, MarketData, WorkerNode, WorkerPreset } from "../../shared/models.js";
 
 const dataDir = path.resolve("src/data");
 
@@ -45,6 +45,15 @@ export class JsonItemRepository implements ItemRepository {
   }
 }
 
+export class JsonRecipeRepository {
+  async getAll(): Promise<CraftRecipe[]> { return readJson<CraftRecipe[]>("recipes.json"); }
+  async getById(id: string): Promise<CraftRecipe | null> { return (await this.getAll()).find((recipe) => recipe.id === id) ?? null; }
+}
+
+export async function getMapNetwork(): Promise<MapNetwork> {
+  return readJson<MapNetwork>("map-network.json");
+}
+
 export async function getWorkerPresets(): Promise<WorkerPreset[]> {
   return readJson<WorkerPreset[]>("worker-presets.json");
 }
@@ -54,13 +63,14 @@ export async function getManualMarketData(): Promise<unknown[]> {
 }
 
 export async function getDataBundle() {
-  const [nodes, items, manualMarket, workerPresets] = await Promise.all([
+  const [nodes, items, manualMarket, workerPresets, recipes] = await Promise.all([
     readJson<WorkerNode[]>("nodes.json"),
     readJson<Item[]>("items.json"),
     readJson<MarketData[]>("manual-market.json"),
-    readJson<WorkerPreset[]>("worker-presets.json")
+    readJson<WorkerPreset[]>("worker-presets.json"),
+    readJson<CraftRecipe[]>("recipes.json")
   ]);
-  return { nodes, items, manualMarket, workerPresets };
+  return { nodes, items, manualMarket, workerPresets, recipes };
 }
 
 export async function writeDataBundle(bundle: { nodes: WorkerNode[]; items: Item[]; manualMarket: MarketData[]; workerPresets: WorkerPreset[] }) {

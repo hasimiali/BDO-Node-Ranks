@@ -14702,7 +14702,7 @@
   {
     "productionNodeId": 2115,
     "itemId": 4611,
-    "normalYield": 15,
+    "normalYield": 15.2,
     "luckyYield": null,
     "giantYield": 25,
     "source": "shrddr-workerman",
@@ -14732,7 +14732,7 @@
   {
     "productionNodeId": 2115,
     "itemId": 5007,
-    "normalYield": 2,
+    "normalYield": 1.9,
     "luckyYield": 0.15,
     "giantYield": 3,
     "source": "shrddr-workerman",
@@ -14762,7 +14762,7 @@
   {
     "productionNodeId": 2115,
     "itemId": 5014,
-    "normalYield": 3,
+    "normalYield": 3.5,
     "luckyYield": null,
     "giantYield": 5,
     "source": "shrddr-workerman",
@@ -14782,9 +14782,9 @@
   {
     "productionNodeId": 2116,
     "itemId": 4008,
-    "normalYield": 8,
+    "normalYield": 10.1,
     "luckyYield": null,
-    "giantYield": 13,
+    "giantYield": 17,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -14792,7 +14792,7 @@
   {
     "productionNodeId": 2116,
     "itemId": 4408,
-    "normalYield": 4.5,
+    "normalYield": 4.2,
     "luckyYield": null,
     "giantYield": 7,
     "source": "shrddr-workerman",
@@ -14802,9 +14802,9 @@
   {
     "productionNodeId": 2117,
     "itemId": 4616,
-    "normalYield": 15,
+    "normalYield": 14.6,
     "luckyYield": null,
-    "giantYield": 25,
+    "giantYield": 24,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -14832,7 +14832,7 @@
   {
     "productionNodeId": 2117,
     "itemId": 5007,
-    "normalYield": 2,
+    "normalYield": 1.9,
     "luckyYield": 0.15,
     "giantYield": 3,
     "source": "shrddr-workerman",
@@ -14862,9 +14862,9 @@
   {
     "productionNodeId": 2117,
     "itemId": 5020,
-    "normalYield": 3.5,
+    "normalYield": 3.9,
     "luckyYield": null,
-    "giantYield": 5,
+    "giantYield": 6,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -14882,7 +14882,7 @@
   {
     "productionNodeId": 2118,
     "itemId": 4407,
-    "normalYield": 1,
+    "normalYield": 1.1,
     "luckyYield": null,
     "giantYield": 1,
     "source": "shrddr-workerman",
@@ -14892,7 +14892,7 @@
   {
     "productionNodeId": 2118,
     "itemId": 5960,
-    "normalYield": 4.5,
+    "normalYield": 4.3,
     "luckyYield": null,
     "giantYield": 7,
     "source": "shrddr-workerman",
@@ -14902,9 +14902,9 @@
   {
     "productionNodeId": 2119,
     "itemId": 4624,
-    "normalYield": 13.6,
+    "normalYield": 14,
     "luckyYield": null,
-    "giantYield": 22,
+    "giantYield": 23,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -14962,9 +14962,9 @@
   {
     "productionNodeId": 2119,
     "itemId": 5025,
-    "normalYield": 3.2,
+    "normalYield": 4,
     "luckyYield": null,
-    "giantYield": 5,
+    "giantYield": 6,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -14972,9 +14972,9 @@
   {
     "productionNodeId": 2120,
     "itemId": 4624,
-    "normalYield": 13,
+    "normalYield": 14,
     "luckyYield": null,
-    "giantYield": 21,
+    "giantYield": 23,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15052,9 +15052,9 @@
   {
     "productionNodeId": 2121,
     "itemId": 4415,
-    "normalYield": 1,
+    "normalYield": 0.6,
     "luckyYield": null,
-    "giantYield": 1,
+    "giantYield": 0.6,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15062,9 +15062,9 @@
   {
     "productionNodeId": 2121,
     "itemId": 5960,
-    "normalYield": 1.6,
+    "normalYield": 2.7,
     "luckyYield": null,
-    "giantYield": 2,
+    "giantYield": 4,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15082,9 +15082,9 @@
   {
     "productionNodeId": 2122,
     "itemId": 4016,
-    "normalYield": 12,
+    "normalYield": 10.8,
     "luckyYield": null,
-    "giantYield": 20,
+    "giantYield": 18,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15092,9 +15092,9 @@
   {
     "productionNodeId": 2122,
     "itemId": 4804,
-    "normalYield": 3.2,
+    "normalYield": 4.6,
     "luckyYield": null,
-    "giantYield": 5,
+    "giantYield": 7,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15102,7 +15102,7 @@
   {
     "productionNodeId": 2123,
     "itemId": 4611,
-    "normalYield": 15,
+    "normalYield": 14.9,
     "luckyYield": null,
     "giantYield": 25,
     "source": "shrddr-workerman",
@@ -15162,7 +15162,7 @@
   {
     "productionNodeId": 2123,
     "itemId": 5014,
-    "normalYield": 3.6,
+    "normalYield": 4,
     "luckyYield": null,
     "giantYield": 6,
     "source": "shrddr-workerman",
@@ -15182,7 +15182,7 @@
   {
     "productionNodeId": 2124,
     "itemId": 4410,
-    "normalYield": 1.5,
+    "normalYield": 1.6,
     "luckyYield": null,
     "giantYield": 2,
     "source": "shrddr-workerman",
@@ -15192,9 +15192,9 @@
   {
     "productionNodeId": 2124,
     "itemId": 5960,
-    "normalYield": 4.5,
+    "normalYield": 5.2,
     "luckyYield": null,
-    "giantYield": 7,
+    "giantYield": 8,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15212,7 +15212,7 @@
   {
     "productionNodeId": 2125,
     "itemId": 4408,
-    "normalYield": 1.5,
+    "normalYield": 1.4,
     "luckyYield": null,
     "giantYield": 2,
     "source": "shrddr-workerman",
@@ -15242,9 +15242,9 @@
   {
     "productionNodeId": 2126,
     "itemId": 4017,
-    "normalYield": 12,
+    "normalYield": 10,
     "luckyYield": null,
-    "giantYield": 20,
+    "giantYield": 16,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15282,9 +15282,9 @@
   {
     "productionNodeId": 2127,
     "itemId": 5960,
-    "normalYield": 3.5,
+    "normalYield": 4.3,
     "luckyYield": null,
-    "giantYield": 5,
+    "giantYield": 7,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15302,9 +15302,9 @@
   {
     "productionNodeId": 2128,
     "itemId": 4009,
-    "normalYield": 10,
+    "normalYield": 10.2,
     "luckyYield": null,
-    "giantYield": 16,
+    "giantYield": 17,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
@@ -15312,9 +15312,9 @@
   {
     "productionNodeId": 2128,
     "itemId": 4805,
-    "normalYield": 3.4,
+    "normalYield": 4.2,
     "luckyYield": null,
-    "giantYield": 5,
+    "giantYield": 7,
     "source": "shrddr-workerman",
     "sourceUrl": "https://shrddr.github.io/workerman/data/manual/plantzone_drops.json",
     "confidence": "estimated"
